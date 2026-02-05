@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# outputs / data
+outputs/
+hdx_dataset_metadata_dump/
+*.jsonl
+*.json
+*.parquet
+*.csv
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
