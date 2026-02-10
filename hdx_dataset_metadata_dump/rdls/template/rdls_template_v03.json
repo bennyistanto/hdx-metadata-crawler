@@ -1,0 +1,372 @@
+{
+  "datasets": [
+    {
+      "id": "rdls_hzd-entity_datasetname",
+      "title": "The title of the dataset.",
+      "description": "A short description of the dataset.",
+      "risk_data_type": [
+        "hazard"
+      ],
+      "version": "1",
+      "purpose": "Dataset purpose.",
+      "project": {
+        "name": "Project name",
+        "url": "https://www.projectname.com/"
+      },
+      "details": "Additional details about the dataset.",
+      "spatial": {
+        "scale": "national",
+        "countries": [
+          "ABW"
+        ],
+        "bbox": [
+          -70.11,
+          12.38,
+          -69.83,
+          12.65
+        ],
+        "gazetteer_entries": [
+          {
+            "scheme": "GEONAMES",
+            "description": "Geonames",
+            "uri": "geonames.org/3577279/aruba.html",
+            "id": "gazetteer_1"
+          }
+        ]
+      },
+      "license": "CC0-1.0",
+      "attributions": [
+        {
+          "id": "attribution_publisher",
+          "role": "publisher",
+          "entity": {
+            "name": "Name",
+            "email": "info@thewebsite.com",
+            "url": "https://datalocation.org/records/8147088"
+          }
+        },
+        {
+          "id": "attribution_creator",
+          "role": "creator",
+          "entity": {
+            "name": "Name",
+            "email": "info@thewebsite.com",
+            "url": "https://datalocation.org/records/8147088"
+          }
+        },
+        {
+          "id": "attribution_contact",
+          "role": "contact_point",
+          "entity": {
+            "name": "Name",
+            "email": "info@thewebsite.com",
+            "url": "https://datalocation.org/records/8147088"
+          }
+        },
+        {
+          "id": "attribution_funder",
+          "role": "funder",
+          "entity": {
+            "name": "Name",
+            "email": "info@thewebsite.com",
+            "url": "https://datalocation.org/records/8147088"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "",
+          "description": "",
+          "lineage": "",
+          "url": "",
+          "type": "dataset",
+          "component": "hazard",
+          "license": "CC0-1.0",
+          "id": "source_1"
+        },
+        {
+          "name": "",
+          "description": "",
+          "lineage": "",
+          "url": "",
+          "type": "dataset",
+          "component": "model",
+          "license": "CC0-1.0",
+          "id": "source_2"
+        },
+        {
+          "name": "",
+          "description": "",
+          "lineage": "",
+          "url": "",
+          "type": "dataset",
+          "component": "exposure",
+          "license": "Copyright",
+          "id": "source_3"
+        },
+        {
+          "name": "",
+          "description": "",
+          "lineage": "",
+          "url": "",
+          "type": "model",
+          "component": "exposure",
+          "license": "MIT",
+          "id": "source_4"
+        }
+      ],
+      "referenced_by": [
+        {
+          "author_names": [
+            "Author Name",
+            "Author Name"
+          ],
+          "name": "Title",
+          "date_published": "2024-06-11",
+          "url": "https://zenodo.org/records/11582369",
+          "doi": "https://doi.org/10.5281/zenodo.7732392",
+          "id": "reference_1"
+        }
+      ],
+      "resources": [
+        {
+          "title": "",
+          "description": "",
+          "data_format": "",
+          "access_modality": "",
+          "spatial_resolution": "",
+          "coordinate_system": "",
+          "access_url": "",
+          "download_url": "",
+          "temporal": {
+            "start": "",
+            "end": "",
+            "duration": "",
+            "temporal_resolution": ""
+          },
+          "id": ""
+        }
+      ],
+      "hazard": {
+        "event_sets": [
+          {
+            "id": "",
+            "analysis_type": "",
+            "frequency_distribution": "",
+            "seasonality": "",
+            "calculation_method": "",
+            "event_count": "",
+            "occurrence_range": "",
+            "hazards": [
+              {
+                "id": "",
+                "disaster_identifiers": [],
+                "occurrence.deterministic.thresholds": [],
+                "type": "",
+                "hazard_process": "",
+                "intensity_measure": "",
+                "trigger": {
+                  "type": "",
+                  "processes": ""
+                }
+              }
+            ],
+            "events": [
+              {
+                "id": "",
+                "calculation_method": "",
+                "description": "",
+                "hazard": {
+                  "id": "",
+                  "type": "",
+                  "hazard_process": "",
+                  "intensity_measure": ""
+                },
+                "occurrence": {
+                  "probabilistic": {
+                    "return_period": "",
+                    "event_rate": "",
+                    "probability": {
+                      "value": "",
+                      "span": ""
+                    }
+                  },
+                  "empirical": {
+                    "temporal": {
+                      "start": "",
+                      "end": "",
+                      "duration": "",
+                      "temporal_resolution": ""
+                    },
+                    "return_period": ""
+                  },
+                  "deterministic": {
+                    "index_criteria": ""
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "exposure": [
+        {
+          "id": "",
+          "category": "",
+          "taxonomy": "",
+          "metrics": [
+            {
+              "id": "",
+              "dimension": "",
+              "quantity_kind": "",
+              "currency": ""
+            }
+          ]
+        }
+      ],
+      "vulnerability": {
+        "functions": {
+          "vulnerability": [
+            {
+              "approach": "",
+              "relationship": "",
+              "hazard_primary": "",
+              "hazard_secondary": "",
+              "hazard_process_primary": "",
+              "hazard_process_secondary": "",
+              "hazard_analysis_type": "",
+              "intensity_measure": "",
+              "category": "",
+              "impact_type": "",
+              "impact_modelling": "",
+              "impact_metric": "",
+              "quantity_kind": "",
+              "taxonomy": "",
+              "analysis_details": "",
+              "id": ""
+            }
+          ],
+          "fragility": [
+            {
+              "damage_states_names": [
+                ""
+              ],
+              "approach": "",
+              "relationship": "",
+              "damage_scale_name": "",
+              "hazard_primary": "",
+              "hazard_secondary": "",
+              "hazard_process_primary": "",
+              "hazard_process_secondary": "",
+              "hazard_analysis_type": "",
+              "intensity_measure": "",
+              "category": "",
+              "impact_type": "",
+              "impact_modelling": "",
+              "impact_metric": "",
+              "quantity_kind": "",
+              "taxonomy": "",
+              "analysis_details": "",
+              "id": ""
+            }
+          ],
+          "damage_to_loss": [
+            {
+              "damage_states_names": [
+                ""
+              ],
+              "approach": "",
+              "relationship": "",
+              "damage_scale_name": "",
+              "hazard_primary": "",
+              "hazard_secondary": "",
+              "hazard_process_primary": "",
+              "hazard_process_secondary": "",
+              "hazard_analysis_type": "",
+              "intensity_measure": "",
+              "category": "",
+              "impact_type": "",
+              "impact_modelling": "",
+              "impact_metric": "",
+              "quantity_kind": "",
+              "taxonomy": "",
+              "analysis_details": "",
+              "id": ""
+            }
+          ],
+          "engineering_demand": [
+            {
+              "damage_states_names": [
+                ""
+              ],
+              "parameter": "",
+              "approach": "",
+              "relationship": "",
+              "damage_scale_name": "",
+              "hazard_primary": "",
+              "hazard_secondary": "",
+              "hazard_process_primary": "",
+              "hazard_process_secondary": "",
+              "hazard_analysis_type": "",
+              "intensity_measure": "",
+              "category": "",
+              "impact_type": "",
+              "impact_modelling": "",
+              "impact_metric": "",
+              "quantity_kind": "",
+              "taxonomy": "",
+              "analysis_details": "",
+              "id": ""
+            }
+          ]
+        },
+        "socio_economic": [
+          {
+            "scheme": "",
+            "indicator_name": "",
+            "indicator_code": "",
+            "description": "",
+            "threshold": "",
+            "reference_year": null,
+            "uri": "",
+            "analysis_details": "",
+            "id": ""
+          }
+        ]
+      },
+      "loss": {
+        "losses": [
+          {
+            "hazard_type": "",
+            "hazard_process": "",
+            "asset_category": "",
+            "asset_dimension": "",
+            "impact_and_losses": {
+              "impact_type": "",
+              "impact_modelling": "",
+              "impact_metric": "",
+              "quantity_kind": "",
+              "currency": "",
+              "loss_type": "",
+              "loss_approach": "",
+              "loss_frequency_type": ""
+            },
+            "lineage": {
+              "hazard_dataset": "",
+              "exposure_dataset": "",
+              "vulnerability_dataset": ""
+            },
+            "description": "",
+            "id": ""
+          }
+        ]
+      },
+      "links": [
+        {
+          "href": "https://docs.riskdatalibrary.org/en/0__3__0/rdls_schema.json",
+          "rel": "describedby"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "analysis_date": "2026-02-08T22:47:58.230377",
+  "total_datasets": 26246,
+  "unique_organizations": 358,
+  "hevl_detection": {
+    "hazard_signal_count": 2517,
+    "hazard_signal_rate": 0.0959,
+    "exposure_signal_count": 18673,
+    "exposure_signal_rate": 0.7115,
+    "vulnerability_signal_count": 205,
+    "vulnerability_signal_rate": 0.0078,
+    "loss_signal_count": 2407,
+    "loss_signal_rate": 0.0917,
+    "return_period_count": 56,
+    "return_period_rate": 0.0021
+  },
+  "hazard_type_counts": {
+    "flood": 1315,
+    "convective_storm": 534,
+    "drought": 370,
+    "earthquake": 365,
+    "tsunami": 312,
+    "strong_wind": 282,
+    "landslide": 76,
+    "volcanic": 26,
+    "coastal_flood": 5,
+    "wildfire": 5,
+    "extreme_temperature": 4
+  },
+  "exposure_category_counts": {
+    "population": 11213,
+    "infrastructure": 6750,
+    "economic_indicator": 6490,
+    "buildings": 5489,
+    "agriculture": 3637,
+    "natural_environment": 3063,
+    "development_index": 1482
+  },
+  "return_period_counts": {
+    "100": 27,
+    "5": 12,
+    "4": 11,
+    "2": 9,
+    "1": 8,
+    "3": 8,
+    "21": 3,
+    "500": 2,
+    "25": 2,
+    "24": 2,
+    "50": 1,
+    "250": 1,
+    "1000": 1,
+    "26": 1,
+    "16": 1
+  },
+  "hevl_combinations": {
+    "-E--": 15356,
+    "----": 6298,
+    "-E-L": 1667,
+    "HE--": 1240,
+    "H---": 776,
+    "HE-L": 250,
+    "---L": 241,
+    "H--L": 213,
+    "-EV-": 103,
+    "--V-": 43
+  },
+  "duplication": {
+    "unique_normalized_titles": 24194,
+    "duplicate_groups": 895
+  },
+  "series_counts": {
+    "Population Data": 1132,
+    "GAR15 Exposure": 181,
+    "Level 1 Exposure": 47
+  }
+}

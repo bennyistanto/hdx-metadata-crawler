@@ -6,10 +6,10 @@
 
 ## Summary
 
-Extracts detailed exposure information from HDX datasets to populate RDLS exposure metadata blocks.
+Extracts detailed exposure information from HDX datasets using a **3-tier extraction cascade** and produces schema-compliant RDLS v0.3 exposure blocks with validated `(category, dimension, quantity_kind)` triplets.
 
 **For Decision Makers:**
-> This notebook identifies what assets and populations are documented in each dataset - people, buildings, infrastructure, crops, etc. - and extracts relevant attributes like categories, metrics, and valuations.
+> This notebook identifies what assets and populations are documented in each dataset — people, buildings, infrastructure, crops, etc. — and extracts metrics, taxonomy references, and currency information. A tiered approach prioritises title and tags over resource descriptions and notes to avoid misclassification.
 
 ---
 
@@ -17,9 +17,10 @@ Extracts detailed exposure information from HDX datasets to populate RDLS exposu
 
 | Input | Path | Description |
 |-------|------|-------------|
-| Dataset JSONs | `dataset_metadata/*.json` | Raw HDX metadata |
-| Signal dictionary | `config/signal_dictionary.yaml` | From Step 08 |
+| Dataset JSONs | `dataset_metadata/*.json` | Raw HDX metadata (26,246 files) |
+| Signal dictionary | `config/signal_dictionary.yaml` | All 7 exposure category patterns from Step 08 |
 | Classification | `derived/classification_final.csv` | From Step 05 |
+| RDLS Schema | `rdls/schema/rdls_schema_v0.3.json` | Codelist enums for validation |
 
 ---
 
@@ -27,205 +28,213 @@ Extracts detailed exposure information from HDX datasets to populate RDLS exposu
 
 | Output | Path | Description |
 |--------|------|-------------|
-| Exposure extracts | `analysis/exposure_extracts.csv` | Per-dataset exposure info |
-| Exposure summary | `analysis/exposure_summary.json` | Aggregate statistics |
+| Extraction CSV | `rdls/extracted/exposure_extraction_results.csv` | All 26,246 records with exposure flags |
+| High-confidence CSV | `rdls/extracted/exposure_extraction_high_confidence.csv` | Records with confidence ≥ 0.8 |
+| Exposure JSON blocks | `rdls/extracted/rdls_exp-hdx_*.json` | ~20,500 individual RDLS records with exposure blocks |
 
 ---
 
 ## RDLS Exposure Categories
 
-| Category | Description | Examples |
-|----------|-------------|----------|
-| **population** | Human population data | Census, demographics, density |
-| **buildings** | Structures and facilities | Residential, commercial, industrial |
-| **infrastructure** | Networks and utilities | Roads, bridges, power lines |
-| **agriculture** | Farming and livestock | Crops, farmland, cattle |
-| **environment** | Natural assets | Forests, wetlands, ecosystems |
-| **economic** | Financial assets | GDP, property values, assets |
+The RDLS v0.3 schema defines **7 closed codelist values** for `exposure_category`:
+
+| Category | Description | Example Patterns |
+|----------|-------------|-----------------|
+| **agriculture** | Farming, crops, livestock | `\b(crop\|livestock\|farmland)\b` |
+| **buildings** | Structures and facilities | `\b(building\|dwelling\|footprint)\b` |
+| **infrastructure** | Networks and utilities | `\b(road\|bridge\|energy\|power.?station)\b` |
+| **population** | Human population data | `\b(population.?count\|head.?count\|census.?data)\b` |
+| **natural_environment** | Natural assets | `\b(forest\|wetland\|ecosystem)\b` |
+| **economic_indicator** | Financial metrics | `\b(GDP\|economic.?indicator)\b` |
+| **development_index** | Development indices | `\b(HDI\|human.?development)\b` |
 
 ---
 
-## Exposure Attributes Extracted
+## 3-Tier Extraction Cascade
 
-| Attribute | Description | Example |
-|-----------|-------------|---------|
-| `exposure_category` | RDLS exposure type | "population" |
-| `subcategory` | Detailed classification | "residential_buildings" |
-| `metric` | Measurement type | "count", "area_sqkm", "value_usd" |
-| `taxonomy` | Classification system | "GED4ALL", "OSM" |
-| `temporal_reference` | Data date | "2020" |
+The extractor uses a tiered approach that prioritises authoritative text fields over noisy ones:
+
+### Tier 1 — Title, Name, Tags (confidence weight: 1.0)
+- Most authoritative signals
+- Matches here are always included
+- Example: title "Uganda Energy/Gas Facilities" → `infrastructure`
+
+### Tier 2 — Individual Resources (confidence weight: 0.85)
+- Each resource is scanned separately (name + description)
+- Can introduce new categories not found in Tier 1
+- Source field tracks which resource matched (e.g., `resource[2]`)
+
+### Tier 3 — Notes, Methodology (confidence weight: 0.6)
+- **Corroboration only** — cannot introduce new categories
+- If a category already appears in Tier 1 or 2, Tier 3 boosts its confidence by +0.05
+- If a category appears only in Tier 3, it is **discarded**
+- **Exception**: If Tiers 1 and 2 find nothing, Tier 3 is allowed as a fallback
+
+### Why This Matters
+
+Without tiering, a dataset titled "Uganda Energy/Gas Facilities" could be misclassified as `population` because the notes mention "Census Mapping Programme". The cascade ensures the title signal (`infrastructure`) takes precedence.
 
 ---
 
-## Key Functions
+## VALID_TRIPLETS Constraint
+
+Every exposure block must have internally consistent `(category, dimension, quantity_kind)` combinations. The `VALID_TRIPLETS` table enforces this:
+
+| Category | Allowed (dimension, quantity_kind) Pairs |
+|----------|------------------------------------------|
+| **agriculture** | (structure, area), (product, monetary), (product, count) |
+| **buildings** | (structure, count), (structure, monetary), (content, monetary), (content, count) |
+| **infrastructure** | (structure, length), (structure, monetary), (structure, count), (disruption, time) |
+| **population** | (population, count) |
+| **natural_environment** | (structure, area) |
+| **economic_indicator** | (product, monetary), (index, count) |
+| **development_index** | (index, count) |
+
+If the inferred dimension or quantity_kind is not in the allowed set, the extractor falls back to the first valid triplet for that category.
+
+---
+
+## Key Data Structures
+
+| Structure | Purpose |
+|-----------|---------|
+| `TieredFields` | Dataclass preserving text field hierarchy (title, name, tags, resources[], notes, methodology) |
+| `VALID_TRIPLETS` | Category → allowed (dimension, quantity_kind) pairs |
+| `METRIC_DIMENSION_PATTERNS` | 6 dimensions: structure, content, product, disruption, population, index |
+| `QUANTITY_KIND_PATTERNS` | 5 kinds: count, area, length, monetary, time |
+| `TAXONOMY_PATTERNS` | All 12 RDLS taxonomy schemes (GED4ALL, MOVER, GLIDE, EMDAT, etc.) |
+| `CURRENCY_PATTERNS` | 10 ISO 4217 currency codes |
+
+---
+
+## Key Classes and Functions
 
 ### `ExposureExtractor`
-Main extraction class.
+
+Main extraction class with 3-tier cascade.
 
 ```python
-extractor = ExposureExtractor(signal_dictionary)
-exposure_info = extractor.extract(dataset_json)
-# exposure_info.category: str
-# exposure_info.subcategory: Optional[str]
-# exposure_info.metric: Optional[str]
-# exposure_info.confidence: float
+extractor = ExposureExtractor(signal_dict, schema_enums)
+result = extractor.extract(hdx_record)
+# result.categories: List[ExtractionMatch]
+# result.metrics: Dict[str, MetricExtraction]
+# result.taxonomy_hint: Optional[str]
 ```
 
-### `infer_exposure_category()`
-Maps signals to RDLS exposure categories.
+Key methods:
+- `_extract_tiered_fields()` — Parse HDX metadata into `TieredFields` (resources as list, not concatenated)
+- `_scan_tier1()` / `_scan_tier2()` / `_scan_tier3()` — Tier-specific pattern scanning
+- `_merge_tiers()` — Combine tiers with corroboration rules
+- `_infer_metrics()` — Detect dimension and quantity_kind per category, scoped to source field
+- `extract()` — Main entry point
 
-```python
-category = infer_exposure_category(
-    tags=["population", "census"],
-    title="Kenya Population Census 2019"
-)
-# Returns: "population"
-```
+### `build_exposure_block()`
 
-### `extract_metrics()`
-Identifies measurement types from metadata.
-
-```python
-metrics = extract_metrics("Building footprints with area in square meters")
-# Returns: ["area_sqm", "count"]
-```
+Converts extraction results into RDLS v0.3 JSON:
+- Validates each `(category, dimension, quantity_kind)` against `VALID_TRIPLETS`
+- Adds `currency` field when `quantity_kind = monetary`
+- Detects taxonomy from all 12 RDLS-defined schemes
 
 ---
 
-## Category Inference Rules
+## Taxonomy Detection
 
-| Signal Pattern | Inferred Category |
-|----------------|-------------------|
-| population, census, demographic, inhabitants | population |
-| building, structure, house, facility | buildings |
-| road, bridge, highway, infrastructure | infrastructure |
-| crop, agriculture, farm, livestock | agriculture |
-| forest, wetland, ecosystem | environment |
-| GDP, asset, value, economic | economic |
+The extractor recognises all 12 RDLS-defined taxonomy schemes:
 
----
-
-## Subcategory Detection
-
-### Buildings
-| Subcategory | Signals |
-|-------------|---------|
-| residential | house, dwelling, residential |
-| commercial | shop, office, commercial |
-| industrial | factory, warehouse, industrial |
-| public | school, hospital, government |
-| mixed | building, structure (generic) |
-
-### Infrastructure
-| Subcategory | Signals |
-|-------------|---------|
-| transport | road, bridge, railway, airport |
-| utilities | power, water, telecommunications |
-| health | hospital, clinic, health facility |
-| education | school, university |
+| Taxonomy | Detection Pattern |
+|----------|------------------|
+| GED4ALL | `GED4ALL`, `global exposure` |
+| MOVER | `MOVER` |
+| GLIDE | `GLIDE` |
+| EMDAT | `EM-DAT`, `EMDAT` |
+| GHSL | `GHSL`, `JRC` |
+| WorldPop | `WorldPop` |
+| OSM | `OpenStreetMap`, `OSM` |
+| GADM | `GADM` |
+| GAR | `GAR`, `global assessment` |
+| UNDRR | `UNDRR` |
+| WHO | `WHO` |
+| WFP | `WFP`, `World Food Programme` |
 
 ---
 
-## Statistics (Typical Run)
+## Extraction CSV Columns
 
-```
-=== EXPOSURE EXTRACTION SUMMARY ===
-
-Datasets with exposure signals: 19,742
-
-Exposure category distribution:
-  - population: 10,267 (52.0%)
-  - buildings: 4,542 (23.0%)
-  - infrastructure: 2,961 (15.0%)
-  - agriculture: 1,185 (6.0%)
-  - economic: 592 (3.0%)
-  - environment: 195 (1.0%)
-
-Attributes extracted:
-  - With subcategory: 8,412 (42.6%)
-  - With metric: 6,543 (33.1%)
-  - With taxonomy: 2,156 (10.9%)
-```
-
----
-
-## Metric Detection Patterns
-
-```python
-metric_patterns = {
-    "count": [r"count", r"number of", r"total"],
-    "area_sqkm": [r"area", r"sq\s*km", r"square kilometer"],
-    "area_sqm": [r"sq\s*m", r"square meter", r"m2"],
-    "value_usd": [r"value", r"USD", r"\$", r"dollar"],
-    "density": [r"density", r"per\s*km", r"per\s*hectare"],
-    "percentage": [r"percent", r"%", r"ratio"],
-}
-```
-
----
-
-## Taxonomy Recognition
-
-The extractor identifies standard classification systems:
-
-| Taxonomy | Description | Detection |
-|----------|-------------|-----------|
-| GED4ALL | Global Exposure Database | "GED4ALL", "global exposure" |
-| GHSL | Global Human Settlement | "GHSL", "JRC" |
-| WorldPop | Population estimates | "WorldPop" |
-| OSM | OpenStreetMap buildings | "OSM", "OpenStreetMap" |
-| Custom | Dataset-specific | Default if none detected |
+| Column | Description |
+|--------|-------------|
+| `id` | HDX dataset UUID |
+| `title` | Dataset title |
+| `has_exposure` | Boolean: exposure signals detected |
+| `categories` | Comma-separated exposure categories |
+| `dimensions` | Comma-separated metric dimensions |
+| `quantity_kinds` | Comma-separated quantity kinds |
+| `taxonomy` | Detected taxonomy scheme |
+| `currency` | ISO 4217 currency code (if monetary) |
+| `tier_source` | Which tier produced each category (1/2/3) |
+| `overall_confidence` | Float 0.0–1.0 |
 
 ---
 
 ## How It Works
 
 ```
-1. Load datasets classified as exposure
+1. Load all 26,246 dataset metadata files
 2. For each dataset:
-   a. Scan for exposure category signals
-   b. Detect subcategories from detailed terms
-   c. Extract metrics and measurement types
-   d. Identify taxonomy/classification system
-   e. Parse temporal reference
-3. Aggregate by category and subcategory
-4. Export extracts and summary
+   a. Parse metadata into TieredFields (preserving resource list)
+   b. Tier 1: Scan title, name, tags for exposure categories
+   c. Tier 2: Scan each resource individually for categories
+   d. Tier 3: Scan notes, methodology (corroboration only)
+   e. Merge tiers: Tier 1 always included, Tier 2 can add new,
+      Tier 3 can only boost existing (unless T1+T2 empty)
+   f. For each category:
+      - Infer dimension and quantity_kind from scoped text
+      - Validate against VALID_TRIPLETS
+      - Detect taxonomy scheme
+      - Detect currency if monetary
+3. Build RDLS exposure blocks with validated triplets
+4. Export extraction CSVs and individual JSON files
 ```
 
 ---
 
 ## Multi-Category Datasets
 
-Many exposure datasets contain multiple categories:
+Many HDX datasets contain multiple exposure categories. The extractor captures all:
 
 ```json
 {
-  "title": "Kenya Infrastructure and Population",
-  "exposure_categories": ["population", "infrastructure"],
-  "subcategories": ["residential", "roads", "health_facilities"]
+  "exposure": [
+    {
+      "id": "exposure_abc123_1",
+      "category": "infrastructure",
+      "metrics": [{"dimension": "structure", "quantity_kind": "count"}]
+    },
+    {
+      "id": "exposure_abc123_2",
+      "category": "population",
+      "metrics": [{"dimension": "population", "quantity_kind": "count"}]
+    }
+  ]
 }
 ```
-
-The extractor captures all relevant categories.
 
 ---
 
 ## Troubleshooting
 
-### Missing exposure category
-- Review signal dictionary terms
-- Check if dataset is primarily non-exposure
-- Consider manual assignment via overrides
+### Wrong category detected
+- Check which tier the category came from (`tier_source` column)
+- If from Tier 3 (notes), verify the cascade logic — notes should only corroborate
+- Expand signal dictionary patterns if title terms are missing
 
-### Incorrect category
-- Review inference rules
-- Look for dominant vs. secondary signals
-- Multi-category assignment may be needed
+### Missing category
+- Review signal dictionary for term coverage
+- Check if the dataset title uses uncommon terminology
+- Infrastructure patterns include energy/utility terms (energy, power station, substation, etc.)
 
-### Low subcategory extraction
-- Subcategories require more specific terms
-- 40-50% extraction rate is typical
-- Generic "buildings" or "population" datasets won't have subcategories
+### Invalid metric triplet
+- The extractor validates against `VALID_TRIPLETS` and falls back to defaults
+- Check `VALID_TRIPLETS` table for allowed combinations per category
 
 ---
 

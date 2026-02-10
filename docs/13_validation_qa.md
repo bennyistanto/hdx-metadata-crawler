@@ -6,10 +6,10 @@
 
 ## Summary
 
-Final validation and quality assurance of all RDLS records, including HEVL block completeness and schema compliance.
+Validates all integrated RDLS records against the RDLS v0.3 JSON Schema, scores each record on a composite confidence metric, routes records into quality tiers, and packages the final deliverable bundle.
 
 **For Decision Makers:**
-> This is the final quality checkpoint. It validates every record, generates comprehensive QA reports, and produces the final deliverable with full HEVL metadata.
+> This is the final quality checkpoint. Every record is validated against the official schema, scored for confidence, and sorted into quality tiers. The output is a production-ready archive with valid records, detailed reports, and a comprehensive manifest.
 
 ---
 
@@ -17,9 +17,8 @@ Final validation and quality assurance of all RDLS records, including HEVL block
 
 | Input | Path | Description |
 |-------|------|-------------|
-| Integrated records | `rdls/records/*.json` | From Step 12 |
-| RDLS Schema | `rdls/schema/rdls_schema_v0.3.json` | Validation schema |
-| Integration report | `analysis/hevl_integration_report.csv` | From Step 12 |
+| Integrated records | `rdls/integrated/*.json` | ~12,500 records from Step 12 |
+| RDLS Schema | `rdls/schema/rdls_schema_v0.3.json` | JSON Schema for validation |
 
 ---
 
@@ -27,184 +26,90 @@ Final validation and quality assurance of all RDLS records, including HEVL block
 
 | Output | Path | Description |
 |--------|------|-------------|
-| Final validation | `rdls/reports/final_validation.csv` | Per-record results |
-| HEVL coverage | `rdls/reports/hevl_coverage_report.csv` | Block completeness |
-| Quality summary | `rdls/reports/qa_summary.md` | Human-readable report |
-| Final bundle | `rdls/dist/rdls_metadata_final.zip` | Production deliverable |
+| Valid records | `rdls/dist/high/*.json` | Production-ready records (valid + high confidence) |
+| Invalid records | `rdls/dist/invalid/high/*.json` | Invalid but high-confidence records for review |
+| Validation report | `rdls/reports/schema_validation.csv` | Per-record validation results |
+| HEVL coverage | `rdls/reports/hevl_coverage_report.csv` | Block completeness data |
+| Confidence scores | `rdls/reports/confidence_scores.csv` | Per-record composite scores |
+| Master manifest | `rdls/reports/master_manifest.csv` | Full record inventory |
+| Final archive | `rdls/dist/rdls_hdx_package_*.zip` | Complete deliverable |
 
 ---
 
-## QA Checks Performed
+## Validation Approach
 
-### 1. Schema Validation
-- All required fields present
-- Field types correct
-- Enum values valid
-- Array constraints met
+### JSON Schema Validator
 
-### 2. HEVL Completeness
-- Hazard block matches risk_data_type
-- Exposure block populated
-- V/L blocks present where classified
-- No orphan HEVL blocks
-
-### 3. Data Consistency
-- ID uniqueness across records
-- No duplicate content (hash check)
-- Spatial consistency (valid ISO3 codes)
-- License format compliance
-
-### 4. Content Quality
-- Title not empty or generic
-- Description meaningful (>20 chars)
-- Resources have valid URLs
-- Attributions complete
-
----
-
-## Key Functions
-
-### `QAValidator`
-Comprehensive validation class.
+The notebook uses `Draft202012Validator` (with `Draft7Validator` fallback) from the `jsonschema` library:
 
 ```python
-validator = QAValidator(schema)
-results = validator.validate_all(records_dir)
-# results.passed: int
-# results.failed: int
-# results.warnings: int
-# results.issues: List[QAIssue]
+from jsonschema import Draft202012Validator, Draft7Validator
+
+try:
+    validator = Draft202012Validator(schema)
+except:
+    validator = Draft7Validator(schema)
 ```
 
-### `check_hevl_completeness()`
-Validates HEVL block coverage.
+Each record is validated as a complete RDLS document (`{"datasets": [record]}`).
 
-```python
-coverage = check_hevl_completeness(record)
-# coverage.has_hazard_block: bool
-# coverage.has_exposure_block: bool
-# coverage.matches_risk_type: bool
-```
+### Error Categorisation
 
-### `generate_qa_report()`
-Creates comprehensive quality report.
+Validation errors are categorised by pattern matching on error messages:
 
-```python
-report = generate_qa_report(validation_results)
-# Returns Markdown-formatted report
-```
+| Category | Pattern | Example |
+|----------|---------|---------|
+| **anyOf** | `anyOf` constraint failures | `occurrence/empirical: {} should be non-empty` |
+| **enum** | Invalid enum value | `'XKX' is not one of [valid ISO3 codes]` |
+| **type** | Wrong field type | `expected string, got integer` |
+| **missing** | Required field absent | `'title' is a required property` |
+| **format** | Invalid format | `not a valid URI` |
+| **other** | Uncategorised | Various structural issues |
+
+### Error Summary Column
+
+Each record's validation result includes a `validation_error_summary` column — a semicolon-separated list of error paths and messages for quick diagnosis without re-running validation.
 
 ---
 
-## QA Severity Levels
+## Composite Confidence Scoring
 
-| Level | Description | Action Required |
-|-------|-------------|-----------------|
-| **ERROR** | Schema violation | Must fix before delivery |
-| **WARNING** | Quality concern | Review and document |
-| **INFO** | Minor observation | Optional improvement |
+Each record receives a composite quality score (0.0–1.0) based on four weighted dimensions:
 
----
+| Dimension | Weight | What It Measures |
+|-----------|--------|-----------------|
+| **HEVL coverage** | 40% | Fraction of declared components that have actual blocks |
+| **Block richness** | 25% | Depth and detail of HEVL content (fields populated) |
+| **Schema validity** | 20% | Binary: passes schema validation or not |
+| **Metadata completeness** | 15% | Description, spatial, attributions, resources present |
 
-## HEVL Coverage Matrix
+### Quality Tiers
 
-The notebook generates a coverage matrix:
+Records are routed into a 2D grid: **valid/invalid** × **high/medium/low** confidence:
 
-```
-                    Hazard  Exposure  Vulnerability  Loss
-risk_data_type       3,421    7,842         1,654   1,234
-HEVL block present   3,218    7,456         1,432   1,098
-Coverage rate        94.1%    95.1%         86.6%   89.0%
-```
-
----
-
-## Quality Metrics
-
-### Record-Level Metrics
-| Metric | Target | Typical |
-|--------|--------|---------|
-| Schema valid | 100% | 99.9% |
-| Title present | 100% | 100% |
-| Description >20 chars | >95% | 97% |
-| Resources valid | 100% | 99.5% |
-
-### HEVL Metrics
-| Metric | Target | Typical |
-|--------|--------|---------|
-| Hazard block where classified | >90% | 94% |
-| Exposure block where classified | >90% | 95% |
-| V/L block where classified | >80% | 87% |
-| HEVL-risk_type consistency | 100% | 99.8% |
-
----
-
-## QA Report Structure
-
-Generated `qa_summary.md`:
-
-```markdown
-# RDLS Quality Assurance Report
-
-Generated: 2025-01-15T14:30:00Z
-Total records: 10,500
-
-## Schema Validation
-- Passed: 10,492 (99.9%)
-- Failed: 8 (0.1%)
-
-## HEVL Completeness
-- Full coverage: 8,234 (78.4%)
-- Partial coverage: 2,156 (20.5%)
-- No HEVL: 110 (1.0%)
-
-## Issues Summary
-### Errors (8)
-- Missing required field 'license': 3 records
-- Invalid hazard_type enum: 5 records
-
-### Warnings (45)
-- Generic title detected: 12 records
-- Missing description: 33 records
-
-## Recommendations
-1. Review 8 schema errors for manual fix
-2. Consider enriching 33 records with descriptions
-3. HEVL coverage meets target (>95%)
-```
-
----
-
-## Final Bundle Contents
-
-```
-rdls_metadata_final.zip
-├── records/
-│   └── *.json (10,500 files)
-├── index/
-│   └── rdls_index.jsonl
-├── reports/
-│   ├── final_validation.csv
-│   ├── hevl_coverage_report.csv
-│   ├── qa_summary.md
-│   └── schema_validation_full.csv
-└── README.txt
-```
+| Tier | Score Range | Destination |
+|------|-------------|-------------|
+| High | ≥ 0.8 | `dist/high/` (valid) or `dist/invalid/high/` (invalid) |
+| Medium | 0.5–0.8 | `dist/medium/` or `dist/invalid/medium/` |
+| Low | < 0.5 | `dist/low/` or `dist/invalid/low/` |
 
 ---
 
 ## Quality Gates
 
+Three gates determine overall pipeline pass/fail:
+
 ### Gate 1: Schema Compliance
 ```
 ✅ PASS: Schema valid rate ≥ 99.5%
-❌ FAIL: Schema valid rate < 99.5%
+⚠️ WARN: Schema valid rate 95–99.5%
+❌ FAIL: Schema valid rate < 95%
 ```
 
 ### Gate 2: HEVL Coverage
 ```
 ✅ PASS: HEVL coverage ≥ 90% where applicable
-⚠️ WARN: HEVL coverage 80-90%
+⚠️ WARN: HEVL coverage 80–90%
 ❌ FAIL: HEVL coverage < 80%
 ```
 
@@ -217,76 +122,103 @@ rdls_metadata_final.zip
 
 ---
 
-## Statistics (Typical Run)
+## How It Works
 
 ```
-=== FINAL QA SUMMARY ===
-
-Records processed: 10,500
-
-Schema validation:
-  - Passed: 10,492 (99.9%)
-  - Failed: 8 (0.1%)
-
-HEVL coverage:
-  - Hazard: 94.1%
-  - Exposure: 95.1%
-  - Vulnerability: 86.6%
-  - Loss: 89.0%
-
-Quality gates:
-  ✅ Schema compliance: PASS (99.9%)
-  ✅ HEVL coverage: PASS (91.2% avg)
-  ✅ Data quality: PASS (8 issues)
-
-Final bundle: rdls_metadata_final.zip (18.5 MB)
+1. Load all integrated RDLS records from rdls/integrated/
+2. Load RDLS v0.3 JSON Schema
+3. For each record:
+   a. Validate against schema using Draft202012Validator
+   b. Categorise any validation errors
+   c. Check HEVL block completeness
+   d. Compute composite confidence score
+4. Route records into quality tier directories
+5. Generate reports:
+   - Schema validation results (per-record)
+   - HEVL coverage report
+   - Confidence score distribution
+   - Master manifest
+6. Apply quality gates
+7. Package final archive (ZIP)
 ```
 
 ---
 
-## How It Works
+## Report Structure
+
+### schema_validation.csv
+
+| Column | Description |
+|--------|-------------|
+| `id` | RDLS record ID |
+| `filename` | Source JSON filename |
+| `valid` | Boolean: passes schema validation |
+| `error_count` | Number of validation errors |
+| `validation_error_summary` | Semicolon-separated error descriptions |
+
+### hevl_coverage_report.csv
+
+| Column | Description |
+|--------|-------------|
+| `id` | RDLS record ID |
+| `risk_data_type` | Declared components |
+| `has_hazard_block` | Boolean |
+| `has_exposure_block` | Boolean |
+| `has_vulnerability_block` | Boolean |
+| `has_loss_block` | Boolean |
+| `coverage_ratio` | Fraction of declared types with blocks |
+
+### confidence_scores.csv
+
+| Column | Description |
+|--------|-------------|
+| `id` | RDLS record ID |
+| `hevl_score` | HEVL coverage dimension (0–1) |
+| `richness_score` | Block richness dimension (0–1) |
+| `validity_score` | Schema validity dimension (0 or 1) |
+| `metadata_score` | Metadata completeness dimension (0–1) |
+| `composite_score` | Weighted total (0–1) |
+| `tier` | Quality tier (high/medium/low) |
+
+---
+
+## Final Archive Contents
 
 ```
-1. Load all integrated RDLS records
-2. For each record:
-   a. Validate against JSON schema
-   b. Check HEVL block completeness
-   c. Verify data consistency
-   d. Assess content quality
-   e. Record issues by severity
-3. Aggregate metrics and statistics
-4. Generate QA report
-5. Apply quality gates
-6. Package final deliverable
+rdls_hdx_package_YYYYMMDD.zip
+├── high/                    # Valid, high-confidence records
+│   └── *.json
+├── invalid/
+│   └── high/               # Invalid but high-confidence (for review)
+│       └── *.json
+├── reports/
+│   ├── schema_validation.csv
+│   ├── hevl_coverage_report.csv
+│   ├── confidence_scores.csv
+│   └── master_manifest.csv
+└── README.txt
 ```
 
 ---
 
 ## Troubleshooting
 
-### Schema failures
-1. Check `final_validation.csv` for specific errors
-2. Fix in source records or integration
-3. Re-run validation
+### High schema failure rate
+- Check `schema_validation.csv` for the most common error categories
+- `anyOf` errors on `occurrence/empirical: {}` indicate empty occurrence blocks
+- `enum` errors on ISO3 codes indicate unrecognised country codes (e.g., `XKX`)
+- Fix in source notebooks (09–11) and re-run the pipeline
 
-### Low HEVL coverage
-- Review extraction results (09-11)
-- Check integration matching (12)
-- May indicate extraction pattern gaps
+### Low composite scores
+- Check which dimension is dragging the score down
+- Low HEVL coverage → review extraction results (NB 09–11)
+- Low richness → HEVL blocks may lack detail
+- Low validity → fix schema errors first
 
 ### Quality gate failures
-- Review QA report for specific issues
-- Prioritize ERROR-level items
-- Document known limitations
-
----
-
-## Post-QA Actions
-
-1. **Fix critical errors:** Address schema violations
-2. **Document warnings:** Explain known limitations
-3. **Distribute bundle:** Share final ZIP
-4. **Archive reports:** Keep QA artifacts for audit
+- Review the specific gate that failed
+- Schema compliance is the most common concern
+- Some errors (e.g., `XKX` for Kosovo) may be acceptable known limitations
 
 ---
 

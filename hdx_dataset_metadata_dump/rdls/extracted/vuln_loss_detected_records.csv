@@ -1,0 +1,589 @@
+id,title,organization,has_vulnerability,has_socioeconomic,vuln_function_types,has_loss,loss_types,loss_hazard,loss_asset,overall_confidence,has_any_vl
+0011cee1-7dbf-4a17-8d5e-bb60d1875276,Myanmar - Education,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+001c7c11-adc4-4b5e-89c7-c65b0aa349f9,Lao PDR - Public Sector,World Bank Group,False,False,,True,human_loss,,buildings,0.7,True
+001d5cac-9f29-4ad0-af6b-9b359ac12bd9,Afghanistan - Natural Disaster Incidents in 2018,OCHA Afghanistan,False,False,,True,human_loss|physical_damage,flood,population,0.85,True
+001f528f-b97a-4bf7-a0d9-70616654425d,Kiribati - Climate Change,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+0027fa21-c67d-45f1-8b97-ec084d6ea23d,Papua New Guinea IOM Displacement Tracking Matrix (DTM) from API,International Organization for Migration (IOM),False,False,,True,human_loss,,population,0.7,True
+002c9a28-4b82-4a14-bab4-1639d68937a4,Andorra - Financial Sector,World Bank Group,False,True,,False,,,,0.6,True
+002cf4e5-2a6a-42d5-8079-b47c4fffef2d,"Korea, Dem. People's Rep. - Health",World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+00303622-fc3e-414d-af4e-634fed42fbb3,Hungary - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+0039a481-ced4-48e2-9e41-d046bc1842ee,HDX HAPI Data for Malawi,HDX Humanitarian API Data,False,True,,True,human_loss,,infrastructure,0.7,True
+003f64ae-5850-4307-bd7e-da561956e09c,Kingdom of Eswatini - Subnational Demographic and Health Data,The DHS Program,False,False,,True,human_loss,,population,0.7,True
+00462938-0bb9-4faa-a748-04839f5b1d60,Sweden - Environment,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+004790b4-4ddd-4d7e-9288-73ae46e643a3,"Australia: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+004daf8f-2f9e-417a-92ee-9e2187d2da7e,Lake Chad Basin - Key figures,OCHA West and Central Africa (ROWCA),False,False,,True,human_loss,,population,0.7,True
+005355e3-495f-49fe-9bfb-6055858084c8,Croatia - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+00561656-9511-49f4-ad0f-d84a9925c293,Cameroon - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+007be2c8-2733-48b0-9f1f-a9013dca7655,New Caledonia - Poverty,World Bank Group,False,True,,False,,,population,0.6,True
+007beaa0-305d-4006-8b5a-a6ae43668082,"EM-DAT - Country Profiles, Croatia",Centre for Research on the Epidemiology of Disasters,False,False,,True,human_loss,,population,0.7,True
+00887380-3f06-436a-a944-7fd443e30064,San Marino - Gender,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+008dfc5b-a443-4da2-81db-a867a79ecdb3,"Kazakhstan - Results Monitoring Survey, 2022",UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+009b36b7-9983-4fe5-84c7-fcce283e118c,"South Sudan - Forced Displacement Survey, 2023",UNHCR - The UN Refugee Agency,False,True,,False,,,population,0.6,True
+00a0679d-ba91-4130-9122-9be407c79868,Nauru - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+00a40d1f-b9f3-4484-bece-750460cc6af4,Origen y Destino de los migrantes caminantes en Norte de Santander y Santander - Evaluación iMMAP/FONGIH - Octubre 2019,iMMAP Inc.,False,False,,True,human_loss,,population,0.7,True
+00a6f70e-cf0b-460d-b791-868fa365f889,Guinea - Gender,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+00ad2859-55c5-4e91-bbe6-d79d3fde2dc2,"United Arab Emirates: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+00c37501-6951-450b-aa8f-49156415a15e,Colombia - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+00cb19c9-9f3b-4e0d-a5bf-e32fbafc5cbf,"Cabo Verde - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+00cf6f22-6ef4-4a4a-a706-ab9a5d1769b6,Uzbekistan - Internal Displacements (New Displacements) – IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+00d158a4-8745-4c6e-84cd-00ad73735dbd,Tuvalu - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+00ec926f-0cbb-4838-8dbd-2a7784271734,Chile - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+00ece1d9-e629-43b5-98a8-14b8cf69728d,Grenada - Education,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+00f41632-533b-4479-a4b2-664bace009ae,British Virgin Islands - Trade,World Bank Group,False,True,,False,,,,0.6,True
+00f76b26-abf2-4c12-b1f1-88e51b600aef,Spain - Trade,World Bank Group,False,True,,False,,,agriculture,0.6,True
+00f8801a-bec4-4d56-8e2d-77f6792c37cc,Algeria - Public Sector,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+00fcd1a3-d250-4528-b430-19f55356bfd1,Niue: Road Surface Data,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,buildings,0.6,True
+00ff4ab1-5637-452c-b7b4-6e5eb8a3c264,"Gabon - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0100ea8b-e78e-4ae0-81fe-eb892d8eb00f,Dominica - Public Sector,World Bank Group,False,False,,True,human_loss,,buildings,0.7,True
+010198e3-1d30-4de1-a686-d8657968d821,Central America Socioeconomics profiles by ACH-GIS4Tech,Acción contra el hambre - GIS4tech,False,True,,False,,,buildings,0.6,True
+01136bd4-bb6f-44ab-b142-ecafcafd4a1b,Zambia - Joint WFP/UNHCR Needs Assessment Mantapala Settlement - 2020,UNHCR - The UN Refugee Agency,False,True,,False,,,infrastructure,0.6,True
+011f73d8-0038-4e5c-bb83-b7233616dd3c,Serbia - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+012bb729-6028-4b97-b093-2290d111891f,Northern Mariana Islands - Health,World Bank Group,False,False,,True,human_loss,,population,0.7,True
+01602a9c-c952-4895-859f-0d45c755bdc2,"Damage assessment in Saint Martin’s Island Cox’Bazar District, Chittagong Division  as of 15 May 2023",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,buildings,0.85,True
+0166def4-bac0-4d33-a929-f5596d18e178,"Indonesia Population living below the poverty line, 2007-2020",International Federation of Red Cross and Red Crescent Societies (IFRC),False,True,,False,,,population,0.6,True
+01725338-f86b-40e1-9736-781f688690bc,"Damage Assessment in Ambae Island, Penama Province, Vanuatu",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,buildings,0.85,True
+017a1cd4-707c-40a0-b422-e634f93a4abc,Luxembourg - Urban Development,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+017e288e-57ef-46dd-ba90-fccc3a4b447f,Afghanistan - Nexus Risks Index,The Global Centre for Risk and Innovation (GCRI),False,True,,False,,drought,buildings,0.6,True
+0180877e-655a-4c81-b780-232ba02af477,"Tunisia - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+018429f0-7f2f-407f-9e06-0e6b93b31697,Barbados Multidimensional Poverty Index,Oxford Poverty & Human Development Initiative,False,True,,True,human_loss,,population,0.7,True
+018a77c2-b8f6-494a-8376-c044b8408b20,Ukraine - Aid Effectiveness,World Bank Group,False,True,,True,human_loss,,buildings,0.7,True
+019de7ad-8043-4755-b1fb-f84ce4b961a5,Ukraine: Humanitarian Needs,OCHA Humanitarian Programme Cycle Tools (HPC Tools),False,False,,True,human_loss,,population,0.7,True
+01a0e079-6575-4f73-ab60-a0f9a043832c,Italy - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+01b15cbd-4173-47be-891a-966cf666cf09,Democratic Republic of the Congo - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+01b94c26-4c5a-4aa9-8397-1348c82068d3,Sudan: 2019 Humanitarian Needs Overview,OCHA Sudan,False,False,,True,human_loss,,population,0.7,True
+01bac3ff-9e63-499e-9ee5-8d4fada442c7,"Niger: Integrated Context Analysis (ICA), 2018",WFP - World Food Programme,False,True,,False,,flood,population,0.6,True
+01c0d75f-f7ab-4378-9720-3f00a06aa1df,Greece - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+01c6c1b2-88b5-4b5c-af36-73285d86c698,Nicaragua - Education,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+01c6c737-82e8-4054-be1d-2c53c887c78f,"Andorra: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+01c902dd-fec3-499b-a6c0-d092c18bc73e,Disaster loss and damage dataset for Albania,United Nations Office for Disaster Risk Reduction (UNDRR),False,False,,True,physical_damage,,,0.7,True
+01db785b-2f92-46be-86f7-7cce043412a4,Malta - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+01e54562-f615-4e57-a8d6-b91d93dd044f,Lao People's Democratic Republic Multidimensional Poverty Index,Oxford Poverty & Human Development Initiative,False,True,,True,human_loss,,population,0.7,True
+0200c4db-aa27-4405-ad96-6fdbe380c645,Trinidad and Tobago - Health,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+020233f1-a373-46b2-9757-94a3ce1af0ba,HDX HAPI Data for Montenegro,HDX Humanitarian API Data,False,True,,False,,,population,0.6,True
+020507ff-9a63-41d2-b022-1832fb630a01,"Northern Mariana Islands - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+020dcf41-f007-49a1-9287-ba3ccdff53df,Timor-Leste - Aid Effectiveness,World Bank Group,False,True,,True,human_loss,,buildings,0.7,True
+021d564e-a547-4460-b031-3443c75a976a,Mexico: subnational poverty trends,Oxford Poverty & Human Development Initiative,False,True,,True,human_loss,,infrastructure,0.7,True
+023e8712-ebc9-4152-b145-cada19e47bdf,Sri Lanka - National Demographic and Health Data,The DHS Program,False,False,,True,human_loss,,population,0.7,True
+023f40d9-fc72-4ae0-ac9b-deb71304be28,Mozambique - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+02496ff9-0290-462b-81e7-0c106ee6406a,Philippines - Aid Effectiveness,World Bank Group,False,True,,True,human_loss,,buildings,0.7,True
+0255cf49-2c13-430d-b738-aebdc9733bdd,Number of people injured in natural disasters,HDX,False,False,,True,human_loss,,population,0.7,True
+0261dcbb-cb2a-4127-9279-0b8a7cabf1d5,Türkiye and Syria Earthquake - Key Figures,HDX,False,False,,True,physical_damage,earthquake,,0.85,True
+026242c8-cb17-4d4d-99cb-9ab81f14d28b,Austria - Education,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0276edd2-6eba-48af-a11f-ba82a8f9fe70,Vanuatu - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),False,False,,True,human_loss,,population,0.7,True
+0277fc92-309b-48dd-9596-f6b046845103,Mauritania - National Demographic and Health Data,The DHS Program,False,False,,True,human_loss,,population,0.7,True
+02799cd1-f914-4854-a072-c6c02ab004b0,HDX HAPI Data for Samoa,HDX Humanitarian API Data,False,True,,False,,,population,0.6,True
+027dc19b-b790-45bf-923c-846ded3811fe,"Flood impact assessment in Mindelo City, Sao Vicente Municipality, Cabo Verde  as of 13 August 2025",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,population,0.85,True
+0296edf7-4cd0-4ac6-9305-0e172ef8bbf6,Timor-Leste - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+029c2b08-af58-4008-b580-656635021c4d,United Arab Emirates - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+02a4803e-365e-4f15-9342-e1e43b8cec6d,Qatar - Aid Effectiveness,World Bank Group,False,True,,True,human_loss,,buildings,0.7,True
+02b0b388-0660-4281-9eba-f22378b489b5,Albania - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+02b4e2b3-af14-41e2-a4c3-e89bb0efe3c8,"Canada: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+02b61c5e-f9b1-42d8-9a95-24b0ac0b3ef1,Canada - Environment,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+02d4dd29-2ded-4d2a-adeb-2f7f6dd0d69c,Cameroun - Situations des Inondations,OCHA Cameroon,False,False,,True,human_loss,flood,population,0.85,True
+02f08942-9d2a-4291-a118-1a696d229348,Grenada - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+02f2b2fa-39f1-413f-bd44-1683b2fea304,"EM-DAT - Country Profiles, Algeria",Centre for Research on the Epidemiology of Disasters,False,False,,True,human_loss,,population,0.7,True
+02fe7479-6a0f-435f-8966-ce786149e683,Ireland - Gender,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0309c184-9a6a-4cef-9093-88aa0ef15fd9,Nicaragua - Internal Displacements (New Displacements) – IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+030d127d-b1b1-414b-9459-932b6c19c5a5,"Indonesia - Post-Distribution Monitoring of Cash-Based Intervention, 2022",UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+0315b8f6-c1e3-4950-bfc9-488219145049,Myanmar - Climate Change,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+0317ef9f-4689-43ee-9670-c73e7fb4f79d,Human Development Index trends,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+03391267-1cf7-4873-b232-419c0e370e7a,United Kingdom of Great Britain and Northern Ireland - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+03406afe-4422-468b-b580-8dfc2ca8ec80,Kiribati - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+0349ab1f-fbbb-4865-b255-4d49106476d4,India Multidimensional Poverty Index,Oxford Poverty & Human Development Initiative,False,True,,True,human_loss,,population,0.7,True
+03527d5c-b1d4-4104-a5de-b9fef319c820,Isle of Man - Internal Displacements (New Displacements) – IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+035d7b91-5a71-4395-bec2-500d16eec104,Croatia - Energy and Mining,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+03628271-1aa9-4d80-9fee-bbdac06d12b4,"Sweden - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+03688dc1-3455-4835-a69c-b8bb8dc3739a,Malawi - HungerMap data,WFP - World Food Programme,False,True,,False,,earthquake,infrastructure,0.6,True
+037291fe-0546-4c50-a335-01a962f32a3e,French Polynesia - Financial Sector,World Bank Group,False,True,,False,,,,0.6,True
+037c2008-a9bd-49ee-8c9f-48794025aebe,Vanuatu: Earthquake - 6.1M - Sep 2023,WFP Advanced Disaster Analysis & Mapping,False,False,,True,human_loss,earthquake,population,0.85,True
+0380e35a-6748-4ab5-9806-d0c587448cd1,Tajikistan - Infrastructure,World Bank Group,False,True,,False,,,buildings,0.6,True
+0387f49b-1f68-4349-997b-8c4a5a1e605c,Oman - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+03951083-cf16-4eb8-b9af-dcb67f025131,Guinea - Environment,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+03982aab-0e86-49e6-bc86-809ed32a55be,Luxembourg - Public Sector,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+039ad0f5-7ffa-414a-82cf-0bf3cfd59a6b,Ghana - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+03a4d448-9dad-495c-b115-e1e0d623363e,Faroe Islands - Climate Change,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+03ac94aa-fd4c-498a-bcec-9440a0dce460,Mauritius - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+03b389fe-7f11-4dcb-a20e-f4b87c93cf9d,Svalbard and Jan Mayen Islands: Road Surface Data,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,buildings,0.6,True
+03bc2de3-868b-4125-bbdb-ba3b663df851,"Haiti - Damage Assessment Overview of Dame Marie and Anse d'Hainault Areas, Grande Anse & Sud Departments",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,infrastructure,0.85,True
+03bdc298-d436-4e68-8426-b9501b3b07a7,Algeria Multidimensional Poverty Index,Oxford Poverty & Human Development Initiative,False,True,,True,human_loss,,population,0.7,True
+03c84f72-7aac-447a-a3df-629cbd7ac444,"Bahamas, The - Energy and Mining",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+03c95eef-e3c5-40f6-9c86-9dcdc692be03,"South Sudan Displacement - [IDPs, Returnees] - Baseline Assessment [IOM DTM]",International Organization for Migration (IOM),False,False,,True,human_loss,,population,0.7,True
+03cc4924-b118-41fa-aed2-3d37a4403f27,Myanmar - Health Statistic from MMSIS,Health Cluster,False,False,,True,human_loss,,infrastructure,0.7,True
+03d76944-4ea7-4043-be7d-0d31f0c5fbec,"Congo, Dem. Rep. - Education",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+03de4fb7-3613-4d1a-a399-d5d8e00ceced,Preliminary satellite-derived landslide impact assessment,United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,population,0.85,True
+03e9e59e-d009-44d9-a65c-342758c1262d,Zambia - Urban Development,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+03f5f59e-42a7-4650-8a5a-788e7726ba6c,Philippines - Typhoon Bopha Humanitarian Profile as of 05 April 2013,OCHA Philippines,False,False,,True,human_loss,convective_storm,population,0.85,True
+03fa203f-411f-4fef-ac3f-826323f78b15,Burundi - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+03fc7223-6bce-4709-9dc2-aa892c708193,Peru - Education,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+03fca57d-e69b-429c-b332-1ae923c158fd,Mongolia - Health,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+0403b8f6-6fb6-475b-b910-e5b55adb1f8b,United States of America - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+040600d0-dca8-42db-950e-01e7e513942c,Italy - Infrastructure,World Bank Group,False,True,,False,,,buildings,0.6,True
+042943d6-2441-4e4c-ab84-f4e7ccf5cecb,Nigeria - Energy and Mining,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+042c1bf4-2942-475f-8cb2-1fb783f8da91,Nigeria Multidimensional Poverty Index,Oxford Poverty & Human Development Initiative,False,True,,True,human_loss,,population,0.7,True
+04502bcd-9cb5-42fe-b495-00fc08cf6bbb,Solomon Islands - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+0458fd8f-6854-4fd0-b570-841d91fbf0ba,Ukraine - Poverty,World Bank Group,False,True,,False,,,population,0.6,True
+045a146f-994b-4513-a58b-30d55bcc3d59,Romania - Energy and Mining,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+045a48ab-4e07-4b86-941d-12d6df395014,"Poland: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+0466bb97-9895-4379-86bc-cae589468b11,"Damage Assessment in Al Bab, Syria as of 11 February 2023",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,population,0.85,True
+0473f805-c5e9-4160-b446-d5676eab68f3,Honduras - Social Protection and Labor,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+04792635-560b-4b93-b467-b44f1b785ab1,Tunisia - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),False,False,,True,human_loss,,population,0.7,True
+0481fed5-313c-4a1f-b29e-5367ebd61543,Kingdom of Eswatini - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+048e672f-245c-4650-ac2a-0a9c190a4c4a,Uganda Multidimensional Poverty Index,Oxford Poverty & Human Development Initiative,False,True,,True,human_loss,,population,0.7,True
+04923742-27c7-44da-bab7-8fc2d12a714e,Japan - Energy and Mining,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0493f36c-8ccd-4a48-bc75-8cd59161ebf1,Azerbaijan - Gender,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0494e761-a9d2-4666-a2ea-76f8da7da8e5,"Syria - 2016 Damage density in Hama, Hama Governorate",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,population,0.85,True
+0496eaea-a330-4a21-814d-89f428acccc0,New Zealand - Trade,World Bank Group,False,True,,False,,,agriculture,0.6,True
+0498b459-7915-47da-9f1d-97d61f13c914,Russian Federation - Environment,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+049b2c78-21c6-4713-9f0a-003a594f913c,Tonga - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+04a164f4-b648-4aff-b6aa-d10534eddc50,Iceland - Infrastructure,World Bank Group,False,True,,False,,,buildings,0.6,True
+04a212d4-90f3-4d7d-8dc3-4ed25090bd38,Peru: Road Surface Data,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,buildings,0.6,True
+04a277b1-d99e-4f0f-a8df-91445444766a,Paraguay - Internal Displacements (New Displacements) – IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+04b0c3e2-a949-4167-a869-012991b75bae,Türkiye - Internal Displacements Updates (IDU) (event data),Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,buildings,0.7,True
+04b52c93-93cb-4800-beb8-c2679b37f6df,Japan - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+04c0f40c-b7ad-4a81-8693-4046b7f28252,China - Gender,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+04c4bf06-511e-4009-9c03-4ec97334d944,Hurricane Melissa: Building Damage Assessment in Jamaica,Microsoft AI for Good Lab,False,False,,True,physical_damage,flood,buildings,0.85,True
+04c95b2c-7472-4516-80f7-b6ed950a5255,Sri Lanka Floods: Building Damage Assessment in Colombo,Microsoft AI for Good Lab,False,False,,True,physical_damage,flood,buildings,0.85,True
+04c98cff-e56d-4159-97d4-551060dd6b05,Somalia Regions hit by 2015 Tropical Cyclone Chapala,IGAD Climate Prediction and Applications Center (ICPAC),False,False,,True,human_loss|physical_damage,convective_storm,population,0.85,True
+04cd61f3-8445-4560-b99b-d440e167bc49,Kazakhstan - Post-Distribution Monitoring of Cash-Based Intervention 2023,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+04e931c2-d2f0-492f-a5c3-55b3c503dfc4,Burundi - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+04efc10c-475e-486f-86ed-96c834971f84,Montenegro - Aid Effectiveness,World Bank Group,False,True,,True,human_loss,,buildings,0.7,True
+050d5b4a-3d3a-4987-ad84-70de62c08539,Latvia - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+0519ad76-ea17-4d20-996d-7cbe77a6e782,Czechia - Infrastructure,World Bank Group,False,True,,False,,,buildings,0.6,True
+051b208a-23c5-43c7-9733-9faafb0b9690,Somalia - Shabelle and Juba Riverine Basin Population Displacement Estimates -  2015,FAO SWALIM (inactive),False,False,,True,human_loss,flood,population,0.85,True
+0520b023-78ca-42f4-9e80-7861943e0ed0,Dominican Republic - National Demographic and Health Data,The DHS Program,False,False,,True,human_loss,,population,0.7,True
+052de8f9-41cf-4fd8-8809-11931eb9e78b,Thailand: Road Surface Data,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,buildings,0.6,True
+052ec1a3-9808-44d0-a828-82f4286becac,"Pakistan - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+053fea1d-78d7-4a0b-ae42-c6ebd31843a6,Ukraine - Monitoring of the Shelter Programme - 2018,UNHCR - The UN Refugee Agency,False,False,,True,physical_damage,,buildings,0.7,True
+0547ff47-a5e1-4f03-a659-55601c240a0f,Taiwan (Province of China): Road Surface Data,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,buildings,0.6,True
+0558f7cb-2694-4a06-8ae2-b625a3b1d2ee,Israel - Poverty,World Bank Group,False,True,,False,,,population,0.6,True
+056f02b0-5ca4-4cd9-9999-95ceb3dcc119,"DJIBOUTI - Health indicators, UNECA",United Nations Economic Commission for Africa,False,False,,True,human_loss,,population,0.7,True
+056f35da-ef13-49c7-8bf7-31e77750ddcf,"Eritrea - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+057330a2-bd2c-440f-969f-5c9e76f077ce,Malawi - Climate Change,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+05823a5a-a1e2-4ea0-96ea-3cf439f4ad37,The regional INFORM Sahel model,INFORM,False,True,,False,,,buildings,0.6,True
+05890947-0a12-48f8-8890-0e200f5c8138,Bahamas - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+059b823e-881e-4949-8bb0-b1c606dbc72b,"Guernsey: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+059c48dc-2ed0-4356-95ce-729568158e7b,Central America - Food Consumption Score and Reduced Coping Strategy Index Forecast,Acción contra el hambre - GIS4tech,False,True,,False,,,infrastructure,0.6,True
+05a11185-fb5d-4d0c-a4aa-8adc8f8a5298,"Rwanda - Joint UNHCR/WFP Post Distribution Monitoring - September, 2021",UNHCR - The UN Refugee Agency,False,True,,False,,,population,0.6,True
+05a1eae2-4be4-4307-8820-37b084dadf2b,Turks and Caicos Islands - Public Sector,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+05a2cb11-ff89-4d6d-81f9-7f11ccefdf63,Nicaragua - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+05b8729d-3fc9-4fe6-95b2-68bbdf53971b,Japan - Infrastructure,World Bank Group,False,True,,False,,,buildings,0.6,True
+05c13b98-6070-4b74-99a1-282d990f67e7,Argentina - Social Protection and Labor,World Bank Group,False,True,,False,,,population,0.6,True
+05c3505c-7ae8-4a14-a36a-98957890e7ae,Anguilla - Health Indicators,World Health Organization,False,True,,True,human_loss,,buildings,0.7,True
+05c6dbb1-0ce4-4930-99c5-13e981d56e86,Algeria - Poverty,World Bank Group,False,True,,False,,,population,0.6,True
+05cee0e2-0e05-427f-95f1-9db6e4262882,Malawi Walking Travel Time to nearest Level IV health centre,Data for Children Collaborative,False,True,,False,,,infrastructure,0.6,True
+05d97747-e383-415e-af71-71a8b9f5ac9f,Sluice Gates in Myanmar,Myanmar Information Management Unit (MIMU),False,False,,True,physical_damage,flood,buildings,0.85,True
+05e0f7e7-cc6e-4bda-86a1-10e31419aa66,Afghanistan -  Post-Earthquake Shelter Evaluation,REACH Initiative,False,False,,True,physical_damage,earthquake,population,0.85,True
+05e3b082-1d5c-4a88-9c53-0b3c3cc85879,Australia - Environment,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+05e62136-6e84-43cb-af11-e42b01577e72,Somalia - Kismayo IDP Settlement Assessment - Household Dataset,REACH Initiative,False,False,,True,human_loss,,infrastructure,0.7,True
+05f6945c-ca79-476d-92de-460fba27bd27,"Satellite detected water & building damage assessment over  Belet Weyne Town, Somalia",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,buildings,0.85,True
+05fc53cc-f199-46f7-9c67-87151ac31c89,St. Kitts and Nevis - Gender,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+06000e99-a2a7-4aaf-a054-4f6e7f4b0530,Lebanon - Protection Monitoring - Q1 2023,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+06190c96-bc23-42ff-b6d8-f940194848f5,Kazakhstan - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+061bb586-ca64-42f0-8c30-41d4a02c770a,Portugal - Aid Effectiveness,World Bank Group,False,True,,True,human_loss,,buildings,0.7,True
+0647d33e-530a-46dc-866e-d11e32e98303,Norfolk Island - Internal Displacements Updates (IDU) (event data),Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,buildings,0.7,True
+064b38cd-6c61-4f50-a045-32c88aff5c0e,United Republic of Tanzania - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+065a3f1c-fba9-474b-aaae-3ca3c6ce2377,Vanuatu - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+065c0791-dc49-4b19-b1e2-5c06193b4123,Greece - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+065ccdb9-1587-4305-bb65-2fbf4f1c58b8,Dominican Republic - Gender,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+065e8f83-298e-4a76-8bf1-d3b0ff595b2a,Liberia - Subnational Demographic and Health Data,The DHS Program,False,False,,True,human_loss,,population,0.7,True
+066aa04d-e428-4624-9d16-52385615854e,Libya - Energy and Mining,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+066e05dd-7769-4a03-b0ee-e908d11fa864,Puerto Rico - Energy and Mining,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+066f2c9e-9b03-4af5-9f52-49018a9a589c,"Pakistan (PAK): Attacks on Aid Operations, Education and Health Care",Insecurity Insight,False,False,,True,human_loss,,infrastructure,0.7,True
+06845972-b3cc-441a-826e-36436358eb3f,Fiji - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+06949d03-c20c-45a9-8538-c77c9255a290,Republic of Moldova - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+06a0efe4-df17-4fb1-bcce-35cde9382364,Guinea-Bissau - Public Sector,World Bank Group,False,False,,True,human_loss,,buildings,0.7,True
+06a84bdf-b415-4f4a-8fc8-853b44807508,Virgin Islands (U.S.) - Financial Sector,World Bank Group,False,True,,False,,,,0.6,True
+06b01ee1-5691-4c25-af69-e50bde0f5b57,Rwanda Multidimensional Poverty Index,Oxford Poverty & Human Development Initiative,False,True,,True,human_loss,,population,0.7,True
+06b1e8ea-fc10-4e5f-aa9a-ba3904d18074,Georgia - Environment,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+06b7fe8c-9f16-4734-8821-da5dc3eac9c2,"Syria - Damage density in Jobar neighborhood and Irbin city, Damascus governorate.",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,population,0.85,True
+06be878b-f730-4f34-814f-52ebcc23a19c,"Bolivia - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+06c1ed16-922d-42c8-b044-6f3ba911d62c,United Republic of Tanzania - National Demographic and Health Data,The DHS Program,False,False,,True,human_loss,,population,0.7,True
+06c3aff4-9cf3-4314-b36c-b851014ad310,Cuba - Internal Displacements (New Displacements) – IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+06dbd563-992e-4db0-be81-02fb2f8dfff2,Marshall Islands - Internal Displacements Updates (IDU) (event data),Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,buildings,0.7,True
+06e76a21-27c7-4b1f-8b14-c688d03dfabf,Algeria - Energy and Mining,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+06fb2aa6-bb24-474e-ac3c-3468762066c7,"Lebanon: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+0700918a-1719-430b-8950-2feb5b76bd44,Honduras Displacement - [IDPs] - Hurricane ETA and IOTA - Site Assessment [IOM DTM],International Organization for Migration (IOM),False,False,,True,human_loss,convective_storm,population,0.85,True
+07116fb5-cb89-4e9b-b807-0ccda61337f4,"Netherlands (Kingdom of the): Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+07188d69-80bc-4619-be56-c66323cb9420,Colombia - High Frequency Survey - Q2 2024,UNHCR - The UN Refugee Agency,False,True,,True,human_loss,,population,0.7,True
+071d00a5-c868-4c05-b681-a0f3f64e16cc,Mozambique - Environment,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+072259de-a53f-40ac-acdf-756a9ea21546,Mali - Post-Distribution Monitoring of Cash-Based Interventions – Apr 2020,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+0738ae19-f7cd-4398-a682-2ce4ab66ce39,Lao People's Democratic Republic - Internal Displacements (New Displacements) – IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+07410157-2f70-468d-833c-6c0935ccbc4b,Sweden - Trade,World Bank Group,False,True,,False,,,agriculture,0.6,True
+07410f06-b437-40b7-b86b-43ef80d9f508,Belarus - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),False,False,,True,human_loss,,population,0.7,True
+07420c7e-6ae3-4818-9808-2c96b5b71ef2,"Macao SAR, China - Climate Change",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0742d387-6bd4-46ee-993e-2a5abec671c1,Seychelles - Energy and Mining,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+074d3fca-31a2-4136-ae56-23947100aead,Ghana - Health,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+07553a16-76b3-47f2-8d8a-ee5a57132403,Guyana Multidimensional Poverty Index,Oxford Poverty & Human Development Initiative,False,True,,True,human_loss,,population,0.7,True
+076d61cf-e717-4680-acd3-3fb1bc481e2d,Viet Nam - Education,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0780e485-aa63-4874-acdd-47377ccb885f,Gabon - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+0782e442-aa98-42d5-9093-6ae78dfed35c,Colombia: Road Surface Data,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,buildings,0.6,True
+07880895-8ab3-423b-8f83-f9a02d8377a8,Kyrgyzstan - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+078f7143-1cb6-4ce3-9978-03e75fa28ad3,Germany - Urban Development,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+079b3444-3bba-4ade-976b-e51f9cdf0917,Niger - Gender,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+07b2da62-1d26-49f4-8d23-2a5108cce975,Libya Walking Travel Time to nearest Level IV health centre,Data for Children Collaborative,False,True,,False,,,infrastructure,0.6,True
+07bf443c-7103-46a6-bac3-396f093ab2f8,"Geodata of Density of Damage Assessment in Gaza Strip, Occupied Palestinian Territory",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,population,0.85,True
+07c6c2fc-0881-4ff9-be97-52a78578ffa1,Serbia - Poverty,World Bank Group,False,True,,False,,,population,0.6,True
+07d89486-3daf-408a-a410-563030b0ebbe,Guinea - Health,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+07da8727-1d23-4b08-bb76-66d3ae378e38,Austria - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+07dd5af8-3277-43af-87bf-3ca86348fcb0,VEN-PIN-SEV-2024,OCHA Venezuela,False,False,,True,human_loss,,population,0.7,True
+07e2a005-851b-470e-8d3b-24deeb928859,"Turks and Caicos Islands - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+07e990d2-0c9e-4519-9d51-da18348b0dc1,Japan - Urban Development,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+07f23ba4-76aa-404a-9401-65318f248034,Tokelau: Road Surface Data,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,buildings,0.6,True
+07f71db8-6089-400f-aaa1-64eb011e7943,Climate Change Attributable Deaths In Children Under 5 Years,World Health Organization,False,False,,True,human_loss,flood,population,0.85,True
+07faf65f-0b35-4b1d-a77c-a1401cd9a89f,Burundi Multidimensional Poverty Index,Oxford Poverty & Human Development Initiative,False,True,,True,human_loss,,population,0.7,True
+07fc5936-1556-445d-a8cd-741dbc224f4b,China - Aid Effectiveness,World Bank Group,False,True,,True,human_loss,,buildings,0.7,True
+08091519-3650-423f-8a64-4cfbe7731e37,"Damage assessment over Kardashynka Village, Kokhany Village and surroundings, Khersonskyi Region, Khersonska Oblast, Ukraine as of 07 June 2023",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,population,0.85,True
+080a9536-3578-40b1-982d-310d4df35164,Vanuatu - Aid Effectiveness,World Bank Group,False,True,,True,human_loss,,buildings,0.7,True
+08171b58-6bfc-4b7d-8d43-214187d8e5c0,Guyana - Environment,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+08188877-b82a-4d69-8c42-38fe14217245,Lesotho - Gender,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+081b803b-a1d0-48f4-b8f2-af27e17c3d1c,Kazakhstan - Public Sector,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0820e8a0-2b46-4e82-bd1a-2f85800f4d58,"Geodata of Damage Assessment in Central Ramadi, Al Anbar Province, Iraq",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,population,0.85,True
+08294671-d764-496a-a16b-1ce086f17035,Canada - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+082de50e-0c4d-49f1-a804-305ddb39c50b,Ghana - Aid Effectiveness,World Bank Group,False,True,,True,human_loss,,buildings,0.7,True
+0836233d-2463-4611-9547-984cad790817,Bangladesh - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+0837ebce-1808-4075-8005-d5cde115d92a,French Polynesia - Climate Change,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0847753c-ee99-4890-b8e0-de30cf3bd701,"Damage Assessment in La Paz Town, Abra Province, Cordillera Administrative Region, Philippines",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,population,0.85,True
+085135af-d2cb-453a-b943-9be4316d3c18,Ghana - Cash-Based Interventions Post-Distribution Monitoring - Jan 2022,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+08545af1-42a4-4468-bc56-233318221974,Trinidad and Tobago - Environment,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+086e0bbe-62ca-4529-9ef8-5fb11034778a,Isle of Man - Education,World Bank Group,False,True,,False,,,population,0.6,True
+0880e424-739b-4192-afa6-5a0f6de39ffa,"Macao SAR, China - Public Sector",World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+08847ef3-da1c-4be4-8674-9707fe84128b,Kenya - Climate Change,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+08a301a0-b8d7-4b3c-9fef-1f8e4af3740c,Djibouti: Road Surface Data,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,buildings,0.6,True
+08a47bf8-d6b1-445e-bbd4-46822cb4c6d6,Bermuda - Internal Displacements (New Displacements) – IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+08be782f-8c14-4ab1-8136-73e3ad2d2f4f,"Moldova - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+08c7526c-d810-4a98-b798-de35167a3aa0,Belize - Financial Sector,World Bank Group,False,True,,False,,,population,0.6,True
+08c9ca36-8b95-4361-abf1-ce21bfc49184,Disaster loss and damage dataset for Sri Lanka,United Nations Office for Disaster Risk Reduction (UNDRR),False,False,,True,physical_damage,,,0.7,True
+08cbe1b1-206f-4716-84fe-157be4c56e21,Paraguay - High Frequency Survey - Q3 2021,UNHCR - The UN Refugee Agency,False,True,,True,human_loss,,population,0.7,True
+08cc08e6-87bc-4906-8cd2-c297c029abc9,Human Development Indicators by Country,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+08f3deee-21ec-4a2c-84bf-0e3894e796a0,"Somalia: Integrated Context Analysis (ICA), 2018",WFP - World Food Programme,False,True,,False,,flood,population,0.6,True
+0902e254-086f-4b5c-8366-511be55dd7c1,Timor-Leste - Trade,World Bank Group,False,True,,False,,,agriculture,0.6,True
+09035b7a-1a71-46b2-a062-80b94921ee2e,"Ethiopia - KPC (KAP) Survey Report Shire, Hitsats camp - 2017",UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+09062400-9e21-4400-b6d1-07505118f393,Tokelau - Health Indicators,World Health Organization,False,True,,True,human_loss,,buildings,0.7,True
+090804f2-ea65-4621-ba8e-b044397a49ee,Mozambique - Multi-Sectoral Needs Assessment (MSNA),International Organization for Migration (IOM),False,False,,True,human_loss,earthquake,population,0.85,True
+092fdd67-3548-42bb-8da9-cea6b99b9f3a,Zambia - Energy and Mining,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+09327953-5e0f-4c45-948a-f1a51d530b89,"Kenya - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+09328e9e-757d-4d03-871a-770eb63ab4c3,Angola - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+09366f46-2ace-414b-9dfc-fee14b7ee0dd,"Building Damage Assessment in Bellavista village, Bojayá Municipality, Chocó Department, Colombia as of 17 November 2024",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,buildings,0.85,True
+093d2f10-5fe2-48ce-87ab-6745dd7d064b,Tuvalu - Public Sector,World Bank Group,False,False,,True,human_loss,,buildings,0.7,True
+09413505-b6f0-42de-87b8-20d5ca7811ea,Somalia - Environment,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+09437463-8dae-4423-8ca0-d1f3bd607444,Morocco - Internal Displacements Updates (IDU) (event data),Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,buildings,0.7,True
+0948f113-4f41-4471-bdbb-42af624eb1ac,UNICEF South Sudan Situation and Response  as of 30 June 2017,UNICEF Eastern and Southern Africa Regional Office (ESARO) (inactive),False,False,,True,human_loss,,population,0.7,True
+094a67e4-b537-4d17-b5b3-78f01a3f891c,France - Urban Development,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+094fa16d-fada-44a2-8e70-2def07dc0ff2,Vanuatu - Health,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0961226e-0ed4-45fc-ad67-2cbb7020d44a,Guinea-Bissau - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+0986749d-6d1b-42ba-9f66-09704fb2df1b,Lesotho - Subnational Demographic and Health Data,The DHS Program,False,False,,True,human_loss,,population,0.7,True
+0992d01a-3729-4282-9981-24a2a340ea9a,Aruba - Internally displaced persons - IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+0994721a-502f-4631-b64f-3f83f9188731,Mexico - Gender,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+09a6fb32-742c-4a0f-b5bb-df28e55d8129,Afghanistan - Post-Distribution Monitoring of Cash-Based Interventions 2023,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+09d6d1f7-f5b7-4348-ba99-a69f2f9783f6,Sudan:2022 MSNA Houshold Survey without Refugees,OCHA Sudan,False,False,,True,human_loss,,population,0.7,True
+09d7b44c-42ac-408e-9719-d29fe36b3ccb,St. Kitts and Nevis - Climate Change,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+09d8cace-294b-40f7-bec2-ed8785d51afa,Syria IDP flow data - July 2018,OCHA Türkiye (inactive),False,False,,True,human_loss,,population,0.7,True
+09dc05f2-8f29-4522-8091-537016c0c346,"Argentina - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0a056129-335a-4740-aaa8-79da4c769ac7,Mauritania - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+0a0833e0-8c72-417d-a89c-7a6ed379fa50,Afghanistan Multidimensional Poverty Index,Oxford Poverty & Human Development Initiative,False,True,,True,human_loss,,population,0.7,True
+0a1ce805-03f1-4627-a148-d332937a97f7,"Preliminary satellite flood and landslide assessment report, Along Sebaya River, Rubavu District, Karongi Districtn Western Province, Rwanda",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,infrastructure,0.85,True
+0a1e59e0-910a-4e81-92ed-0b5f6664e397,Afghanistan - Health,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+0a23ef20-8307-4891-a00f-e38ad9bd523d,The Syrian IDP Camps Monitoring Study - Northern Syria Camps,Assistance Coordination Unit,False,False,,True,human_loss,,population,0.7,True
+0a2959c8-afec-4ddc-8093-96b13dcf3254,"Burundi - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0a2e35e3-633a-4504-9804-db745e1dee14,"Flooding in the Philippines on October 30, 2022",The Philippine Space Agency,False,False,,True,physical_damage,flood,infrastructure,0.85,True
+0a34e1ed-68a8-4a36-8885-edaebb047cbf,Jordan - Mobile Needs Assessment for non-Syrian Refugees - 2021,UNHCR - The UN Refugee Agency,False,True,,False,,,population,0.6,True
+0a3529ec-51c6-4161-8cc3-32906c876b97,West Bank and Gaza - Poverty,World Bank Group,False,True,,False,,,population,0.6,True
+0a4b08ca-e989-451a-b821-b88e2a92d692,Malta - Financial Sector,World Bank Group,False,True,,False,,,population,0.6,True
+0a4b9d87-757c-4b1c-a466-4d55502cdde6,Antigua and Barbuda - Health,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0a57bb0c-02bd-4d69-aefb-5f40011fb5bb,Azerbaijan - Climate Change,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+0a57d348-df5d-4b6f-a389-293c2fd476a8,Kazakhstan - Poverty,World Bank Group,False,True,,False,,,population,0.6,True
+0a581d61-5cca-432e-838a-4edb64a74853,Afghanistan 2015 Humanitarian Response Plan - Need & Vulnerability Index,OCHA Afghanistan,False,True,,False,,,population,0.6,True
+0a58ac8c-4699-4aab-a147-be0050bb699f,South Africa - Energy and Mining,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0a68dab6-d901-4e36-85e4-b2159cc17a9c,Bahrain - Health,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0a7a4207-e509-44c4-93dd-1549565f85df,"Somalia - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0a82c76d-eec7-4c0a-8282-e8d63cea6759,Tonga Multidimensional Poverty Index,Oxford Poverty & Human Development Initiative,False,True,,True,human_loss,,population,0.7,True
+0a84c359-573b-4b2b-9981-5a8866cb2965,Nigeria Displacement Data - North Central & West Zones - Baseline Assessment [IOM DTM],International Organization for Migration (IOM),False,False,,True,human_loss,,population,0.7,True
+0a85891e-df17-40b2-bada-9c260e042591,Belize - Internal Displacements Updates (IDU) (event data),Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,flood,buildings,0.85,True
+0a8ba6fe-f343-4501-a7b7-f7a03de1feaf,St. Vincent and the Grenadines - Education,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0a90cc76-95bb-422e-8102-312d3f85c66a,India - Trade,World Bank Group,False,True,,False,,,agriculture,0.6,True
+0a973031-c394-4763-8c10-7080ad97b2e0,Afghanistan - Aid Effectiveness,World Bank Group,False,True,,True,human_loss,,buildings,0.7,True
+0aa275fa-7abd-495a-90ed-2bf24cb05f1e,Saudi Arabia - Climate Change,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+0aa8c43b-ea03-4ab4-b8dc-04c26542bf76,Sudan: Humanitarian Needs,OCHA Humanitarian Programme Cycle Tools (HPC Tools),False,False,,True,human_loss,,population,0.7,True
+0aa9d0e9-541b-41bd-9b09-73c90fa70a0c,Togo - Internal Displacements (New Displacements) – IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+0aae4501-e66a-43d8-8b4a-9a8ba5ebc53c,"St. Vincent and the Grenadines - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0abbe228-34f4-4cc4-a51e-2417d77b8ce0,"Cameroon: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+0ac45b1b-c9cb-43e9-a3fa-03e5ab7c61a4,Viet Nam: Road Surface Data,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,buildings,0.6,True
+0ac6a44c-826f-4585-8402-cfb0feb6e249,Tonga - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+0ac96f07-8611-43d5-8ec1-6a32a199e115,"Maria Tropical Cyclone. Damage Assessment in Portsmouth,Saint John Parish, Dominica",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,buildings,0.85,True
+0ae129e9-8ccd-4fe9-a5f1-d83c6483fce7,Whole of Afghanistan Assessment - Hard to Reach Dataset - August 2018,REACH Initiative,False,False,,True,human_loss,,population,0.7,True
+0ae3c7de-37fb-433d-9dca-ed87e8131e1e,British Indian Ocean Territory - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),False,False,,True,human_loss,,population,0.7,True
+0aea849e-3ca2-446d-9652-ae4ee610d510,Guinea-Bissau Walking Travel Time to nearest Level IV health centre,Data for Children Collaborative,False,True,,False,,,infrastructure,0.6,True
+0aed076c-5e32-4dfd-a5f2-2779d153dc90,"Syria (SYR): Attacks on Aid Operations, Education, Food and Water Systems, Health Care and IDP/Refugee Camps, and Conflict-Related Sexual Violence and Explosive Weapons Incident Data",Insecurity Insight,False,False,,True,human_loss,,infrastructure,0.7,True
+0aeeb733-c44d-4510-9f06-89793d1e083f,"Guinea-Bissau - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0aef5d93-2bd8-4c66-b7cc-ff4b2d70dda2,Latvia - Energy and Mining,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0af3ae61-6b6c-4617-8ef2-3e4c9063e603,Saudi Arabia - Environment,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0b032e35-c548-4b22-9564-0f6f43dac0d6,HDX HAPI Data for Bhutan,HDX Humanitarian API Data,False,True,,False,,,infrastructure,0.6,True
+0b0b2ef2-21fc-4c3e-a6f9-b63ad9a5eec6,Montserrat - Health Indicators,World Health Organization,False,True,,True,human_loss,,buildings,0.7,True
+0b0d36a6-d455-431b-b4a8-e11198c0b33c,Angola Walking Travel Time to nearest Level IV health centre,Data for Children Collaborative,False,True,,False,,,infrastructure,0.6,True
+0b0f91a7-0999-455d-b5b0-bcde8e235984,Bahrain - Climate Change,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+0b152cf5-3874-42d0-9621-8a9c745024b9,United Republic of Tanzania - Internal Displacements Updates (IDU) (event data),Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,flood,buildings,0.85,True
+0b16d98d-0c6d-44a7-a157-d1744c227aa9,Netherlands - Financial Sector,World Bank Group,False,True,,False,,,population,0.6,True
+0b1c4dc1-6ae5-4e2d-8e32-2111d0e10697,Global Internal Displacement Database: Conflict - Disasters,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,flood,buildings,0.85,True
+0b1e2b4c-5995-4668-8816-407d2a1390a2,Burundi - National Demographic and Health Data,The DHS Program,False,False,,True,human_loss,,population,0.7,True
+0b1e5207-ea5f-4509-8aca-4ed117c07761,Sudan IDP Registration - DTM IOM,OCHA Sudan,False,False,,True,human_loss,,population,0.7,True
+0b24b3cf-6463-48c7-8201-7e6d87f629d6,Ukraine - Frontline Monitoring,AQLITY,False,False,,True,human_loss,,infrastructure,0.7,True
+0b2c2094-a9fb-4d6f-bfab-c270436ef88c,"Flooding in the Philippines on July 18, 2024",The Philippine Space Agency,False,False,,True,physical_damage,flood,infrastructure,0.85,True
+0b2d747c-1301-48ef-88b1-769eee03dde7,Seychelles - Health,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0b325954-903a-47f7-9073-e777426b10ad,United Republic of Tanzania - HungerMap data,WFP - World Food Programme,False,True,,False,,earthquake,infrastructure,0.6,True
+0b4dc2c7-853d-447c-94f6-beff9733e04b,UNHCR Mid-year Trends 2018,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+0b4de8af-7026-4605-8f45-283d700ab086,Dominican Republic Multidimensional Poverty Index,Oxford Poverty & Human Development Initiative,False,True,,True,human_loss,,population,0.7,True
+0b766bab-d6bc-4998-82ef-635b3e358f1d,Algeria - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+0b76ba29-09d8-46d5-b500-6415bddf981d,Niger - Subnational Displacement Forecasts,Danish Refugee Council,False,False,,True,human_loss,,population,0.7,True
+0b7c32ae-e1a4-46ba-8905-16a1fd67b6ea,"Korea, Dem. People's Rep. - Energy and Mining",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0b80fa74-a175-4b98-8f1e-fead7d485339,"Comoros: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+0b881885-f881-4400-b1a9-ceb5beefe056,Lithuania - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+0b89420f-3a67-44ec-9419-dfa21cd4d686,Barbados - Environment,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0b90ea35-ea18-4210-82cc-559dce816817,Africa: Coronavirus (COVID-19) Subnational Cases,HERA - Humanitarian Emergency Response Africa,False,False,,True,human_loss,,population,0.7,True
+0b9209d1-c9fe-4606-a4b7-ee3fe4251acc,Niger Walking Travel Time to nearest Level IV health centre,Data for Children Collaborative,False,True,,False,,,infrastructure,0.6,True
+0b9b9274-7449-4e34-8243-3c319b6a2d4a,Costa Rica - High Frequency Survey - Q3 2021,UNHCR - The UN Refugee Agency,False,True,,True,human_loss,,population,0.7,True
+0b9f8bb0-a78e-4b49-b127-39c0f71a45d1,Natural disaster incidents from 1 January to 31 December 2012,OCHA Afghanistan,False,False,,True,human_loss|physical_damage,flood,population,0.85,True
+0ba11724-f221-4a18-af12-12eb7cfc73eb,"Finland: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+0bb5b2a5-8f82-4c67-bb43-7dee36b4f6d8,Eswatini Motorised Travel Time (in seconds) to nearest health centre,Data for Children Collaborative,False,True,,False,,,infrastructure,0.6,True
+0bb6838d-89b3-4859-857a-30652abf7f7f,French Polynesia - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),False,False,,True,human_loss,,population,0.7,True
+0bc67bfa-75f5-4741-9247-06db95f51485,Guatemala - Social Protection and Labor,World Bank Group,False,True,,False,,,population,0.6,True
+0bcaa7d8-84fd-4d7b-a831-25aaa6480167,"Korea, Dem. People’s Rep. - Infrastructure",World Bank Group,False,True,,False,,,buildings,0.6,True
+0c0da2b0-d765-4865-aacb-b50d0be66412,Sudan IDP Settlements by Risk level,OCHA Sudan,False,False,,True,human_loss,,population,0.7,True
+0c1ac663-267a-4c66-aca8-b55654fb134d,"Jordan - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0c3390bf-7ae4-4d3e-ad8c-90a58a777213,Angola - Urban Development,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0c3e11bd-4a6b-4c44-9e69-fe460347c9c7,Kenya - National Demographic and Health Data,The DHS Program,False,False,,True,human_loss,,population,0.7,True
+0c4f96a4-bf30-473f-b8b8-e375cc63deda,"Damage Assessment in Providencia Island, Providencia and Santa Catalina Department, Colombia as of 21 November 2020",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,buildings,0.85,True
+0c509a05-3e4a-4358-9079-be584ed799a2,Bulgaria - Aid Effectiveness,World Bank Group,False,True,,True,human_loss,,buildings,0.7,True
+0c5a48dc-f035-44b9-8e1a-b0d033789db3,New Zealand - Education,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0c5aa671-3f5f-42ac-9f4f-3685b6404cfa,Curaçao - Health Indicators,World Health Organization,False,True,,True,human_loss,,buildings,0.7,True
+0c662f8d-cb86-4bc8-94f8-64ab7657c381,Ghana - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+0c674384-e5dc-4281-9666-8292a7cafd53,Colombia - High Frequency Survey - Q4 2020,UNHCR - The UN Refugee Agency,False,True,,True,human_loss,,population,0.7,True
+0c870b0d-9bde-4911-8e3e-3356fde51da5,Dominica - Infrastructure,World Bank Group,False,True,,False,,,buildings,0.6,True
+0c8d2a84-abb3-4058-9d4d-8d4e57b552ab,"Satellite detected water extent over Sanamxay District, Attapeu Province, Lao People Democratic Republic",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,population,0.85,True
+0c8f38b4-6d30-42e3-bc27-6a5a5cf7c505,Population Affected in the Nepal Earthquake (Estimate),OCHA Nepal (inactive),False,False,,True,human_loss,earthquake,population,0.85,True
+0c9155fd-14c8-460c-abe6-311809f9031a,Luxembourg - Education,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0c9ba09e-d268-4a1a-af58-71356073e896,Cameroon - Internal Displacements (New Displacements) – IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+0cac9c12-07db-4bee-8af9-9d6500cda60c,Uzbekistan - National Demographic and Health Data,The DHS Program,False,False,,True,human_loss,,population,0.7,True
+0cacf37d-38f7-4cb7-85d8-0d5302514fd8,Ireland - Environment,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0cb78711-97f7-48d0-b55c-81bf39a7e419,Gabon - Financial Sector,World Bank Group,False,True,,False,,,population,0.6,True
+0cc09e54-520e-43d5-8600-7b0b44555dd0,Zambia - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),False,False,,True,human_loss,,population,0.7,True
+0ccdad4f-74d9-4dbe-8c48-47bcdb658876,"Congo, Rep. - Health",World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0cd1122c-e991-48f4-bb40-639a09f19d98,Mali - Education,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0cd1e203-a027-4ce5-8846-3946a3419d42,Latvia - Gender,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0cd491f9-f24c-4f63-8c23-2acfbfbb3e19,Spain - Gender,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0cd556a3-9d8c-4b7a-a872-e04406e62fbc,Haiti - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+0cd7f533-37cd-4b54-a7ba-994e7b36d272,Sudan IOM Displacement Tracking Matrix (DTM) from API,International Organization for Migration (IOM),False,False,,True,human_loss,,population,0.7,True
+0ceb3584-1a8a-4904-b515-b1f4363ae68d,2010 Tropical Cyclone Bandu Path,IGAD Climate Prediction and Applications Center (ICPAC),False,False,,True,physical_damage,flood,population,0.85,True
+0cf15aa6-a9ef-4906-8d6e-7c40cdcfe15d,Liberia - Poverty,World Bank Group,False,True,,False,,,population,0.6,True
+0cfa270b-a3a7-4487-8034-5a80138ab820,"Estimated incidence rate (new HIV infection per 1,000 uninfected population, children aged 0-14 years)",UNICEF Data and Analytics (HQ),False,False,,True,human_loss,,population,0.7,True
+0cffd1bc-ca13-42a7-9e49-80e8025e99b9,Burundi - Climate Change,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+0d039fc5-5ce7-460c-b5fa-c5b55e517adf,Federal Republic of Somalia - Health,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+0d061106-7e12-4ffd-922a-3cfd4c9a1e3e,Sweden - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+0d1367fd-e413-43d1-8a5a-e20c2900a713,"Lesotho - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0d13e05b-d625-4740-856e-53421012ed74,New Zealand - Financial Sector,World Bank Group,False,True,,False,,,population,0.6,True
+0d184997-518d-4f0b-9184-a4f5bc25806a,Paraguay - Energy and Mining,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0d1da94d-84be-44af-9c8c-5139b844e710,Maldives - National Demographic and Health Data,The DHS Program,False,False,,True,human_loss,,population,0.7,True
+0d36e8ad-d2e8-4646-babd-61a41f99159a,Ukraine Displacement Data: IDP Estimates  [IOM DTM],International Organization for Migration (IOM),False,True,,True,human_loss,,population,0.7,True
+0d4297f0-5617-47ce-90bb-ba50b9ad273d,Croatia - Education,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0d4dfe43-2cb5-4b02-a1f8-1ea1b52d06a0,Gabon Motorised Travel Time (in seconds) to nearest health centre,Data for Children Collaborative,False,True,,False,,,infrastructure,0.6,True
+0d54d00e-0db7-40d6-8fdf-1835d10cd076,Isle of Man - Public Sector,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0d58e287-b78f-4be1-a456-81b63f926e1a,Libya - Education,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0d611232-d541-4c67-8614-919e41c94891,Haiti Multidimensional Poverty Index,Oxford Poverty & Human Development Initiative,False,True,,True,human_loss,,population,0.7,True
+0d724741-0030-41ba-b883-16744ae8abdb,"Congo, Rep. - Environment",World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0d776a1c-e2c0-49fc-857e-949be7013f99,Niger Displacement Data - Village Assessment Survey (VAS) [IOM DTM],International Organization for Migration (IOM),False,False,,True,human_loss,,population,0.7,True
+0d7e4a34-2fe6-4d1b-94ef-2d2f0a3ea9f9,Croatia - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+0d876340-b10c-4979-92d5-985335b10a9b,Switzerland - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+0d88f135-48d3-44b6-88d7-ac1810e18615,Ethiopia - Poverty,World Bank Group,False,True,,False,,,population,0.6,True
+0d890f21-ee5b-48b7-98e1-7b27765cb98b,Burkina Faso - Aid Effectiveness,World Bank Group,False,True,,True,human_loss,,buildings,0.7,True
+0da4d1c1-4ef2-49bd-a873-9ef880f183c0,Côte d'Ivoire - Internal Displacements (New Displacements) – IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+0db2bf24-47f2-4c51-bfa5-941e8a5b464b,"Damage Assessment in Jindires and the surrounding area, Syria as of 10 February 2023",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,population,0.85,True
+0dc6f77a-b6e2-4c5e-bdb4-74d52713eba4,Belarus - Urban Development,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0dcff10f-53cd-4f10-9449-0f79965b0123,Tokelau - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+0dd04657-b730-4c19-93a6-9f893975c3a7,Yemen - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+0dd0c42d-d924-4f69-ac4f-587f2d801323,Samoa - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+0dda262e-cb28-42ef-9a2e-a4e1f8925b37,St. Lucia - Urban Development,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0deaa115-287c-4661-8de3-1c50a00cb6d5,Dominica - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+0e18b686-15bc-4f98-9c94-d723a7ca76fc,Afghanistan - Social-Economic Vulnerability Assessment 2022,UNHCR - The UN Refugee Agency,False,True,,True,human_loss,,infrastructure,0.7,True
+0e1b6406-e1e0-4d8e-990d-088ee5f0adcb,Algeria - Financial Sector,World Bank Group,False,True,,False,,,population,0.6,True
+0e1d4bb6-95c5-4670-a28d-971067d51a00,"Geodata of Damage Assesment in the City of Malakal, Upper Nile State, South Sudan",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,buildings,0.85,True
+0e218998-8907-4368-814c-b8b46fc6d2c1,"Flooding in the Philippines on October 29, 2024",The Philippine Space Agency,False,False,,True,physical_damage,flood,infrastructure,0.85,True
+0e2f6d68-3ab7-4aa8-a81d-a7e914c8515e,"Cuba - Damage Assessment in Baracoa town, Guantanamo province",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,population,0.85,True
+0e314079-6721-47ac-b1ed-89b240db4ce9,Chile - Internal Displacements (New Displacements) – IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+0e416881-67eb-4ec3-8b7c-c5e68857c38f,Qatar - Education,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0e4572d7-069d-4c46-9254-fbf5805dce6f,"Gambia, The - Trade",World Bank Group,False,True,,False,,,agriculture,0.6,True
+0e54fb99-8155-48e5-8a7b-167877faa8e3,Afghanistan: Humanitarian Situation Monitoring (HSM) Round 4 KII (Analysis),REACH Initiative,False,False,,True,human_loss,,population,0.7,True
+0e5fa895-8eb9-4c6e-a659-96b16bcc3946,Nepal - Trade,World Bank Group,False,True,,False,,,agriculture,0.6,True
+0e676512-f594-41eb-9690-ba0549a1dd34,Costa Rica - Financial Sector,World Bank Group,False,True,,False,,,population,0.6,True
+0e7401a5-ea0b-4ac9-bfd1-06116e632a91,Panama - Internal Displacements (New Displacements) – IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+0e7581d2-fae3-4a16-89c0-44c89893b89b,"Tonga - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0e76c59e-92f4-4635-8fa7-4a949436199d,Angola - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+0e913caa-5c28-4a77-b56b-498db87aaa95,Afghanistan - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+0e96e2d7-6224-42c9-8f59-ffd2f12db78e,Kuwait - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+0ea99994-bf42-4abc-825e-bcf30fb8dcdf,Eritrea: Road Surface Data,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,buildings,0.6,True
+0eafdc5f-9224-433c-94f2-7f3f65c4d732,Ghana - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+0eb7c089-7b18-442a-afeb-6380ffed95f6,Afghanistan - Natural Disaster Incidents,OCHA Afghanistan,False,False,,True,human_loss|physical_damage,flood,population,0.85,True
+0ebde8f1-225e-42c1-84ff-efe437be1af5,Fiji - Infrastructure,World Bank Group,False,True,,False,,,buildings,0.6,True
+0ed45032-3294-45e9-869a-629296392d96,"Flooding in the Philippines on November 04, 2022",The Philippine Space Agency,False,False,,True,physical_damage,flood,infrastructure,0.85,True
+0ed6978f-7233-4e93-9c69-928cb79d91ce,"ETHIOPIA - Health indicators, UNECA",United Nations Economic Commission for Africa,False,False,,True,human_loss,,population,0.7,True
+0ee8b446-6668-409d-bc0a-5524efdabd8b,Azerbaijan: Road Surface Data,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,buildings,0.6,True
+0ee8e32a-cfba-4597-a277-ee9935681b7b,Kenya - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+0ee97605-7ab3-485d-b485-f08e86b1370f,"EM-DAT - Country Profiles, Sweden",Centre for Research on the Epidemiology of Disasters,False,False,,True,human_loss,,population,0.7,True
+0eeaf4f3-fc25-4669-ac63-a4377183f6ea,Burundi - Results Monitoring Survey (RMS) - 2023,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+0eeb363e-1b35-4cb5-a77b-4a9b18925832,Equatorial Guinea - Internal Displacements Updates (IDU) (event data),Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,buildings,0.7,True
+0eecd74f-2c44-4e8d-a288-dd342c3d7000,Guernsey - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+0f020ae8-86f4-4939-8da0-977f426f08ad,Italy - Financial Sector,World Bank Group,False,True,,False,,,population,0.6,True
+0f1240eb-5d28-44f5-b0dd-e824e5f38ff0,"Monaco: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+0f1e5cec-9d9b-4afb-b258-71b83c6bf1ea,Malta - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+0f1ffa74-dee5-4986-a8b7-258f1e43a1d9,Geodata of Damage Assessment in Northeastern Gaza Strip - Occupied Palestinian Territory,United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,population,0.85,True
+0f23ff8b-e0cb-4cec-8732-b62eaba7de24,"EM-DAT - Country Profiles, Russian Federation",Centre for Research on the Epidemiology of Disasters,False,False,,True,human_loss,,population,0.7,True
+0f27cd45-dea3-4647-bbf1-ff9f8ef9b2d3,Cyprus - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+0f2f0bbd-6dc1-4d40-b5f6-b6837b854bf2,Gambia Walking Travel Time to nearest Level IV health centre,Data for Children Collaborative,False,True,,False,,,infrastructure,0.6,True
+0f364cf4-70d7-4203-b2da-e9a4ddc2f395,Kazakhstan - Energy and Mining,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0f3848b1-02ca-4bd1-b755-7735f9088a79,Kenya - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),False,False,,True,human_loss,,population,0.7,True
+0f3ffbe2-46b7-435e-b015-f07ebcfa98ff,Faroe Islands - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),False,False,,True,human_loss,,population,0.7,True
+0f41c953-a350-4914-8102-ede33e58e927,Ghana - Gender,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0f423f66-0409-4ad6-965b-2fed88b71b3d,Haiti: Coronavirus (COVID-19) Subnational Cases,HDX,False,False,,True,human_loss,,population,0.7,True
+0f45cb7e-e702-462e-94ba-c746f79cefc5,Singapore - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+0f46189b-3ef8-47da-9146-95ad06d82603,Andorra - Health,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0f48de74-925a-455f-91aa-240bdbe2956a,Ecuador - Social Protection and Labor,World Bank Group,False,True,,False,,,population,0.6,True
+0f4b7549-90b4-4562-bc0e-25ca335b8382,Lebanon - Vulnerability Assessment of Refugees of Other Nationalities - 2019,UNHCR - The UN Refugee Agency,False,True,,False,,,population,0.6,True
+0f4bc544-8945-4a81-9bc2-d0610139ccd8,"EM-DAT - Country Profiles, Jamaica",Centre for Research on the Epidemiology of Disasters,False,False,,True,human_loss,,population,0.7,True
+0f51f88e-8b75-42c1-9a1b-ea802d4d2d8e,Deaths aged 10 to 19,UNICEF Data and Analytics (HQ),False,False,,True,human_loss,,population,0.7,True
+0f520665-398e-462c-8c9a-bdbf1e0cb1fa,Jordan - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+0f562936-c5ad-41e6-a383-99869620190e,Kazakhstan: Coronavirus (COVID-19) Subnational Cases,Safeture,False,False,,True,human_loss,,population,0.7,True
+0f570091-8815-4cbc-a845-91980b58ae48,Uganda - Subnational Demographic and Health Data,The DHS Program,False,False,,True,human_loss,,population,0.7,True
+0f5a7c17-2a3b-400d-adb9-db72c6e9f5c5,"Greece: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+0f65fc77-2c2a-45b3-8e45-0c1461c24675,Norway - Gender,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0f67b367-103f-43fd-b064-565bfdb5b687,Syrian Arab Republic - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+0f6928ed-5e10-4c9d-a3cc-c8fbda78ece6,Saudi Arabia - Poverty,World Bank Group,False,True,,False,,,population,0.6,True
+0f81379b-5cbc-4d65-ba95-c0531a27ee39,Disability data Cabo Delgado Metuge Chiure,Light for the World,False,False,,True,human_loss,,buildings,0.7,True
+0f8a7e2d-c996-491b-9fe6-b607656c7570,"Chad - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0f8bcd0c-8bb8-4558-a134-575a19df5e5c,Uganda - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+0f95f5d6-eeda-4754-982f-45ddebae2dd7,Albania - Education,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+0f97b692-b257-4e43-a157-45af587d9b20,Grenada - Gender,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0f9a8af8-2f04-40f2-92ea-0a128f7c1a6e,"Luxembourg: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+0f9a925a-d25d-44f3-ab6a-2e5543fa70c0,"Flooding in the Philippines on February 13, 2025",The Philippine Space Agency,False,False,,True,physical_damage,flood,infrastructure,0.85,True
+0fa0d970-3be3-4722-b6e4-9146a5df3795,Haiti -  Event Tracking Tool,International Organization for Migration (IOM),False,False,,True,human_loss,,population,0.7,True
+0fa758d9-ad52-49b9-8e9e-ff706473c67f,Colombia - Social Protection and Labor,World Bank Group,False,True,,False,,,population,0.6,True
+0fae044e-93f5-4920-b3ab-80ef30ed1f77,Kazakhstan - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+0fb15c3c-f639-48b2-8088-b1c014a029ab,Togo - Internal Displacements Updates (IDU) (event data),Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,buildings,0.7,True
+0fc269e7-88ca-4eaa-a004-d50377c154cd,"Geodata of Damage Assessment of Salinas and La Libertad Areas, Santa Elena Province, Ecuador",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,population,0.85,True
+0fc39d34-be16-4c2c-87be-2e43b4ab79fa,Saint Vincent and the Grenadines - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+0fccd714-7418-4ce5-9632-bbe125681738,Disaster loss and damage data for Cambodia,United Nations Office for Disaster Risk Reduction (UNDRR),False,False,,True,physical_damage,,,0.7,True
+0fd186e9-5e47-4c74-8510-4518506db51e,LA Fires - Eaton fire January 2025: Building Damage Assessment,Microsoft AI for Good Lab,False,False,,True,physical_damage,,buildings,0.7,True
+0fd68c19-f856-4a4d-b9c6-0a9bdda4ed3a,New Caledonia - Public Sector,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+0fd8e334-3daf-4994-9b0e-0625b55933a1,Iraq - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+0febfaed-7f79-48d2-956c-81bdaa9c3dcf,Iran - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),False,False,,True,human_loss,,population,0.7,True
+0ff69260-eb52-4948-a0d2-da6d28535d97,Lesotho - Climate Change,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+0ff944b9-fda8-4fab-9e28-0b529010f0a2,"Egypt, Arab Rep. - Financial Sector",World Bank Group,False,True,,False,,,population,0.6,True
+0ffc2ffb-ad95-463f-9352-c9ed9bf8d619,Eswatini - Infrastructure,World Bank Group,False,True,,False,,,buildings,0.6,True
+101de18b-ea48-4737-ba89-7e6def3c8a6d,"Iraq - Movement Intention Survey in Erbil Camps, 2021",UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+1026870b-6ae5-4d22-8da5-2749da0caa04,Nauru - Internally displaced persons - IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+103377b7-a0d0-40b9-be6e-0e91493e48db,Armenia - National Demographic and Health Data,The DHS Program,False,False,,True,human_loss,,population,0.7,True
+1049399b-bc41-44e9-b195-d6fae25c35ce,Peru - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+104ad4dd-1639-4195-988d-bc9e57bf663f,United States - Urban Development,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+105386e0-6ed9-41bc-aa1c-ff91d798602b,HDX HAPI Data for Cambodia,HDX Humanitarian API Data,False,True,,False,,,infrastructure,0.6,True
+10545a33-63bd-4ef6-8d20-631b2b4d9da8,China - Energy and Mining,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+10572806-c65f-45f9-96aa-1405ed7cfe91,"Damage Assessment in Spera district, Khost province as of 23 June 2022",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,infrastructure,0.85,True
+1061373e-6402-4efe-9238-c46cfbb1a54d,Global Hunger Index,Institute for International Law of Peace and Armed Conflict,False,False,,True,human_loss,,population,0.7,True
+106386cd-aad0-4cb5-ae85-ce8504a20524,Israel - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+1071805c-7c13-4504-a944-cfeea6b7dc8b,Pakistan - Subnational Demographic and Health Data,The DHS Program,False,False,,True,human_loss,,population,0.7,True
+107e0f5a-af95-4133-a4b1-a21ebcdb3b38,Kazakhstan: Road Surface Data,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,buildings,0.6,True
+10948026-8656-4cd8-b453-a5ab36c0fb47,Central African Republic - Climate Change,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+10a80590-c28b-4ddc-b389-c0374c3b1299,Belarus - Aid Effectiveness,World Bank Group,False,True,,True,human_loss,,buildings,0.7,True
+10b250b7-e395-4800-9058-73d2b82e782a,China - Poverty,World Bank Group,False,True,,False,,,population,0.6,True
+10b6ee9a-7708-4b72-9b7e-9148acf4f1d4,Maldives - Internal Displacements (New Displacements) – IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+10d9261e-8d4a-4842-83ff-ca8d7efa0073,British Virgin Islands - Gender,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+10ff0f86-ae53-4863-8a68-a0113e14e949,Lesotho: subnational poverty trends,Oxford Poverty & Human Development Initiative,False,True,,True,human_loss,,infrastructure,0.7,True
+1113a94e-58d7-4555-a3a4-9a9ba15e06de,Switzerland - Environment,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+11145ea4-c42d-454e-8133-bffd00556dfc,Kazakhstan - Financial Sector,World Bank Group,False,True,,False,,,population,0.6,True
+11241657-321a-4b95-81da-8eb6e989c673,Panama - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+11258f2c-6ee4-41b8-bf8f-ac1ff1fe21ac,Ecuador Earthquake damage - April 2016,British Red Cross Maps Team,False,False,,True,physical_damage,earthquake,,0.85,True
+113290b6-84a0-4fac-976d-471e55062511,"Chad - Water, Sanitation and Hygiene (WASH) KAP NDJAMENA DEC 2022",UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,population,0.7,True
+1139b5b4-616c-4277-bb2e-6c72cd19afc9,"Bahamas, The - Public Sector",World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+115ace5e-3095-4d84-b31d-340c683c12e2,Grenada - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+116b23f1-73fa-4ec1-8a34-f6fe2f85d342,"Geodata of Update: IDP Camp Expansion in UNMISS Base, Juba Airport, South Sudan",United Nations Satellite Centre (UNOSAT),False,False,,True,human_loss,flood,infrastructure,0.85,True
+116d5fd2-4778-4f8a-8973-5ee332909de6,Burundi - Infrastructure,World Bank Group,False,True,,False,,,buildings,0.6,True
+116e091a-1ece-4136-afa5-f03c58cb4f8c,Argentina - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+11736065-21f7-41db-a8e5-287c5510f4df,Maldives - Aid Effectiveness,World Bank Group,False,True,,True,human_loss,,buildings,0.7,True
+117975ad-0063-49f3-ac29-5c8983c64036,Georgia - Financial Sector,World Bank Group,False,True,,False,,,population,0.6,True
+117c538d-090e-4273-a81f-411ae6606e87,Haiti: JIAF Humanitarian Needs People in Need and Severity,OCHA Haiti,False,False,,True,human_loss,,population,0.7,True
+117d1aa6-fe38-439a-84f0-486b1c3dfe7b,Afghanistan - Climate Change,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+1181592c-d94f-4a9b-98d2-95d273d7193e,Cote d'Ivoire - Social Protection and Labor,World Bank Group,False,True,,False,,,population,0.6,True
+1182664f-e954-499e-93e7-2cc0ce6f8446,"Rapidly assessed damage occurring between 23 February 2018 and 2 March 2018 in Douma, Eastern Ghouta Area, Syria",United Nations Satellite Centre (UNOSAT),False,False,,True,physical_damage,flood,population,0.85,True
+118c0bc6-da0d-4968-8499-b102d64d9a29,Rapid Needs Assessment for Idleb Governorate and Surrounding Communities May 24-31,REACH Initiative,False,False,,True,human_loss,,infrastructure,0.7,True
+11963616-18d6-475d-b2a6-bf284a757f05,Bhutan - Infrastructure,World Bank Group,False,True,,False,,,buildings,0.6,True
+11cad01d-8a04-4668-9b5b-aa28f3dfc194,Palau - Health,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+11cecc72-21b1-450d-b547-6aae0ab5b3b6,Mozambique Motorised Travel Time (in seconds) to nearest health centre,Data for Children Collaborative,False,True,,False,,,infrastructure,0.6,True
+11d09013-0d5d-4c05-bd61-4956535aa0e1,Panama - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),False,False,,True,human_loss,,population,0.7,True
+11d44504-403c-4a53-8ab4-b9211c002222,Colombia - Food Insecurity,3iS,False,False,,True,human_loss,,population,0.7,True
+11d4a6e0-b48e-42c7-8e31-ceed95e18e41,Mauritania - Environment,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+11d4a7a8-6bd2-4c76-bbcb-bb3ef230bd42,South Sudan Covid-19 Mobility and preparedness Updates - [IOM DTM],International Organization for Migration (IOM),False,False,,True,human_loss,,population,0.7,True
+11ddee79-ecca-4986-817d-1859c68e56bd,"Indonesia Measles Outbreaks, 2015-2017",International Federation of Red Cross and Red Crescent Societies (IFRC),False,False,,True,human_loss,,buildings,0.7,True
+11e67eaa-4127-4d70-bf51-bf5a815496e5,Bangladesh - Social Protection and Labor,World Bank Group,False,True,,False,,,population,0.6,True
+11ef69e6-ef63-4a3f-901f-23541feb59a3,Chad - Environment,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+11f40be7-99e5-4cfa-baeb-f88df3773243,Mongolia - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+11ff9ef0-19ae-48e6-811c-e064cf353878,"Micronesia, Fed. Sts. - Energy and Mining",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+120476c8-e9df-4623-9d71-c34d8deb246c,Russian Federation - Aid Effectiveness,World Bank Group,False,True,,True,human_loss,,buildings,0.7,True
+120844ad-4a81-4eae-8176-4eb2cd47946a,Argentina: Earthquake - 6.2M - Aug 2023,WFP Advanced Disaster Analysis & Mapping,False,False,,True,human_loss,earthquake,population,0.85,True
+120abb29-7618-4bbf-8202-b5ecf018734e,Viet Nam - Public Sector,World Bank Group,False,False,,True,human_loss,,buildings,0.7,True
+120c27df-4f0d-417a-9f92-859e9f2387ad,Jamaica - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+120cd3de-8624-4037-8237-024352e5e948,"Martinique: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+1214b25f-6d10-4112-b000-39dedc515d6d,2015 Tropical Cyclone Chapala Path,IGAD Climate Prediction and Applications Center (ICPAC),False,False,,True,human_loss|physical_damage,convective_storm,infrastructure,0.85,True
+1234bf2f-9c57-4200-9277-94c0ba919d3d,Canada - Gender,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+123f8dee-5835-4a5c-99a9-7ee48b05d154,Sweden: Road Surface Data,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,buildings,0.6,True
+1249321f-b699-4f02-9380-cb3c7bf28d57,Italy - Poverty,World Bank Group,False,True,,False,,,population,0.6,True
+1249b7c5-f71d-4d97-a680-1c6b2d121032,Kazakhstan - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+1257aa25-87d5-4879-80bf-d8d7040e2b53,Uruguay - Energy and Mining,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+126606a0-afcc-4c49-b141-91bf74f2403c,"Tuvalu: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+126fdb1d-9b43-4c53-a653-0e6f4f84f8ee,Namibia - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+12761ee4-89e6-4f58-af00-472730f90815,Nicaragua - Climate Change,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+12837fa2-01c5-4a1e-b319-2956f3956813,Liberia - Rumors Tracking - Ebola 2015,Internews (inactive),False,False,,True,human_loss,,population,0.7,True
+1285be7c-0c52-46fe-ac9f-5bbf61cb4627,Chile - Social Protection and Labor,World Bank Group,False,True,,False,,,population,0.6,True
+12924ff9-a091-4d1c-9295-507e1ef0b905,Croatia - Health,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+1297f3d9-1c5d-4795-bb94-95f42bc83cae,Equatorial Guinea - Environment,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+1299b1bc-9a71-41f2-8b93-b90c2604c59a,Slovenia - Energy and Mining,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+12a06260-8124-499a-9a72-278ef4ed1fb5,Dominican Republic - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+12a13dab-4e78-4fbb-99c7-fbfa01b0bbfb,Luxembourg - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),False,False,,True,human_loss,,population,0.7,True
+12ac7b0d-9dd1-450e-bf1d-f9b710f151d3,Peru - Urban Development,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+12afa097-3f13-4b06-ae15-4a0c1d31cb90,"Zambia: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+12b23d04-a37c-4dc1-a5a7-b3974b3c74ba,"Somalia, Fed. Rep. - Poverty",World Bank Group,False,True,,False,,,population,0.6,True
+12b693f1-b936-403b-adf4-5bd81a1b29dc,"South Africa: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+12b6b800-0737-454a-b667-692e3c74c4d7,Tokelau - Internally displaced persons - IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+12e18fc8-64ab-48fd-ae3b-ca2ef8c14c93,Finland - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+12e3f891-81b4-4b57-92ea-8c56cb8d1749,Peru - DTM Round2 Flow Monitoring of Venezuelan Migration,International Organization for Migration (IOM),False,False,,True,human_loss,,population,0.7,True
+12e49b69-1a13-4894-a559-18cf22408db3,Seychelles - Education Indicators,UNESCO,False,True,,True,human_loss,,infrastructure,0.7,True
+12fc4c82-736c-43d5-9f5d-424865297b5d,Liechtenstein - Internally displaced persons - IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+1310ac7c-8911-4891-80d7-3741f04f1318,"EM-DAT - Country Profiles, Bangladesh",Centre for Research on the Epidemiology of Disasters,False,False,,True,human_loss,,population,0.7,True
+1321b919-4614-48f1-ad78-2014c09f5e4c,Micronesia (Federated States of) - Internal Displacements (New Displacements) – IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+13297d8c-bf28-4923-bfe2-20c0601b7d47,Bahamas IOM Displacement Tracking Matrix (DTM) from API,International Organization for Migration (IOM),False,False,,True,human_loss,,population,0.7,True
+132c1d01-a0d2-4a1c-9dcd-9d548b584b23,"Maldives: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,infrastructure,0.6,True
+132c64c2-53e6-4e45-8364-35bf4e22987f,Sudan Displacement Data - Registration [IOM DTM],International Organization for Migration (IOM),False,False,,True,human_loss,,population,0.7,True
+132d1bfa-379c-4b9a-aed9-42eb5051ad85,Montserrat - Internally displaced persons - IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+1334bed8-5fe3-4adc-9da4-6e1c746aca0f,Zimbabwe Displacement Data - Tsholotsho District - Baseline Assessment [IOM DTM],International Organization for Migration (IOM),False,False,,True,human_loss,flood,population,0.85,True
+13361a02-8bdb-48c6-9b29-3e1249e852d3,Niger: Road Surface Data,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,buildings,0.6,True
+133674e8-cded-4bd8-b1cf-5e98af06bece,Nigeria - IOM DTM R3-R7 datasets - Baseline and Site assessment data,International Organization for Migration (IOM),False,False,,True,human_loss,,population,0.7,True
+13394629-e17f-43fe-881b-c3943cd39671,Italy - Energy and Mining,World Bank Group,False,True,,False,,,infrastructure,0.6,True
+133f9de0-f2d0-4505-b213-42b30e025947,"Egypt, Arab Rep. - Health",World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+1349e646-4dba-44b5-9854-6dc3874ce03f,Peace and Security Pillar: Peacekeeping Mandates (PEMA) Dataset,United Nations Peace and Security Data Hub,False,False,,True,human_loss,,population,0.7,True
+134f28df-b56b-4860-856a-b39450dd90d2,New Caledonia - Health Indicators,World Health Organization,False,True,,True,human_loss,,buildings,0.7,True
+134fbae0-b85e-489e-a7ec-70907e85028b,Samoa - Public Sector,World Bank Group,False,False,,True,human_loss,,buildings,0.7,True
+1350d755-a58c-494c-8aa5-62657dcc2975,Syrian Arab Republic - Internal Displacements (New Displacements) – IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+13513303-05a6-4a44-a09f-057247f3c55d,Malta - Poverty,World Bank Group,False,True,,False,,,population,0.6,True
+1351c49c-d7bb-40fd-b35b-c2efe28badb0,Afghanistan - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+1354e6db-38dd-45b7-851d-42c3b520aba9,"Niger - WASH KAP Survey Diffa Region, Kablewa - December 2016",UNHCR - The UN Refugee Agency,False,False,,True,human_loss,,infrastructure,0.7,True
+135911ca-5c4b-4ec2-ad9b-2f70464c4c73,Malaysia - Infrastructure,World Bank Group,False,True,,False,,,buildings,0.6,True
+135ad29b-51d3-4307-9905-06f879eeb263,Guinea - Climate Change,World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+136017ac-5ebe-4cc3-9ffa-5f984ee01a87,"Mexico - Socioeconomic Impact of COVID-19, 2021",UNHCR - The UN Refugee Agency,False,True,,False,,,population,0.6,True
+1363bcf4-d71b-4a60-a0cb-eda58914df86,Curacao - Health,World Bank Group,False,False,,True,human_loss,,population,0.7,True
+136c3c85-6479-48ea-a5f3-fd20a8018e58,Moldova - Financial Sector,World Bank Group,False,True,,False,,,population,0.6,True
+13730c27-475f-410d-8fb5-9c02659579d2,Honduras - Trade,World Bank Group,False,True,,False,,,agriculture,0.6,True
+138d9c08-6f1e-4bd5-9c8a-8e98e4f0f148,"Dominican Republic - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,True,,False,,,infrastructure,0.6,True
+139bb323-196a-4f40-8e30-b4b78910f161,"Venezuela, RB - Climate Change",World Bank Group,False,True,,True,human_loss,,infrastructure,0.7,True
+13a45e6d-d369-4828-9d18-94c0380939ff,Democratic Republic of the Congo - Internal Displacements (New Displacements) – IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+13a48312-79d1-433e-895f-a210a60cc9c5,Norfolk Island - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),False,False,,True,human_loss,,population,0.7,True
+13bc8d2d-f383-4158-9a0f-00349c7342f5,Maldives - Gender,World Bank Group,False,False,,True,human_loss,,infrastructure,0.7,True
+13d91947-4498-468f-9752-7c80fc2d9bd5,Nigeria - Health Indicators,World Health Organization,True,True,vulnerability_curve,True,human_loss,,buildings,0.8,True
+13d93648-6137-4ac8-9883-1db1ec50c1be,Barbados - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,True,,False,,,population,0.6,True
+13d9d1fd-38e9-4158-9519-976084bb5e57,Bermuda: Road Surface Data,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,True,,False,,,buildings,0.6,True
+13de7c15-14b3-41a1-ad9a-0007c0e667ee,Hungary - Internal Displacements (New Displacements) – IDPs,Internal Displacement Monitoring Centre (IDMC),False,False,,True,human_loss,,population,0.7,True
+13e53c9e-571a-4959-9542-2ad3c527dd41,New Caledonia - Infrastructure,World Bank Group,False,True,,False,,,buildings,0.6,True

@@ -1,0 +1,37 @@
+exposure:
+  - \bairport(s)?\b
+  - \broad(s)?\b
+  - \bbridge(s)?\b
+  - \bport(s)?\b
+  - \bhospital(s)?\b
+  - \bschool(s)?\b
+  - \bfacilit(y|ies)\b
+  - \binfrastructure\b
+  - \bbuildings?\b
+  - \bsettlement(s)?\b
+hazard:
+  - \bflood(s|ing)?\b
+  - \bdrought\b
+  - \bcyclone(s)?\b
+  - \bhurricane(s)?\b
+  - \btyphoon(s)?\b
+  - \bearthquake(s)?\b
+  - \btsunami\b
+  - \breturn period\b
+  - \bhazard\b
+loss_impact:
+  - \bdamage\b
+  - \bloss(es)?\b
+  - \bcost(s)?\b
+  - \bfatalit(y|ies)\b
+  - \bcasualt(y|ies)\b
+  - \baffected\b
+vulnerability_proxy:
+  - \bpoverty\b
+  - \bdisabilit(y|ies)\b
+  - \bmalnutrition\b
+  - \bfood security\b
+  - \bhealth indicator(s)?\b
+  - \bdemographic(s)?\b
+  - \bvulnerability\b
+  - \bhousehold(s)?\b

@@ -1,0 +1,45 @@
+exposure:
+  aviation: 3
+  education facilities-schools: 4
+  energy: 3
+  facilities-infrastructure: 5
+  gazetteer: 2
+  geodata: 2
+  health facilities: 4
+  points of interest-poi: 3
+  populated places-settlements: 4
+  population: 4
+  ports: 3
+  railways: 3
+  roads: 4
+hazard:
+  climate hazards: 4
+  cyclones-hurricanes-typhoons: 5
+  drought: 5
+  earthquake-tsunami: 5
+  flooding: 5
+  forecasting: 2
+  hazards and risk: 3
+  hydrology: 3
+  natural disasters: 3
+  topography: 2
+loss_impact:
+  affected area: 4
+  affected population: 4
+  casualties: 5
+  damage assessment: 5
+  fatalities: 5
+  mortality: 4
+  people in need-pin: 3
+  severity: 3
+vulnerability_proxy:
+  demographics: 4
+  disability: 3
+  education: 2
+  food security: 3
+  gender: 3
+  health: 2
+  livelihoods: 2
+  nutrition: 2
+  poverty: 4
+  socioeconomics: 4

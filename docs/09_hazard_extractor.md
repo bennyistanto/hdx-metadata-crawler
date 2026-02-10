@@ -6,10 +6,10 @@
 
 ## Summary
 
-Extracts detailed hazard information from HDX datasets to populate RDLS hazard metadata blocks.
+Extracts detailed hazard information from HDX datasets and produces schema-compliant RDLS v0.3 hazard blocks with properly nested `event_sets`, validated hazard→process type mappings, and inferred intensity measures.
 
 **For Decision Makers:**
-> This notebook identifies specific hazard types (flood, earthquake, cyclone, etc.) and extracts detailed attributes like intensity measures, return periods, and geographic scope.
+> This notebook identifies specific hazard types (flood, earthquake, cyclone, etc.) in each HDX dataset and constructs RDLS-compliant hazard metadata blocks. Each hazard type gets its own event set with validated process types, intensity measures, and return periods.
 
 ---
 
@@ -17,9 +17,10 @@ Extracts detailed hazard information from HDX datasets to populate RDLS hazard m
 
 | Input | Path | Description |
 |-------|------|-------------|
-| Dataset JSONs | `dataset_metadata/*.json` | Raw HDX metadata |
-| Signal dictionary | `config/signal_dictionary.yaml` | From Step 08 |
+| Dataset JSONs | `dataset_metadata/*.json` | Raw HDX metadata (26,246 files) |
+| Signal dictionary | `config/signal_dictionary.yaml` | Hazard/process type patterns from Step 08 |
 | Classification | `derived/classification_final.csv` | From Step 05 |
+| RDLS Schema | `rdls/schema/rdls_schema_v0.3.json` | Codelist enums for validation |
 
 ---
 
@@ -27,160 +28,167 @@ Extracts detailed hazard information from HDX datasets to populate RDLS hazard m
 
 | Output | Path | Description |
 |--------|------|-------------|
-| Hazard extracts | `analysis/hazard_extracts.csv` | Per-dataset hazard info |
-| Hazard summary | `analysis/hazard_summary.json` | Aggregate statistics |
+| Extraction CSV | `rdls/extracted/hazard_extraction_results.csv` | All 26,246 records with hazard flags |
+| High-confidence CSV | `rdls/extracted/hazard_extraction_high_confidence.csv` | Records with confidence ≥ 0.8 |
+| Hazard JSON blocks | `rdls/extracted/rdls_hzd-hdx_*.json` | ~3,200 individual RDLS records with hazard blocks |
 
 ---
 
-## RDLS Hazard Types
+## RDLS Hazard Schema
 
-The extractor identifies these RDLS-defined hazard types:
+The RDLS v0.3 hazard block uses a nested structure:
 
-| Category | Hazard Types |
-|----------|--------------|
-| **Hydrological** | flood, coastal_flood, flash_flood |
-| **Meteorological** | cyclone, storm, extreme_temperature |
-| **Climatological** | drought, wildfire, extreme_precipitation |
-| **Geophysical** | earthquake, tsunami, volcanic, landslide |
-| **Biological** | epidemic, infestation |
-| **Technological** | industrial, transport, infrastructure |
+```
+hazard
+└── event_sets[]                    (one per hazard type)
+    ├── id, analysis_type
+    ├── hazards[]                   (hazard + process type + intensity)
+    │   ├── type                    (11 closed codelist values)
+    │   ├── hazard_process          (30 closed codelist values)
+    │   └── intensity_measure
+    └── events[]                    (one per return period, or single fallback)
+        ├── calculation_method
+        ├── return_period (optional)
+        └── occurrence
+            └── empirical{} | probabilistic{} | deterministic{}
+```
 
----
+### One Event Set Per Hazard Type
 
-## Hazard Attributes Extracted
-
-| Attribute | Description | Example |
-|-----------|-------------|---------|
-| `hazard_type` | RDLS hazard enum | "flood" |
-| `intensity_measure` | How hazard is measured | "depth_m", "magnitude" |
-| `return_period` | Frequency estimate | "100-year" |
-| `scenario` | Modeling scenario | "historical", "RCP8.5" |
-| `temporal_coverage` | Time range | "1990-2020" |
+Multi-hazard datasets (e.g., "flood + earthquake") produce **separate event sets** — one per hazard type. This ensures each event set has internally consistent hazard/process/intensity values.
 
 ---
 
-## Key Functions
+## Hazard → Process Type Constraint
+
+The extractor enforces the RDLS schema constraint that each hazard type only allows specific process types. This mapping is loaded directly from the schema:
+
+| Hazard Type | Allowed Process Types |
+|-------------|----------------------|
+| **coastal_flood** | coastal_flood, storm_surge |
+| **convective_storm** | tornado, hail, lightning, rain, snow |
+| **drought** | agricultural_drought, hydrological_drought, meteorological_drought, socioeconomic_drought |
+| **earthquake** | ground_motion, liquefaction, surface_rupture |
+| **extreme_temperature** | extreme_cold, extreme_heat, heat_wave, cold_wave |
+| **flood** | fluvial_flood, pluvial_flood, groundwater_flood, flash_flood |
+| **landslide** | landslide, mudflow, rockfall, snow_avalanche |
+| **strong_wind** | extratropical_cyclone, tropical_cyclone, wind |
+| **tsunami** | local_tsunami, distant_tsunami |
+| **volcanic** | ashfall, lahar, lava_flow, pyroclastic_flow |
+| **wildfire** | wildfire, brush_fire, forest_fire |
+
+If a detected process type is invalid for its hazard type, the extractor falls back to a safe default (typically the first allowed process type).
+
+---
+
+## Key Data Structures
+
+| Structure | Purpose |
+|-----------|---------|
+| `HAZARD_PROCESS_MAPPINGS` | Schema-derived hazard → valid process types (11 × 30) |
+| `HAZARD_PROCESS_DEFAULT` | Fallback process type per hazard (11 entries) |
+| `INTENSITY_MEASURE_MAPPINGS` | Default intensity measure per hazard/process type |
+| `COMPOUND_HDX_TAGS` | Multi-term HDX tags requiring corroboration (e.g., `earthquake-tsunami`) |
+| `RP_PATTERNS` | 6 regex patterns for return period extraction |
+| `IM_TEXT_PATTERNS` | 10 regex patterns for intensity measure detection |
+
+---
+
+## Key Classes and Functions
 
 ### `HazardExtractor`
-Main extraction class.
+
+Main extraction class with pattern matching against the signal dictionary.
 
 ```python
-extractor = HazardExtractor(signal_dictionary)
-hazard_info = extractor.extract(dataset_json)
-# hazard_info.hazard_type: str
-# hazard_info.intensity_measure: Optional[str]
-# hazard_info.return_period: Optional[str]
-# hazard_info.confidence: float
+extractor = HazardExtractor(signal_dict, schema_enums)
+result = extractor.extract(hdx_record)
+# result.hazard_types: List[str]
+# result.process_types: Dict[str, str]
+# result.return_periods: List[str]
+# result.intensity_measures: Dict[str, str]
+# result.overall_confidence: float
 ```
 
-### `infer_hazard_type()`
-Maps text signals to RDLS hazard enum.
+Key methods:
+- `_extract_text_fields()` — Parse HDX metadata with compound tag handling
+- `_match_patterns()` — Match against signal dictionary patterns
+- `_extract_return_periods()` — RP extraction with year-filtering (excludes 2000–2099)
+- `_extract_intensity_measures()` — Text-based IM detection with per-hazard defaults
+- `_infer_calculation_method()` — Classify as `simulated`, `observed`, or `inferred`
 
-```python
-hazard_type = infer_hazard_type(
-    tags=["flood", "risk"],
-    title="Kenya Flood Hazard Map",
-    description="100-year return period flood depths"
-)
-# Returns: "flood"
-```
+### `build_hazard_block()`
 
-### `extract_intensity_measure()`
-Identifies measurement units from text.
-
-```python
-measure = extract_intensity_measure("Flood depth in meters")
-# Returns: "depth_m"
-```
+Converts extraction results into RDLS v0.3 JSON structure:
+- Creates one `event_set` per hazard type
+- Validates every hazard→process pair against `HAZARD_PROCESS_MAPPINGS`
+- Builds `events[]` from return periods or creates a single fallback event
+- Populates `occurrence` wrapper (`empirical{}`, `probabilistic{}`, or `deterministic{}`)
 
 ---
 
-## Hazard Type Inference Rules
+## Compound Tag Handling
 
-| Signal Pattern | Inferred Type |
-|----------------|---------------|
-| flood, inundation, river overflow | flood |
-| coastal flood, storm surge, sea level | coastal_flood |
-| earthquake, seismic, tremor, magnitude | earthquake |
-| cyclone, hurricane, typhoon, tropical storm | cyclone |
-| drought, dry spell, water scarcity | drought |
-| wildfire, bushfire, forest fire | wildfire |
-| landslide, mudslide, debris flow | landslide |
-| tsunami, tidal wave | tsunami |
+HDX uses compound tags like `earthquake-tsunami` and `cyclones-hurricanes-typhoons`. The extractor:
+
+1. Splits compound tags into individual hazard signals
+2. Requires **corroboration** from other text fields (title, notes) before accepting the split
+3. Without corroboration, only the primary hazard is used
+
+Example: `earthquake-tsunami` tag → checks if "tsunami" appears elsewhere → if yes, emits both `earthquake` and `tsunami` event sets.
 
 ---
 
-## Intensity Measures
+## Return Period Extraction
 
-| Hazard Type | Common Measures |
-|-------------|-----------------|
-| flood | depth_m, velocity_m_s, duration_hr |
-| earthquake | magnitude, pga_g, intensity_mmi |
-| cyclone | wind_speed_kmh, pressure_hpa |
-| drought | spi, pdsi, rainfall_deficit_mm |
-| wildfire | intensity_kw_m, spread_rate |
+Six regex patterns detect return periods:
+
+```
+"100-year flood"       → RP = 100
+"100yr return"         → RP = 100
+"return period: 100"   → RP = 100
+"T100 flood"           → RP = 100
+"1-in-100 year"        → RP = 100
+"AEP 0.01"             → RP = 100
+```
+
+Year values (2000–2099) are filtered out to avoid false positives from date strings.
 
 ---
 
-## Statistics (Typical Run)
+## Extraction CSV Columns
 
-```
-=== HAZARD EXTRACTION SUMMARY ===
-
-Datasets with hazard signals: 3,624
-
-Hazard type distribution:
-  - flood: 1,631 (45.0%)
-  - earthquake: 653 (18.0%)
-  - cyclone: 435 (12.0%)
-  - drought: 362 (10.0%)
-  - landslide: 217 (6.0%)
-  - wildfire: 145 (4.0%)
-  - other: 181 (5.0%)
-
-Attributes extracted:
-  - With intensity measure: 892 (24.6%)
-  - With return period: 543 (15.0%)
-  - With scenario: 328 (9.0%)
-```
+| Column | Description |
+|--------|-------------|
+| `id` | HDX dataset UUID |
+| `title` | Dataset title |
+| `has_hazard` | Boolean: hazard signals detected |
+| `hazard_types` | Comma-separated hazard types |
+| `process_types` | Comma-separated process types |
+| `analysis_type` | empirical / probabilistic / deterministic |
+| `return_periods` | Comma-separated RP values |
+| `intensity_measures` | Comma-separated IM values |
+| `calculation_method` | observed / simulated / inferred |
+| `overall_confidence` | Float 0.0–1.0 |
 
 ---
 
 ## How It Works
 
 ```
-1. Load datasets classified as hazard
+1. Load all 26,246 dataset metadata files
 2. For each dataset:
-   a. Scan for hazard type signals
-   b. Extract intensity measure if mentioned
-   c. Look for return period patterns
-   d. Identify scenario/modeling info
-   e. Compute extraction confidence
-3. Aggregate by hazard type
-4. Export extracts and summary
-```
-
----
-
-## Pattern Examples
-
-### Return Period Detection
-```python
-patterns = [
-    r"(\d+)[-\s]?year",           # "100-year flood"
-    r"(\d+)[-\s]?yr",             # "100yr return"
-    r"return period[:\s]+(\d+)",  # "return period: 100"
-    r"T(\d+)",                    # "T100 flood"
-]
-```
-
-### Intensity Detection
-```python
-patterns = [
-    r"depth[:\s]+(\d+\.?\d*)\s*m",     # "depth: 2.5 m"
-    r"magnitude[:\s]+(\d+\.?\d*)",      # "magnitude: 6.5"
-    r"wind[:\s]+(\d+)\s*km",            # "wind: 150 km/h"
-]
+   a. Extract text fields (title, tags, notes, resources)
+   b. Handle compound HDX tags with corroboration check
+   c. Match hazard type patterns from signal dictionary
+   d. For each detected hazard type:
+      - Validate process type against schema mappings
+      - Extract or assign default intensity measure
+      - Extract return periods if present
+      - Infer calculation method (observed/simulated/inferred)
+   e. Compute overall extraction confidence
+3. Build RDLS hazard blocks (one event_set per hazard type)
+4. Export extraction CSVs and individual JSON files
 ```
 
 ---
@@ -190,17 +198,17 @@ patterns = [
 ### Missing hazard type
 - Check signal dictionary for term coverage
 - Review dataset tags and description
-- Consider manual classification via overrides
+- Some HDX tags use compound forms that need corroboration
 
-### Wrong hazard type
-- Review inference rules
-- Check for conflicting signals
-- Multi-hazard datasets may need disambiguation
+### Wrong process type
+- Process types are constrained by hazard type
+- Check `HAZARD_PROCESS_MAPPINGS` for allowed combinations
+- Invalid process types fall back to the default for that hazard
 
-### Low extraction rate
-- Many HDX datasets lack detailed hazard attributes
-- Focus on well-structured datasets (e.g., from UNDRR, WFP)
-- Extraction rate of 20-30% for detailed attributes is normal
+### No return periods detected
+- Most HDX datasets lack explicit RP information
+- Detection rate of ~1% is normal for RP extraction
+- Datasets without RP get a single fallback event
 
 ---
 

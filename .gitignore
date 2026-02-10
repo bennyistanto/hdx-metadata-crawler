@@ -1,16 +1,45 @@
-# Byte-compiled / optimized / DLL files
+# =============================================================================
+# HDX-RDLS Metadata Crawler — .gitignore
+# =============================================================================
+#
+# Strategy: Include notebooks, docs, configs, CSVs, summaries, and reports.
+#           Exclude bulk JSON output files (26k+ raw metadata, 13k+ records,
+#           35k+ HEVL blocks, 12k+ integrated, 12k+ dist).
+#
+
+# ----- Python -----
 __pycache__/
 *.py[codz]
 *$py.class
-
-# C extensions
 *.so
+*.egg-info/
+*.egg
+.installed.cfg
+MANIFEST
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.envrc
 
-# Distribution / packaging
-.Python
+# ----- Jupyter -----
+.ipynb_checkpoints/
+
+# ----- OS -----
+.DS_Store
+Thumbs.db
+
+# ----- IDE -----
+.vscode/
+.idea/
+.cursorignore
+.cursorindexingignore
+
+# ----- Build / packaging (Python) -----
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -21,22 +50,25 @@ sdist/
 var/
 wheels/
 share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
+.Python
 pip-log.txt
 pip-delete-this-directory.txt
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+.pdm-python
+.pdm-build/
+.pixi
+__pypackages__/
+.pybuilder/
+target/
+.pypirc
 
-# Unit test / coverage reports
+# ----- Test / coverage -----
 htmlcov/
 .tox/
 .nox/
@@ -51,178 +83,83 @@ coverage.xml
 .pytest_cache/
 cover/
 
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
+# ----- Other frameworks -----
+.scrapy
+.webassets-cache
+celerybeat-schedule
+celerybeat.pid
+*.sage.py
+instance/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
+*.log
+*.mo
+*.pot
 docs/_build/
-
-# PyBuilder
-.pybuilder/
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
+/site
 profile_default/
 ipython_config.py
-
-# pyenv
-#   For a library or package, you might want to ignore these files since the code is
-#   intended to run in multiple environments; otherwise, check them in:
-# .python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# UV
-#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#uv.lock
-
-# poetry
-#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
-#poetry.lock
-#poetry.toml
-
-# pdm
-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
-#   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python.
-#   https://pdm-project.org/en/latest/usage/project/#working-with-version-control
-#pdm.lock
-#pdm.toml
-.pdm-python
-.pdm-build/
-
-# pixi
-#   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
-#pixi.lock
-#   Pixi creates a virtual environment in the .pixi directory, just like venv module creates one
-#   in the .venv directory. It is recommended not to include this directory in version control.
-.pixi
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
-__pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.envrc
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
+.ropeproject
 .spyderproject
 .spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
-
-# pytype static type analyzer
-.pytype/
-
-# Cython debug symbols
-cython_debug/
-
-# PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
-
-# Abstra
-# Abstra is an AI-powered process automation framework.
-# Ignore directories containing user credentials, local state, and settings.
-# Learn more at https://abstra.io/docs
 .abstra/
-
-# Visual Studio Code
-#  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
-#  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
-#  and can be added to the global gitignore or merged into this file. However, if you prefer, 
-#  you could uncomment the following to ignore the entire vscode folder
-# .vscode/
-
-# Ruff stuff:
-.ruff_cache/
-
-# PyPI configuration file
-.pypirc
-
-# Cursor
-#  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
-#  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
-#  refer to https://docs.cursor.com/context/ignore-files
-.cursorignore
-.cursorindexingignore
-
-# Marimo
 marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# outputs / data
-outputs/
-hdx_dataset_metadata_dump/
-*.jsonl
-*.json
+# =============================================================================
+# PROJECT-SPECIFIC: Bulk JSON and large binary exclusions
+# =============================================================================
+
+# ----- Large archive files -----
+*.zip
 *.parquet
-*.csv
 
-# python
-__pycache__/
-*.pyc
-.venv/
-venv/
+# ----- Raw HDX metadata (26,246 JSON files) -----
+hdx_dataset_metadata_dump/dataset_metadata/
 
-# jupyter
-.ipynb_checkpoints/
+# ----- NB 06 base RDLS records (13,053 JSON files) -----
+hdx_dataset_metadata_dump/rdls/records/
 
-# OS
-.DS_Store
-Thumbs.db
+# ----- NB 09-11 extracted HEVL block JSON files (35,199 files) -----
+# Keep the CSVs (extraction results), exclude individual JSON blocks
+hdx_dataset_metadata_dump/rdls/extracted/*.json
+
+# ----- NB 12 integrated records (12,551 JSON files) -----
+# Keep index CSVs and JSONL, exclude individual JSON records
+hdx_dataset_metadata_dump/rdls/integrated/*.json
+
+# ----- NB 13 dist tier JSON files (9,784 + 2,767 = ~12,551 files) -----
+# Keep manifests, README, and reports; exclude individual JSON records
+hdx_dataset_metadata_dump/rdls/dist/high/*.json
+hdx_dataset_metadata_dump/rdls/dist/medium/*.json
+hdx_dataset_metadata_dump/rdls/dist/low/*.json
+hdx_dataset_metadata_dump/rdls/dist/invalid/
+
+# =============================================================================
+# INCLUDED (not ignored) — for reference:
+# =============================================================================
+# notebook/*.ipynb              — 13 pipeline notebooks
+# docs/*.md                     — documentation + STORY.md
+# README.md, progress_update.md — project docs
+# requirements.txt              — dependencies
+#
+# hdx_dataset_metadata_dump/
+#   config/*.yaml, *.csv        — signal dictionary, tag mappings, overrides
+#   derived/*.csv, *.json, *.txt — classification results + summaries
+#   policy/*.csv, *.txt         — OSM exclusion lists
+#   reference/*.md, *.csv       — mapping rules
+#   analysis/*.csv, *.json, *.py — signal analysis results
+#
+#   rdls/schema/*.json          — RDLS v0.3 JSON Schema (1 file)
+#   rdls/template/*.json        — RDLS record template (1 file)
+#   rdls/example/*.json         — 4 hand-crafted reference records
+#   rdls/index/*.jsonl          — record index
+#   rdls/extracted/*.csv        — 10 extraction result CSVs
+#   rdls/integrated/*.csv,*.jsonl — integration index + skipped list
+#   rdls/reports/*.csv, *.md    — QA reports
+#   rdls/dist/master_manifest.csv — complete inventory
+#   rdls/dist/README.md         — distribution summary
+#   rdls/dist/reports/*.csv,*.md — full QA report suite
+# =============================================================================
