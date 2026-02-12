@@ -472,9 +472,9 @@ The critical step is **risk_data_type reconciliation** — a two-stage process:
 
 This prevents downstream consumers from expecting a hazard block that does not exist.
 
-**Result**: **12,554 integrated records** from 13,053 candidates (96.2% integration rate). The ~500 that did not integrate lacked matching HEVL blocks or had vulnerability/loss-only classifications without the required hazard or exposure companion.
+**Result**: **12,577 integrated records** from 13,053 candidates (96.4% integration rate). The ~476 that did not integrate lacked matching HEVL blocks or had vulnerability/loss-only classifications without the required hazard or exposure companion.
 
-> **📁 Integrated records**: [`rdls/integrated/`](../hdx_dataset_metadata_dump/rdls/integrated/) — 12,554 JSON files
+> **📁 Integrated records**: [`rdls/integrated/`](../hdx_dataset_metadata_dump/rdls/integrated/) — 12,577 JSON files
 >
 > **📁 Integration index**: [`rdls/integrated/rdls_index.csv`](../hdx_dataset_metadata_dump/rdls/integrated/rdls_index.csv) and [`rdls_index.jsonl`](../hdx_dataset_metadata_dump/rdls/integrated/rdls_index.jsonl)
 >
@@ -762,10 +762,10 @@ NB 13 validates the integrated record against the RDLS v0.3 schema and assigns a
 | OSM policy excluded | 3,649 | 13.9% |
 | Classified as RDLS candidates | 13,053 | 49.7% |
 | HEVL signals detected (any) | 19,948 | 76.0% |
-| Integrated HEVL records | 12,554 | 96.2% of candidates |
+| Integrated HEVL records | 12,577 | 96.4% of candidates |
 | Schema-valid records | 9,772 | 77.9% of distributed |
-| High-confidence tier | 12,539 | 99.8% of distributed |
-| Total distributed records | 12,564 | — |
+| High-confidence tier | 12,514 | 99.8% of distributed |
+| Total distributed records | 12,539 | — |
 
 ### HEVL Component Coverage (Final Records)
 
@@ -831,9 +831,9 @@ hdx_dataset_metadata_dump/
     │   ├── confidence_scored_records.csv
     │   └── rdls_validation_summary.md
     └── dist/                          Final deliverable
-        ├── high/                      9,772 production-ready records
-        ├── medium/                    25 records needing review
-        ├── invalid/high/              2,767 high-confidence, schema-invalid
+        ├── high/                      Production-ready records
+        ├── medium/                    Records needing review
+        ├── invalid/high/              High-confidence, schema-invalid
         ├── master_manifest.csv        Complete inventory
         ├── README.md                  Validation report
         └── reports/                   Full QA report suite
@@ -888,15 +888,15 @@ HDX CKAN API (26,246 datasets)
                   loss: VALID_ASSET_TRIPLETS + LOSS_SIGNAL_DEFAULTS
         │
         ▼
-    NB 12: HEVL Integration ──→ rdls/integrated/ (12,554 merged records)
+    NB 12: HEVL Integration ──→ rdls/integrated/ (12,577 merged records)
         │       strategy: merge-only               rdls/integrated/rdls_index.csv
         │       constraint: risk_data_type reconciliation
         ▼
-    NB 13: Validation & QA ──→ rdls/dist/ (9,772 production-ready)
+    NB 13: Validation & QA ──→ rdls/dist/ (12,539 distributed, 9,772 schema-valid)
             scoring: 4-dimension composite          rdls/dist/master_manifest.csv
             routing: valid/invalid × high/medium/low
 ```
 
 ---
 
-*Pipeline: 13 Jupyter notebooks | Schema: RDLS v0.3 | Source: HDX CKAN API | Updated: 2026-02-10*
+*Pipeline: 13 Jupyter notebooks | Schema: RDLS v0.3 | Source: HDX CKAN API | Updated: 2026-02-12*

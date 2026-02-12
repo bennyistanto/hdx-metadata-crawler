@@ -81,10 +81,11 @@ hazard_type:
 
   strong_wind:
     patterns:
-      - '\b(wind.?speed|wind.?gust|gale)\b'
+      - '\b(wind.?gust|gale)\b'
       - '\b(windstorm|derecho)\b'
+      - '\b(strong.?wind|high.?wind|extreme.?wind)\b'
     confidence: medium
-    notes: "Be careful - 'wind' alone is too generic"
+    notes: "wind_speed removed - too generic, matches input variables in climate datasets"
 
   extreme_temperature:
     patterns:
@@ -209,7 +210,7 @@ exposure_category:
       - '\b(fibre|fiber.?optic|broadband)\b'
       # Energy
       - '\b(energy|power.?station|substation|transformer)\b'
-      - '\b(power.?line|electricity|grid|utility)\b'
+      - '\b(power.?line|electricity|(?:power|electric(?:al)?|smart|energy|national)\s*grid|utility)\b'
       - '\b(power.?plant|power.?generation|electricity.?generation)\b'
       - '\b(gas.?station|petro|petroleum|fuel.?station)\b'
       # Water

@@ -6,17 +6,17 @@
     "datasets_excluded_by_policy": 3649
   },
   "rdls": {
-    "candidates_total": 15890,
-    "included_total": 13053
+    "candidates_total": 16224,
+    "included_total": 13152
   },
   "confidence_counts": {
-    "high": 12378,
-    "medium": 7185,
-    "low": 6683
+    "high": 12308,
+    "medium": 7760,
+    "low": 6178
   },
   "component_nonzero_counts": {
     "hazard": 4111,
-    "exposure": 19314,
+    "exposure": 19858,
     "vulnerability_proxy": 12952,
     "loss_impact": 2745
   }
