@@ -10,12 +10,12 @@
     "included_total": 13152
   },
   "confidence_counts": {
-    "high": 12308,
-    "medium": 7760,
+    "high": 12306,
+    "medium": 7762,
     "low": 6178
   },
   "component_nonzero_counts": {
-    "hazard": 4111,
+    "hazard": 4109,
     "exposure": 19858,
     "vulnerability_proxy": 12952,
     "loss_impact": 2745

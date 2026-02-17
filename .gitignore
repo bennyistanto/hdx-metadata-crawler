@@ -163,3 +163,8 @@ hdx_dataset_metadata_dump/rdls/dist/invalid/
 #   rdls/dist/README.md         — distribution summary
 #   rdls/dist/reports/*.csv,*.md — full QA report suite
 # =============================================================================
+
+# All dataset for review
+data/
+to-rdls/
+test/

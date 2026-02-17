@@ -418,7 +418,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 045d07bc-7550-4aac-a5b4-fae16c015d41,Jamaica - Accessibility Indicators,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,0,,,,0.0
 04608626-7f29-4868-822a-7547d0b5ce39,Czechia: WOF Administrative Subdivisions and Human Settlements,Who's On First,False,0,,,,0.0
 0460ebf0-8015-49e0-865c-c31a1975a475,Grenada: Administrative Division with Aggregated Population,Kontur,False,0,,,,0.0
-0466bb97-9895-4379-86bc-cae589468b11,"Damage Assessment in Al Bab, Syria as of 11 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+0466bb97-9895-4379-86bc-cae589468b11,"Damage Assessment in Al Bab, Syria as of 11 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 0467ca84-7693-4df6-acf5-3cc43e671916,Saint Vincent And The Grenadines: Administrative Division with Aggregated Population,Kontur,False,0,,,,0.0
 046bcb2b-f5e5-4c77-ad46-a60de0009187,Continued breastfeeding (12-23 months),UNICEF Data and Analytics (HQ),False,0,,,,0.0
 046bd008-54f2-42f9-8f15-1e198f2a3ffd,"Egypt, Arab Rep. - Social Development",World Bank Group,False,0,,,,0.0
@@ -810,7 +810,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 083e17f5-3d5c-4225-b8bb-d26c4c42a111,"Zimbabwe - Demographic, Health, Education and Transport indicators","United Nations Human Settlements Programmes, Data and Analytics Section",False,0,,,,0.0
 0844a0a3-e076-404e-bfbe-b04cae1f7ed1,Mongolia - Food Prices,WFP - World Food Programme,False,0,,,,0.0
 0844e455-57d5-4ccc-a312-a396f0c5b78b,Türkiye - Subnational Administrative Boundaries GEOSERVICES,OCHA Field Information Services Section (FISS),False,0,,,,0.0
-0847753c-ee99-4890-b8e0-de30cf3bd701,"Damage Assessment in La Paz Town, Abra Province, Cordillera Administrative Region, Philippines",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+0847753c-ee99-4890-b8e0-de30cf3bd701,"Damage Assessment in La Paz Town, Abra Province, Cordillera Administrative Region, Philippines",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 08480bd2-b5fb-4281-8365-013c899f294c,CVA and Nutrition Status of Children Under Five and Pregnant and Lactating Women in the Somalia Food Crisis,Johns Hopkins School of Public Health,False,0,,,,0.0
 084b7095-35f9-4ea2-aed9-40240a153dd5,Myanmar - Population Density,WorldPop,False,0,,,,0.0
 084b8ac7-b459-4f44-807a-978a97639aa4,Luxembourg Railways (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
@@ -1050,7 +1050,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 0ac45b1b-c9cb-43e9-a3fa-03e5ab7c61a4,Viet Nam: Road Surface Data,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,0,,,,0.0
 0ac6a44c-826f-4585-8402-cfb0feb6e249,Tonga - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,0,,,,0.0
 0ac92efb-7ec8-44cb-a443-0be3bb781cc4,Tunisia: High Resolution Population Density Maps + Demographic Estimates,AI and Data for Good at Meta,False,0,,,,0.0
-0ac96f07-8611-43d5-8ec1-6a32a199e115,"Maria Tropical Cyclone. Damage Assessment in Portsmouth,Saint John Parish, Dominica",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+0ac96f07-8611-43d5-8ec1-6a32a199e115,"Maria Tropical Cyclone. Damage Assessment in Portsmouth,Saint John Parish, Dominica",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,convective_storm,buildings,0.8
 0acf6c5e-6f90-4abc-8bc5-94bfd9839399,"Maldives - Demographic, Health, Education and Transport indicators","United Nations Human Settlements Programmes, Data and Analytics Section",False,0,,,,0.0
 0ad0ba9b-4e27-4d80-a881-b12dfac8acfe,Satellite Detected Surface Waters Extent in Phu Yen Province,United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
 0ad869ac-5030-4b2e-a0ef-817439b416ec,"Satellite detected water extent along the Rupununi river, Upper Takutu-Upper Essequibo, Guyana as of 26 May 2022",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
@@ -1372,7 +1372,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 0dad024b-11b6-4ca4-95ea-9f605153f2c4,Ireland - Private Sector,World Bank Group,False,0,,,,0.0
 0db02c47-4e16-49d3-8c0b-d41f1006ecff,Peace and Security Pillar: Expenditure for Contingent Owned Equipment: Major Equipment and Self Sustainment,United Nations Peace and Security Data Hub,False,0,,,,0.0
 0db2028e-7563-4a7f-b7f2-fc0f31929f0c,Colombia - Potentially Affected Zones by the Mudflow in Mocoa,United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
-0db2bf24-47f2-4c51-bfa5-941e8a5b464b,"Damage Assessment in Jindires and the surrounding area, Syria as of 10 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+0db2bf24-47f2-4c51-bfa5-941e8a5b464b,"Damage Assessment in Jindires and the surrounding area, Syria as of 10 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 0db55c2f-cc22-4f87-be17-ebaee5770d08,Kenya Current Situation FEWS NET Acute Food Insecurity Classifications Data,FEWS NET,False,0,,,,0.0
 0db86fa0-a32c-473e-9b1e-462a104dc4d4,Thailand: Copernicus Vegetation Index Anomaly (FAPAR Anomaly),Copernicus,False,0,,,,0.0
 0db9ecd3-54a3-462a-b779-440b93998001,Airports in Timor-Leste,OurAirports,False,0,,,,0.0
@@ -1580,7 +1580,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 0fbb199d-7836-4397-972d-16dd0650a151,Uganda- Kamuli District: Operational Presence,Fields Data,False,0,,,,0.0
 0fc10da7-dcd6-4499-862e-2fc59e794a29,Somalia Current Situation FEWS NET Acute Food Insecurity Classifications Geographic Data for 2012,FEWS NET,False,0,,,,0.0
 0fc19fb1-cca3-45a7-853e-f3d9c1f45003,Paraguay - IFRC Appeals,International Federation of Red Cross and Red Crescent Societies (IFRC),False,0,,,,0.0
-0fc269e7-88ca-4eaa-a004-d50377c154cd,"Geodata of Damage Assessment of Salinas and La Libertad Areas, Santa Elena Province, Ecuador",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+0fc269e7-88ca-4eaa-a004-d50377c154cd,"Geodata of Damage Assessment of Salinas and La Libertad Areas, Santa Elena Province, Ecuador",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 0fc39d34-be16-4c2c-87be-2e43b4ab79fa,Saint Vincent and the Grenadines - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,0,,,,0.0
 0fc3d00e-ec95-47f2-8bb3-5a1ba25e64ec,Faroe Islands: Daily Port Activity Data and Shipment Estimates,PortWatch,False,0,,,,0.0
 0fc47c40-c185-4b4d-9d79-b58ed9bacbf0,Cocos (Keeling) Islands: WOF Administrative Subdivisions and Human Settlements,Who's On First,False,0,,,,0.0
@@ -1639,7 +1639,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 105386e0-6ed9-41bc-aa1c-ff91d798602b,HDX HAPI Data for Cambodia,HDX Humanitarian API Data,True,1,affected_population,,infrastructure,0.6
 10541c48-e94d-44f6-9d3b-cdc8df2c7faf,Wallis and Futuna Islands Populated Places (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 10545a33-63bd-4ef6-8d20-631b2b4d9da8,China - Energy and Mining,World Bank Group,False,0,,,,0.0
-10572806-c65f-45f9-96aa-1405ed7cfe91,"Damage Assessment in Spera district, Khost province as of 23 June 2022",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,infrastructure,0.8
+10572806-c65f-45f9-96aa-1405ed7cfe91,"Damage Assessment in Spera district, Khost province as of 23 June 2022",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,infrastructure,0.8
 105bd7fb-dcb3-4bb0-a3f5-9689f7339bf2,Somalia : Acute Malnutrition,HDX,False,0,,,,0.0
 105cf728-e17a-4915-b1e1-25449733146e,DRC Croix Rouge (Red Cross) Branch Locations,American Red Cross (inactive),False,0,,,,0.0
 105e9017-7d3c-41ee-b8fb-fd852129f057,Myanmar 2017 Cash Transfer Programming Activities 4W,OCHA Myanmar,False,0,,,,0.0
@@ -2094,7 +2094,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 14ee5047-c768-4ade-9acd-dfef7884aabf,HDX HAPI Data for El Salvador,HDX Humanitarian API Data,True,2,displacement|affected_population,,infrastructure,0.6
 14efd897-8a10-45b3-a7ee-ebb1e093b4ab,Estonia - Agriculture and Rural Development,World Bank Group,False,0,,,,0.0
 14f220fd-3f90-4029-80bb-89d818087fbb,Morocco - Social Protection and Labor,World Bank Group,False,0,,,,0.0
-14f25713-e1fc-4e95-b5d3-4901c51db599,"7 October 2023 M6.3 Western Afghanistan Herat, Preliminary Satellite-Based Comprehensive Damage Assessment Report",United Nations Satellite Centre (UNOSAT),True,2,displacement|structural_damage,flood,population,0.8
+14f25713-e1fc-4e95-b5d3-4901c51db599,"7 October 2023 M6.3 Western Afghanistan Herat, Preliminary Satellite-Based Comprehensive Damage Assessment Report",United Nations Satellite Centre (UNOSAT),True,2,displacement|structural_damage,earthquake,population,0.8
 14fa3045-5cd0-4915-bb99-016ae2be9b29,Iceland - Trade,World Bank Group,False,0,,,,0.0
 14fce7ab-bcaa-4b48-a8a0-1a5eb37dd43f,Nepal - GDP Trend,OpenNepal (inactive),False,0,,,,0.0
 15009470-396c-441c-8f95-b23581d04eb3,"Satellite detected water extent over Samegrelo-Zemo Svaneti and Imereti Regions, Georgia as of 23 Jun 2022.",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
@@ -2854,7 +2854,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 1c6c080a-5362-454b-b117-8b6d0a68def5,Tasa de Homicidios,OCHA Colombia,False,0,,,,0.0
 1c6caac8-874e-47fd-87c4-4d5d91c47e8f,Kenya - Admin Level 3 Boundaries,OCHA Regional Office for Southern and Eastern Africa (ROSEA),False,0,,,,0.0
 1c6cd2e3-f422-4406-b477-ca6925ca0596,Belgium - VIEWS conflict forecasts,Violence & Impacts Early-Warning System,True,1,human_loss,,population,0.6
-1c7037ae-1be3-4233-a15a-de8e429721a9,"Damage Assessment in Monywa Township, Monywa District, Sagaing Region, Myanmar as of 25 April 2025",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+1c7037ae-1be3-4233-a15a-de8e429721a9,"Damage Assessment in Monywa Township, Monywa District, Sagaing Region, Myanmar as of 25 April 2025",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 1c715f71-c79e-4bdf-a671-d7d26cea2190,Kenya Surface Area Per county,OCHA Regional Office for Southern and Eastern Africa (ROSEA),False,0,,,,0.0
 1c747a54-dcee-41b3-ac5b-da639f79466e,Philippines - Internal Displacements (New Displacements) – IDPs,Internal Displacement Monitoring Centre (IDMC),True,1,displacement,,population,0.6
 1c78345c-4fd5-495d-bb76-91dbd28bb035,Cook Islands Points of Interest (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
@@ -2958,7 +2958,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 1d55df43-1c21-4659-bd3f-8ec9799ed334,Israel: Road Surface Data,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,0,,,,0.0
 1d564f6b-be7d-4ecd-8db6-2d39c73f37bd,"China, Hong Kong Special Administrative Region - Spatial Distribution of Population (2015-2030)",WorldPop,False,0,,,,0.0
 1d5d0b71-d130-4690-b5a8-5e91c7a5d9c0,Niue: Administrative Division with Aggregated Population,Kontur,False,0,,,,0.0
-1d61c08d-c01a-406b-8745-bed8f83802d8,"6 February 2023 M 7.8 Marash/Antep (Kehramanmarash) Earthquake, Preliminary Satellite-Based Comprehensive Damage Assessment Report",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,population,0.8
+1d61c08d-c01a-406b-8745-bed8f83802d8,"6 February 2023 M 7.8 Marash/Antep (Kehramanmarash) Earthquake, Preliminary Satellite-Based Comprehensive Damage Assessment Report",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,population,0.8
 1d61f53a-878c-4421-8afb-3d1aa68677ee,Czechia - Trade,World Bank Group,False,0,,,,0.0
 1d66200a-9a34-49c3-9505-8f0b2541bdcf,Togo - Population Density,WorldPop,False,0,,,,0.0
 1d6688b8-cc0b-4df4-97af-7d3380e2430d,Tonga - GCF Funded Activities,Green Climate Fund,False,0,,,,0.0
@@ -2982,7 +2982,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 1d965e82-5d14-4241-b367-c8ca319ce725,Ecuador: Gender Violence in Santa Cruz registered by the police,Hub Latin America,False,0,,,,0.0
 1d974077-da4c-4dcb-a05b-73b94fd0dc5d,Children experiencing one severe deprivation,UNICEF Data and Analytics (HQ),False,0,,,,0.0
 1d975fa9-1750-4f03-b0b8-fec2a350b192,Netherlands Populated Places (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
-1d976f4a-f078-42c9-9e58-75bbaf3aa284,"Damage assessment in New Mirpur, Azad Jammu and Kashmir,  Pakistan, as of 02 October 2019",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+1d976f4a-f078-42c9-9e58-75bbaf3aa284,"Damage assessment in New Mirpur, Azad Jammu and Kashmir,  Pakistan, as of 02 October 2019",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 1d98be59-32c8-407b-b5b1-415ff65f0ab8,Mali - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,True,1,displacement,,population,0.6
 1d98ea41-12da-4894-957e-c173ae2d5cbb,Ethiopia - Flood Response Monitoring,OCHA Ethiopia,True,1,affected_population,flood,population,0.8
 1d9b5601-dde5-4ef0-b1d3-ef627417e425,Nigeria: NDVI at Subnational Level,WFP - World Food Programme,False,0,,,,0.0
@@ -3005,7 +3005,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 1dbeaff7-4f79-401d-96e4-65933898f6a5,Mauritania Medium Term Projection  FEWS NET Acute Food Insecurity Classifications Geographic Data for 2017,FEWS NET,False,0,,,,0.0
 1dc195c9-68ab-4503-a106-f9eb077fe2db,British Virgin Islands - Financial Sector,World Bank Group,False,0,,,,0.0
 1dc2f330-0e0c-4a46-b7e3-36f3ae218bef,Cote d'Ivoire - Financial Sector,World Bank Group,False,0,,,,0.0
-1dc699e7-fe95-4983-b988-e5abf0028ec5,"Damage assessment of Gumantar and Dangiang Desa, Kagayan District, Lombok Island, Indonesia",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+1dc699e7-fe95-4983-b988-e5abf0028ec5,"Damage assessment of Gumantar and Dangiang Desa, Kagayan District, Lombok Island, Indonesia",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 1dcb8557-2586-4834-bc53-920cf029507e,Liberia: WOF Administrative Subdivisions and Human Settlements,Who's On First,False,0,,,,0.0
 1dcbeeea-e8ea-48bb-9bf9-47c234bc9d94,Nepal - Remittance Outflows for the year 2011/12,OpenNepal (inactive),False,0,,,,0.0
 1dce5fba-58f9-46cb-b7f9-d209739e1208,"Chile - Livelihoods Programme Monitoring Beneficiary Survey, 2022",UNHCR - The UN Refugee Agency,False,0,,,,0.0
@@ -3249,7 +3249,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 201cad63-a43b-4e60-97a4-9557c894211a,Angola - Internal Displacements Updates (IDU) (event data),Internal Displacement Monitoring Centre (IDMC),True,1,displacement,flood,population,0.8
 201d262a-f93c-42c7-8ca6-195e8db61bfa,Flood analysis for Myanmar (06 August 2015),United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
 201ed556-0635-4540-a78b-54463246e72f,Peace and Security Pillar: Incidents of Denial of Freedom of Movement in United Nations Interim Force in Lebanon (UNIFIL),United Nations Peace and Security Data Hub,False,0,,,,0.0
-20244462-89bd-4665-8410-62e52f6bf038,"Damage Assessment in the town of Atzala, Municipality of Atzala, State of Puebla, Mexico",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+20244462-89bd-4665-8410-62e52f6bf038,"Damage Assessment in the town of Atzala, Municipality of Atzala, State of Puebla, Mexico",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 2025e742-8b5a-4f72-aac5-a28e96ce3cb8,Eritrea - Subnational Administrative Boundaries,OCHA Field Information Services Section (FISS),False,0,,,,0.0
 20270df9-4aad-450b-a836-f01684e33683,GAR15 Global Exposure Dataset for Eritrea,United Nations Office for Disaster Risk Reduction (UNDRR),False,0,,,,0.0
 20275b15-e385-45e1-b61b-357b5a9b1142,Burkina Faso Roads (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
@@ -3570,7 +3570,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 231c32f8-bd8c-4d5a-a732-52e86e74d509,Timor-Leste - Health Indicators,World Health Organization,True,2,human_loss|affected_population,,buildings,0.6
 23219f38-e296-4aa8-9cc6-a3f0381efa2e,"EM-DAT - Country Profiles, Mali",Centre for Research on the Epidemiology of Disasters,True,2,human_loss|affected_population,,population,0.6
 2321cf15-7b8e-47c3-99f2-a5dc4828f2d7,Iraq: Response Plan projects,OCHA Humanitarian Programme Cycle Tools (HPC Tools),False,0,,,,0.0
-2321fe9c-7d3b-4a36-8c4d-375df82d06f6,"Damage Assessment  in Baraderes commune,  Nippes department,  Haiti as of 18 August 2021",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+2321fe9c-7d3b-4a36-8c4d-375df82d06f6,"Damage Assessment  in Baraderes commune,  Nippes department,  Haiti as of 18 August 2021",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 2322a7be-4883-4e57-8566-f91c78e93830,China: Copernicus Vegetation Index Anomaly (FAPAR Anomaly),Copernicus,False,0,,,,0.0
 23255244-fad6-44ff-8a66-1b4b6c7eae89,Canada: Daily Port Activity Data and Shipment Estimates,PortWatch,False,0,,,,0.0
 232a0349-bf38-4bdd-91d9-3e4da39a0745,Argentina - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),True,1,human_loss,,economic_indicator,0.6
@@ -4011,7 +4011,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 27502744-8cb8-4bb2-b7fa-46de24f9074a,Honduras Coeficiente de GINI 2003,OCHA Latin America and the Caribbean (ROLAC),False,0,,,,0.0
 2753cfd5-95cb-4890-8ec2-a0a67b24055c,Norway - Education,World Bank Group,False,0,,,,0.0
 27586b90-ad4a-4414-86cb-1413650d70bb,Angola - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),True,1,human_loss,,economic_indicator,0.6
-27589642-d285-49be-b70a-68f5e3b5e250,Damage Assessment in the northern part of Jableh City (Latakia) as of 9 February 2023,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+27589642-d285-49be-b70a-68f5e3b5e250,Damage Assessment in the northern part of Jableh City (Latakia) as of 9 February 2023,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 2758f0d3-a092-4143-86be-d714afed244f,Israel - Requirements and Funding Data,OCHA Financial Tracking System (FTS),False,0,,,,0.0
 275d9b30-be48-4c45-a1e9-a798ac89a6e2,Curaçao - Age and gender structures,WorldPop,False,0,,,,0.0
 275dedd7-324c-4b23-a466-6c7ef429dc51,Portugal Railways (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
@@ -4070,7 +4070,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 27e90562-b584-4aeb-8b70-b6ed1c2df1b5,Greenland Populated Places (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 27e9962d-8cb5-472c-b874-31fa1e403824,Contour Lines for Kutupalong Magacamp area and other sites.,Inter Sector Coordination Group,True,1,displacement,,population,0.6
 27ef5404-0d17-4318-ad30-35807bcc506b,Tunisia Airports (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
-27ef9566-2db5-4017-b880-74bcdc0dbaba,Damage analysis by settlement and surface displacement of the 7th October 2023 Hirat earthquake,United Nations Satellite Centre (UNOSAT),True,1,displacement,flood,population,0.8
+27ef9566-2db5-4017-b880-74bcdc0dbaba,Damage analysis by settlement and surface displacement of the 7th October 2023 Hirat earthquake,United Nations Satellite Centre (UNOSAT),True,1,displacement,earthquake,population,0.8
 27f216d0-62c8-4b75-89fe-b4daeb8b5089,Sudan - Internal Displacements Updates (IDU) (event data),Internal Displacement Monitoring Centre (IDMC),True,1,displacement,flood,population,0.8
 27f52345-0e0d-4043-99b4-c9c755aed85c,"Lake Chad Basin Area - Administrative boundaries for Nigeria, Chad, Cameroon and Niger",OCHA West and Central Africa (ROWCA),False,0,,,,0.0
 27f660c7-8237-42d5-832a-87d2355ad14c,Algeria - Spatial Distribution of Population (2015-2030),WorldPop,False,0,,,,0.0
@@ -4345,7 +4345,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 2acf1f5a-fb46-470f-bd3d-14f0f9445bf6,Seychelles: Daily Port Activity Data and Shipment Estimates,PortWatch,False,0,,,,0.0
 2ad20923-a6ed-4dcd-a8db-0a0aea58d173,Kazakhstan: WOF Administrative Subdivisions and Human Settlements,Who's On First,False,0,,,,0.0
 2ad3683e-5722-4d32-9c22-fde23e8d5e23,French Polynesia - Public Sector,World Bank Group,True,1,displacement,,infrastructure,0.6
-2ad3d411-1bd8-4ce5-a45c-8338f01a4bfc,"Damage Assessment of Koeeke Hasan Town and Surroundings, Kermanshah, Iran",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+2ad3d411-1bd8-4ce5-a45c-8338f01a4bfc,"Damage Assessment of Koeeke Hasan Town and Surroundings, Kermanshah, Iran",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 2ad613f6-0129-46e8-98ad-d3b155edaa16,Uganda- Mayuge District: Operational Presence,Fields Data,False,0,,,,0.0
 2ad71080-0b4a-4c50-93cb-669fa60d3860,Kyrgyzstan - Results Monitoring Survey 2022,UNHCR - The UN Refugee Agency,True,1,displacement,,infrastructure,0.6
 2ad81d44-6e9b-4ee3-a44e-9bad2af2113b,Uganda Populated Places (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
@@ -4388,7 +4388,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 2b2ce3c5-0738-44ba-abb8-3021ca93dfdf,Sri Lanka - Spatial Distribution of Population (2015-2030),WorldPop,False,0,,,,0.0
 2b2e3f16-9335-4df6-a4db-7953812acb7a,Bahrain - Environment,World Bank Group,True,1,human_loss,,infrastructure,0.6
 2b3043c5-851b-4c1a-b107-478da6423173,Djibouti Airports (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
-2b318dbd-3811-4fdd-bb1e-7672bba4cf8d,"Geodata of Damage Assessment of Atacames area, Esmeraldas Province, Ecuador",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+2b318dbd-3811-4fdd-bb1e-7672bba4cf8d,"Geodata of Damage Assessment of Atacames area, Esmeraldas Province, Ecuador",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 2b32a6da-7da1-4d2e-a2a5-802e9b2c3608,Peace and Security Pillar: Light Coordination Mechanism (LCM) Dataset On Peace Operations Training and Capacity-Building Coordination Mechanisms,United Nations Peace and Security Data Hub,False,0,,,,0.0
 2b32fe82-461a-4a0d-a0ed-9cadf71980a6,"Geodata of UNOSAT Damage Assessment Activities in Viti Levu Island, Fiji",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
 2b35a022-2f17-4961-8cc1-71cc17c29bdb,GAR15 Global Exposure Dataset for Réunion,United Nations Office for Disaster Risk Reduction (UNDRR),False,0,,,,0.0
@@ -4804,7 +4804,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 2edd96fe-3e2c-4189-b826-c4df5a6a889a,West Africa cell signal strength (OpenSignal),American Red Cross (inactive),False,0,,,,0.0
 2ede855a-6def-429e-909d-0c75e2c196c3,Kyrgyzstan - Work of InterAction Members,InterAction (inactive),False,0,,,,0.0
 2ee1fc19-b0cb-455a-a80f-6870afa7527f,HDX HAPI Data for Jamaica,HDX Humanitarian API Data,True,1,affected_population,,infrastructure,0.6
-2ee219e0-82a2-4862-a22e-ed59c7c26275,"Landslide damage assessment in the Lagaip/Pogera District, Enga Province as of 27 May 2024",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,infrastructure,0.8
+2ee219e0-82a2-4862-a22e-ed59c7c26275,"Landslide damage assessment in the Lagaip/Pogera District, Enga Province as of 27 May 2024",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,landslide,infrastructure,0.8
 2ee5776f-4146-415c-a3d3-bbdafba3d418,Macau: Administrative Division with Aggregated Population,Kontur,False,0,,,,0.0
 2ee5806a-848b-4a87-9fb8-e5b68d8a9a45,Sahel Prediction Death Animals,Acción contra el hambre - GIS4tech,True,1,human_loss,,agriculture,0.6
 2ee81e88-70d9-4e45-8400-1c5869488aa7,Myanmar Airports (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
@@ -4830,7 +4830,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 2f2f2e7b-03f2-4da0-a848-496ebd07aa83,Peace and Security Pillar: Presidential Statements of the Security Council,United Nations Peace and Security Data Hub,False,0,,,,0.0
 2f304903-fbcd-4c85-a189-1d6bf320310a,Italy: IBTrACS Storm Tracks,HDX,False,0,,,,0.0
 2f30c97d-1018-4e1f-ace4-55cc4a2a9c36,Ghana - Social Development,World Bank Group,False,0,,,,0.0
-2f3250e6-1402-4295-b2ec-7c2092e0900f,"Damage Assessment in Spera district, Khost province as of 24 June 2022",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+2f3250e6-1402-4295-b2ec-7c2092e0900f,"Damage Assessment in Spera district, Khost province as of 24 June 2022",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 2f331608-16c8-425e-bbd2-672480603ccb,WFP SAFE Initiative Assisted Villages,OCHA Sudan,False,0,,,,0.0
 2f37631a-87fc-4dcb-9191-e44d785beea3,Democratic People's Republic of Korea - Health Indicators,World Health Organization,True,2,human_loss|affected_population,,buildings,0.6
 2f3f7354-c696-452d-b9be-2c1fa2d065c4,Belarus - Population Counts,WorldPop,False,0,,,,0.0
@@ -5012,7 +5012,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 30f494f4-e8b4-417a-80b5-f110a639df25,"Case Management Reach, Adamawa State, North East Nigeria, Quarter 1, 2019",iMMAP Inc.,False,0,,,,0.0
 30f76109-b03d-451c-bf9f-33db8425312f,"China, Macao Special Administrative Region - Population Counts",WorldPop,False,0,,,,0.0
 30f7dc7b-2f05-4c80-b9a5-1aa8abe8d72b,Albania: Daily Port Activity Data and Shipment Estimates,PortWatch,False,0,,,,0.0
-30f81916-cb5f-4d87-abd7-9239bcd8355f,"Damage Assessment in Idlib City, Syria as of 9 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+30f81916-cb5f-4d87-abd7-9239bcd8355f,"Damage Assessment in Idlib City, Syria as of 9 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 3102d9d7-931c-498b-a957-b698fcb6be67,Guatemala: Rainfall Indicators at Subnational Level,WFP - World Food Programme,False,0,,,,0.0
 31097818-ad97-4281-b53f-232a9fac3b56,Rwanda Populated Places (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 31097a1f-d8dd-41e5-a079-9cf90d48a095,Angola - Historical Health Indicators,World Health Organization,False,0,,,,0.0
@@ -5027,7 +5027,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 311ebb7a-18f6-41fe-a04f-ea8fc8a51bcb,"Education Cluster Outreach for DRC, 2018",Central African Republic Education Cluster,True,1,affected_population,,population,0.6
 31205d74-5372-42e6-82dc-d5ab4e2c15d7,Pakistan Roads (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 31213024-9785-4baa-91f0-1b8aba3c13d1,Namibia Education Facilities (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
-31216e07-5705-46b7-a532-d4fca8a5f6d4,"Damage Assessment in Chardonnieres commune, South department as of 23 August 2021",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+31216e07-5705-46b7-a532-d4fca8a5f6d4,"Damage Assessment in Chardonnieres commune, South department as of 23 August 2021",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 3124fcd7-24da-48c5-bb9d-ba89af54e3fe,Viet Nam - Requirements and Funding Data,OCHA Financial Tracking System (FTS),False,0,,,,0.0
 3127c83f-1fcb-4f72-beb1-704975c550e4,"Lao People's Democratic Republic: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,0,,,,0.0
 3128c36f-f747-4a50-912a-c08a3f35118a,Kyrgyzstan Populated Places (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
@@ -5095,7 +5095,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 31bb8eca-f9fd-4c71-8744-e2a4033ca6fc,Lombok Indonesia Magnitude 6.4 Earthquake Interferogram using Sentinel 1 data,WFP - World Food Programme,True,1,displacement,earthquake,population,0.8
 31bbcfa5-2926-4e14-b5d4-635bba68bdc3,"Afghanistan - Border Monitoring, outflow - 2023",UNHCR - The UN Refugee Agency,False,0,,,,0.0
 31bd19e0-e7e8-4660-853f-7fb37df0d2d3,British Virgin Islands Education Facilities (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
-31bd2db4-d6bd-4ce0-93ff-0a668ce42766,"Damage Assessment in Bucay Town, Abra Province, Cordillera Administrative Region, Philippines",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+31bd2db4-d6bd-4ce0-93ff-0a668ce42766,"Damage Assessment in Bucay Town, Abra Province, Cordillera Administrative Region, Philippines",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 31bf6d70-6df1-4e5b-870f-09081680ca5c,"Korea, Republic Of: Administrative Division with Aggregated Population",Kontur,False,0,,,,0.0
 31c5d3aa-e3bb-42ff-8ba7-9bdb4c363d71,Germany: IBTrACS Storm Tracks,HDX,False,0,,,,0.0
 31c60d73-e292-4998-867f-b0bdcfecf730,Central African Republic - Historical Health Indicators,World Health Organization,False,0,,,,0.0
@@ -5277,7 +5277,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 338c9b61-9cbc-46c0-b023-2e411bb1deb1,"Armenia: Integrated Context Analysis (ICA), 2016",WFP - World Food Programme,False,0,,,,0.0
 338d0b49-3c95-42fb-a2c7-8decdf06add6,Cyprus - Aid Effectiveness,World Bank Group,True,1,human_loss,,buildings,0.6
 338d5e96-10bd-4932-94e0-37cb005a924c,Kenya - IFRC Appeals,International Federation of Red Cross and Red Crescent Societies (IFRC),False,0,,,,0.0
-33919891-a73e-412d-b190-2da2530f9e7f,"Geodata of Damage Assessment of Puli Khumri Area, Baghlan Province, Afghanistan",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+33919891-a73e-412d-b190-2da2530f9e7f,"Geodata of Damage Assessment of Puli Khumri Area, Baghlan Province, Afghanistan",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 33941492-5ef1-40f4-93fa-8bcda93bde92,Romania: High Resolution Population Density Maps + Demographic Estimates,AI and Data for Good at Meta,False,0,,,,0.0
 3395b2eb-acda-4228-a8b2-6eb3bc90ad75,Kuwait - Health Indicators,World Health Organization,True,2,human_loss|affected_population,,buildings,0.6
 339be86a-9ddd-449d-bbbd-c57b659f797d,Ecuador: Departures of Ecuadorians and foreigners from Santa Cruz according to age,Hub Latin America,False,0,,,,0.0
@@ -5327,7 +5327,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 341a01b9-e266-4dc0-a4b5-165ba3f3f767,South Africa - Accessibility Indicators,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,0,,,,0.0
 341b5c0f-a817-4bce-8ecd-1abe57edce71,Iraq - Education,World Bank Group,False,0,,,,0.0
 341bb5bc-54ad-4b99-aad3-95ae1bac6912,"Satellite detected water extents in Vangaindrano district, Atsimo Atsinanana region, Madagascar  as of 24 February 2022",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
-341d80ac-06aa-468b-9032-3193f52a5520,"Geodata of Damage assessment of Montecristi, Manabi province, Ecuador",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+341d80ac-06aa-468b-9032-3193f52a5520,"Geodata of Damage assessment of Montecristi, Manabi province, Ecuador",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 342140f2-0d95-4130-a916-9b75868b0b49,Somalia NGO Consortium Topline Figures,Somalia NGO Consortium (inactive),False,0,,,,0.0
 34219a16-6fa6-4592-bd71-017cead722bb,"Burkina Faso (BFA): Attacks on Aid Operations, Education, Food and Water Systems and Health Care, and Explosive Weapons Incident Data",Insecurity Insight,True,1,human_loss,,infrastructure,0.6
 3427df61-830a-4f07-9670-e2dc5546289b,Satellite Detected Surface Water Extent Evolution of Dinh Binh Lake,United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
@@ -5375,7 +5375,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 34973730-f8eb-4860-97c4-8d02251603e4,Sao Tome and Principe - Internal Displacements Updates (IDU) (event data),Internal Displacement Monitoring Centre (IDMC),True,1,displacement,,population,0.6
 34976753-df78-42d6-85ba-dfb58387ed6e,Mongolia - Food Security and Nutrition Indicators,Food and Agriculture Organization (FAO) of the United Nations,False,0,,,,0.0
 3497f102-c9b0-4959-bc74-d98985e302fc,Disaster Loss Data for Ethiopia,United Nations Office for Disaster Risk Reduction (UNDRR),True,4,human_loss|displacement|affected_population|general_loss,,population,0.6
-3498038a-e0f7-4133-9148-7bf3b721bca0,Somalia District struck by 2020 Tropical Cyclone Gati,IGAD Climate Prediction and Applications Center (ICPAC),True,3,human_loss|displacement|affected_population,flood,infrastructure,0.8000000000000002
+3498038a-e0f7-4133-9148-7bf3b721bca0,Somalia District struck by 2020 Tropical Cyclone Gati,IGAD Climate Prediction and Applications Center (ICPAC),True,3,human_loss|displacement|affected_population,convective_storm,infrastructure,0.8000000000000002
 349b45e1-b2e9-4246-8ae2-797cb732fcaa,"Geodata of Flood Waters in Chiniot Area, Punjab Province, Pakistan",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
 349eb67b-b227-42f0-9dfc-d8bd4b98dcf4,Nicaragua Near Term Projection  FEWS NET Acute Food Insecurity Classifications Geographic Data for 2021,FEWS NET,False,0,,,,0.0
 349fd370-7dce-42e0-8416-938f2d8a9eeb,Zambia - Age and gender structures,WorldPop,False,0,,,,0.0
@@ -5391,7 +5391,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 34b49b94-506c-4d5c-ba19-aa22737032a6,"Syrian Arab Republic - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,0,,,,0.0
 34b4b4b0-dc39-4e2f-8f20-d1d22e36915b,Maldives - Infrastructure,World Bank Group,False,0,,,,0.0
 34bc2275-f457-4c6d-8d3d-5c82edf36bfa,Norway - Health Indicators,World Health Organization,True,2,human_loss|affected_population,,buildings,0.6
-34bd6a03-a5ee-4296-a842-3ed80e494b49,Jamaica and Haiti - Hurricane Melissa Road Blockages,Planetary Response Network,True,1,structural_damage,flood,infrastructure,0.8
+34bd6a03-a5ee-4296-a842-3ed80e494b49,Jamaica and Haiti - Hurricane Melissa Road Blockages,Planetary Response Network,True,1,structural_damage,convective_storm,infrastructure,0.8
 34bd8e77-3784-4190-b82e-144d17ab8f0e,Liberia - Energy and Mining,World Bank Group,False,0,,,,0.0
 34bf4ce8-f1b7-4de6-a20b-9b99d12e0492,Georgia - Trade,World Bank Group,False,0,,,,0.0
 34c2fa3d-2eed-45bb-8e45-9b1a1801f351,Guatemala: Acute Food Insecurity Country Data,Integrated Food Security Phase Classification (IPC),False,0,,,,0.0
@@ -5580,7 +5580,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 36904d01-3c31-46e2-a248-aab36f4d515b,Bolivia (Plurinational State of) - Health Indicators,World Health Organization,True,2,human_loss|affected_population,,buildings,0.6
 3692626a-8a52-4086-8847-f375bfe9738e,Proportion of schools with basic drinking water services,UNICEF Data and Analytics (HQ),False,0,,,,0.0
 36939c16-3618-4d7f-990a-e719e628b3e9,"Geodata of Flood Waters Near City of Yangon, Myanmar",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
-369463f3-36b8-42f9-bd37-870a33ac8227,"Geodata of Damage Assessment of Portoviejo City, Manabi Province, Ecuador",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+369463f3-36b8-42f9-bd37-870a33ac8227,"Geodata of Damage Assessment of Portoviejo City, Manabi Province, Ecuador",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 3697d6f3-3f84-4ee9-80b7-865d634423fa,British Virgin Islands - Agriculture and Rural Development,World Bank Group,False,0,,,,0.0
 369aac7b-0a54-45fb-b5d9-292f23180ea1,Panama - Age and gender structures,WorldPop,False,0,,,,0.0
 369e003b-f0af-4e48-99d7-34fc85b44635,Sudan - Food Prices,WFP - World Food Programme,False,0,,,,0.0
@@ -5796,7 +5796,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 389e4855-da34-4498-986b-82298f1aec60,Vanuatu: Earthquake - 6.5M - Aug 2023,WFP Advanced Disaster Analysis & Mapping,True,1,affected_population,earthquake,population,0.8
 389f202e-1789-4b13-8b8e-5b0c7a9a92de,Mozambique - Health,World Bank Group,True,1,human_loss,,infrastructure,0.6
 38a214f3-83a9-455b-957b-4866c659ad25,Mali: Copernicus Global Human Settlement Layer (GHSL),Copernicus,False,0,,,,0.0
-38a3c6d3-25c1-4d17-8303-eaeb1c5b0e46,"Damage Assessment in Jojutla town, Jojutla Municipality, State of Morelos, Mexico",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+38a3c6d3-25c1-4d17-8303-eaeb1c5b0e46,"Damage Assessment in Jojutla town, Jojutla Municipality, State of Morelos, Mexico",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 38ab0547-2b62-4b2a-8ac7-6e8ba1bc91dc,Singapore - Public Sector,World Bank Group,False,0,,,,0.0
 38ab0626-7408-48ca-8896-76ea1371afc1,Myanmar - Science and Technology,World Bank Group,False,0,,,,0.0
 38adf729-fc53-4171-a59c-683b2d54feba,Cabo Verde: Daily Port Activity Data and Shipment Estimates,PortWatch,False,0,,,,0.0
@@ -6232,7 +6232,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 3cd1780e-5b72-4c64-8945-ec36358ee9ca,Norway - Food Prices,Food and Agriculture Organization (FAO) of the United Nations,False,0,,,,0.0
 3cd4cff1-f1d1-40b1-a19f-2491c2c892b2,Guam - Trade,World Bank Group,False,0,,,,0.0
 3cd53554-3ad7-4aae-b862-9bbbc6fa3bfc,Republic of Moldova - Subnational Administrative Boundaries,OCHA Field Information Services Section (FISS),False,0,,,,0.0
-3cd5c816-9d74-4f39-b35c-968eb0449dac,"Damage Assessment in Al Bab, Qabasin and Bza'a towns, Syria as of 11 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+3cd5c816-9d74-4f39-b35c-968eb0449dac,"Damage Assessment in Al Bab, Qabasin and Bza'a towns, Syria as of 11 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 3cd85f64-2ed2-4f0f-9a72-668c4eb55e10,Cabo Verde: NDVI at Subnational Level,WFP - World Food Programme,False,0,,,,0.0
 3cd9c14e-b3de-47a4-a352-c83e373c2e18,Japan - Food Security and Nutrition Indicators,Food and Agriculture Organization (FAO) of the United Nations,False,0,,,,0.0
 3cdf3eda-b925-4079-9c1e-83f7550b42f3,Bermuda Railways (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
@@ -6364,7 +6364,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 3e047d7e-0aef-41c2-bede-6c7f97c89d3a,Faroe Islands Sea Ports (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 3e049513-aa2d-455e-984f-72d8cb5ecbad,Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Palau,Pacific Community,False,0,,,,0.0
 3e052f7e-2182-47f7-8492-2780a2446d4a,Tuvalu - Science and Technology,World Bank Group,False,0,,,,0.0
-3e07795e-5eef-463b-a293-b4c61c8884fb,"Geodata of Damage Assessment of Hansapur Area, Western Region, Nepal",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+3e07795e-5eef-463b-a293-b4c61c8884fb,"Geodata of Damage Assessment of Hansapur Area, Western Region, Nepal",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 3e080371-8aa7-4a82-bf98-6848ef828f78,Mauritius - Agriculture and Rural Development,World Bank Group,False,0,,,,0.0
 3e0850d7-97da-4c1d-bd52-2d7dc4c01d67,Rwanda - Poverty,World Bank Group,False,0,,,,0.0
 3e0a22b0-b4a0-4be2-a34b-f95e0fe78d14,Peace and Security Pillar: United Nations Security Council Voting Data for Adopted Resolutions Since 1946,United Nations Peace and Security Data Hub,False,0,,,,0.0
@@ -6516,10 +6516,10 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 3f6fb3bd-9684-4c96-98c3-369e01dce825,Northern Mariana Islands - Urban Development,World Bank Group,False,0,,,,0.0
 3f715121-4388-4385-bae1-bf1e516e2af1,Denmark - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,0,,,,0.0
 3f74001c-3554-4c54-bd86-c66208563316,Zambia - Food Prices,WFP - World Food Programme,False,0,,,,0.0
-3f781661-3f94-4440-81c2-d3ea469102e7,"Damage assessment in the  Southern part of New Mirpur, Azad Jammu and Kashmir, Pakistan, as of 02 October 2019",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+3f781661-3f94-4440-81c2-d3ea469102e7,"Damage assessment in the  Southern part of New Mirpur, Azad Jammu and Kashmir, Pakistan, as of 02 October 2019",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 3f7852e9-c0e9-4f6a-953c-2512fa56f2bc,New Caledonia: Population Density for 400m H3 Hexagons,Kontur,False,0,,,,0.0
 3f7873e9-9a07-4189-b7e5-db2a7dadf7ad,China - Millenium development goals,World Bank Group,False,0,,,,0.0
-3f7ab72e-a6cb-443d-8c8a-e9204a2fe864,"Damage Assessment in Central West Cuernavaca City, Municipality of Cuernavaca, State of Morelos",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+3f7ab72e-a6cb-443d-8c8a-e9204a2fe864,"Damage Assessment in Central West Cuernavaca City, Municipality of Cuernavaca, State of Morelos",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 3f80bd47-b3d4-465d-b744-bbbae8a50154,"Yemen Displacement - Daily Tracking - [IDPs, Returnees] - [IOM DTM]",International Organization for Migration (IOM),True,1,displacement,,population,0.6
 3f82bb4d-7d9d-4063-a461-95913119d68a,Guam - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),True,1,human_loss,,economic_indicator,0.6
 3f8a32cb-84e3-42c8-9dda-2af432f6af3c,"Eaux de surface détectées par images satellite à Lacs et alentours, Togo",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
@@ -6581,7 +6581,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 401f7f54-41fc-4fb7-bf5b-7a27d5e8af92,Honduras Delitos Contra la Vida e Integridad Humana 2017,OCHA Latin America and the Caribbean (ROLAC),False,0,,,,0.0
 40248d44-7e44-4076-b3e0-a01279ee3502,Thailand - Education Indicators,UNESCO,True,1,human_loss,,infrastructure,0.6
 4028ca2e-1d08-44db-8188-2a0b740dfa43,"EM-DAT - Country Profiles, Angola",Centre for Research on the Epidemiology of Disasters,True,2,human_loss|affected_population,,population,0.6
-402b74cf-0aaf-49f2-aea5-b7ea0ec7f364,"Geodata of Damage Assessment of San Vicente, Manabi Province, Ecuador",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+402b74cf-0aaf-49f2-aea5-b7ea0ec7f364,"Geodata of Damage Assessment of San Vicente, Manabi Province, Ecuador",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 402cffbc-8ea0-48e9-a97a-8108c8225b64,Costa Rica - High Frequency Survey - 2021,UNHCR - The UN Refugee Agency,False,0,,,,0.0
 403005ac-9482-4ee7-b75b-81bfe576dab8,HDX HAPI Data for Democratic People's Republic of Korea,HDX Humanitarian API Data,True,1,affected_population,,infrastructure,0.6
 4037c956-8c24-45a0-9150-0235b17eb522,Mali Who does What Where (3W),OCHA Mali,False,0,,,,0.0
@@ -7014,7 +7014,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 4419c40f-9210-4b65-a2b2-64b18c31995c,San Marino - Climate Change,World Bank Group,True,1,human_loss,,infrastructure,0.6
 441a0216-2dce-4cc0-85d5-fe567fc5b90e,Gambia: Rainfall Indicators at Subnational Level,WFP - World Food Programme,False,0,,,,0.0
 441d177e-5f79-4ed8-9a64-299f4c26acdd,"Population potentially exposed to floods in Malawi as of 26 and 31 January, and 2 February 2022",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
-441d3920-ab67-4b1a-bbd7-7dc7bfd7541c,"Damage Assessment in Wundwin Township, Meiktila District Mandalay Region, Myanmar as of 01 April 2025",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+441d3920-ab67-4b1a-bbd7-7dc7bfd7541c,"Damage Assessment in Wundwin Township, Meiktila District Mandalay Region, Myanmar as of 01 April 2025",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 441e8a6b-3b81-44d3-be8f-452f99b3bf0b,Tunisia - Subnational Edge-matched Administrative Boundaries,OCHA Field Information Services Section (FISS),False,0,,,,0.0
 442aca8f-2d9e-4f11-b786-65af97bfff6e,Djibouti - Poverty,World Bank Group,False,0,,,,0.0
 442b7f2c-1d7c-4a55-bf25-ee4c32cbc933,Israel - Public Sector,World Bank Group,True,1,displacement,,infrastructure,0.6
@@ -7075,12 +7075,12 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 44ae187f-59b1-498a-9ca3-30b761fe3b3e,"Afghanistan - Voluntary Repatriation, 2011",UNHCR - The UN Refugee Agency,False,0,,,,0.0
 44af0854-db63-45fe-92b0-96ed2ba39776,Caracterización necesidades de las Mipymes,iMMAP Inc.,False,0,,,,0.0
 44b2ae8f-c58e-4a98-888a-14905a66003a,Georgia - Population Counts,WorldPop,False,0,,,,0.0
-44b8e038-692a-4fac-89b1-97c7739c1645,"Geodata of Damage Assessment of Kalam Area, Swat District, Khyber Pakhtunkhwa Province, Pakistan",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+44b8e038-692a-4fac-89b1-97c7739c1645,"Geodata of Damage Assessment of Kalam Area, Swat District, Khyber Pakhtunkhwa Province, Pakistan",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 44b9f773-9892-434d-a04f-777d76cc3e98,Somalia - Poverty,World Bank Group,False,0,,,,0.0
 44bdf939-420d-4a81-9375-81d02a4a9fa2,Guinea-Bissau - Food Prices,WFP - World Food Programme,False,0,,,,0.0
 44bdfbaf-0762-43b3-8262-74082cd9074c,Serbia - Data on Conflict Events,HDX,False,0,,,,0.0
 44c6695a-bc71-434b-80f6-a451a57d307d,Haiti - Urban transport,"United Nations Human Settlements Programmes, Data and Analytics Section",False,0,,,,0.0
-44c6950e-3e52-471d-a80b-e304a90d54f0,"Geodata of Damage Assessment of Tuhure Pasal Area, Western Region, Nepal",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+44c6950e-3e52-471d-a80b-e304a90d54f0,"Geodata of Damage Assessment of Tuhure Pasal Area, Western Region, Nepal",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 44c924ae-2a60-4b6e-a6dd-116ba1111bf2,Nicaragua Medium Term Projection  FEWS NET Acute Food Insecurity Classifications Geographic Data for 2022,FEWS NET,False,0,,,,0.0
 44c97fef-6923-455f-b120-d3780b8ec81d,"Rwanda - Socio-economic assessment of refugees in Rwanda's Gihembe, Kigeme and Kiziba camps 2016",UNHCR - The UN Refugee Agency,True,1,displacement,,population,0.6
 44caa7d4-0768-4570-af4a-b3b0a1ef5ee0,"HDX HAPI Data for Bonaire, Sint Eustatius and Saba",HDX Humanitarian API Data,False,0,,,,0.0
@@ -7303,7 +7303,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 4728d005-961d-4004-be82-44407f57814a,Food Insecurity Mapping - East Africa (April - June 2014),HDX,False,0,,,,0.0
 472b36c9-e90f-4cef-8bf6-42e908460999,Tunisia - Energy and Mining,World Bank Group,False,0,,,,0.0
 472b494d-b890-4e35-a438-2c2360a5fbc3,Maldives - Economy and Growth,World Bank Group,False,0,,,,0.0
-47318db5-b88a-40e7-bc56-bba0f988b12c,14 August 2021 M7.2 Haiti Earthquake. Preliminary Satellite-Based Comprehensive Damage Assessment Report,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+47318db5-b88a-40e7-bc56-bba0f988b12c,14 August 2021 M7.2 Haiti Earthquake. Preliminary Satellite-Based Comprehensive Damage Assessment Report,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 47318ddf-f0c3-457a-a015-8883465fdd8b,Palau Points of Interest (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 47344df8-22cd-4246-8a40-cbbcd68cc242,Marshall Islands - Aid Effectiveness,World Bank Group,True,1,human_loss,,buildings,0.6
 47347de0-4c21-470e-a517-60cffbdff34a,Nauru Populated Places (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
@@ -7808,7 +7808,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 4c01c3f2-1f66-46cf-8f07-9a96c0cadd39,Mozambique Medium Term Projection  FEWS NET Acute Food Insecurity Classifications Geographic Data for 2016,FEWS NET,False,0,,,,0.0
 4c058a00-9fa5-49a2-954f-4fb660ce0b6f,"Malaysia - Demographic, Health, Education and Transport indicators","United Nations Human Settlements Programmes, Data and Analytics Section",False,0,,,,0.0
 4c063989-f312-4ec7-b108-65c65d7eed95,GAR15 Global Exposure Dataset for Malaysia,United Nations Office for Disaster Risk Reduction (UNDRR),False,0,,,,0.0
-4c0ad1d4-35b7-42e2-b9a4-dd7da53ebdf2,Somalia Districts hit by 2012 Tropical Cyclone Murjan,IGAD Climate Prediction and Applications Center (ICPAC),True,1,human_loss,flood,agriculture,0.8
+4c0ad1d4-35b7-42e2-b9a4-dd7da53ebdf2,Somalia Districts hit by 2012 Tropical Cyclone Murjan,IGAD Climate Prediction and Applications Center (ICPAC),True,1,human_loss,convective_storm,agriculture,0.8
 4c0cc9f6-6d26-4c0f-b810-5193eeecdef2,"Thailand - Demographic, Health, Education and Transport indicators","United Nations Human Settlements Programmes, Data and Analytics Section",False,0,,,,0.0
 4c13ed87-773b-452f-9326-32e78280890e,Argentina - Requirements and Funding Data,OCHA Financial Tracking System (FTS),False,0,,,,0.0
 4c17ce17-660b-4517-8445-4a6525796372,Honduras: Population Density for 400m H3 Hexagons,Kontur,False,0,,,,0.0
@@ -7964,7 +7964,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 4d87c94e-6962-4eaf-b38d-26110f2e50d7,Estonia - Historical Health Indicators,World Health Organization,False,0,,,,0.0
 4d8b540b-0932-4277-92ba-5618c2d46c47,IDP Camps Nepal - 3 Word Addresses,what3words (inactive),True,1,displacement,earthquake,population,0.8
 4d9103ff-bb62-4328-b61a-c76702554f87,"South Sudan - Standardized Expanded Nutrition Survey (SENS), Gorom Refugee Camp - 2019",UNHCR - The UN Refugee Agency,True,1,displacement,,population,0.6
-4d927c9f-4145-4caa-9797-0d53121b9ac3,"Damage Assessment in Lilawa Village, Jarablus District, Aleppo Governorate, Syria as of 7 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+4d927c9f-4145-4caa-9797-0d53121b9ac3,"Damage Assessment in Lilawa Village, Jarablus District, Aleppo Governorate, Syria as of 7 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 4d92eb3e-758a-4f57-be6b-9d072535c915,Trinidad and Tobago - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,True,1,displacement,,population,0.6
 4d9327ac-1148-4312-b995-8767a2591c33,Fiji - Food Security and Nutrition Indicators,Food and Agriculture Organization (FAO) of the United Nations,False,0,,,,0.0
 4d953cb9-5bb6-4ec9-b693-56f7a512a159,"Egypt, Arab Rep. - Energy and Mining",World Bank Group,False,0,,,,0.0
@@ -8160,7 +8160,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 4f54528d-530a-4eda-b614-2009092631be,"Bermuda - Demographic, Health, Education and Transport indicators","United Nations Human Settlements Programmes, Data and Analytics Section",False,0,,,,0.0
 4f55d98d-db1e-4212-9fbf-7492299a8d8f,HDX HAPI Data for Colombia,HDX Humanitarian API Data,True,1,affected_population,,infrastructure,0.6
 4f573408-7ffc-4a81-b6a0-2acfb8e57934,Greenland - Economy and Growth,World Bank Group,False,0,,,,0.0
-4f599894-6d63-4a3b-85e7-8a8adc05a6a2,Damage Assessment in Jisr al-Shughur City (Idleb) as of 9 February 2023,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+4f599894-6d63-4a3b-85e7-8a8adc05a6a2,Damage Assessment in Jisr al-Shughur City (Idleb) as of 9 February 2023,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 4f5ad942-ae4a-4481-965b-9bd7c9e7d227,Mariupol Rapid Damage Assessment Overview Map,United Nations Satellite Centre (UNOSAT),True,2,structural_damage|general_loss,flood,buildings,0.8
 4f5f32b2-de87-4da6-818e-d5d23bc76022,Chile - Energy and Mining,World Bank Group,False,0,,,,0.0
 4f657dd4-705c-41a0-8369-8684b8c70ef2,Pakistan: Languages,CLEAR Global (previously Translators without Borders),False,0,,,,0.0
@@ -8184,7 +8184,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 4f898e42-f529-4d7e-9c92-6e8c56c86a2e,IRC Ethiopia ECHO Funded Emergency Responses 31 August 2017 Update,International Rescue Committee Ethiopia,False,0,,,,0.0
 4f8b92d7-0897-400b-8645-829233b5b4ea,Sao Tome and Principe: Population Density for 400m H3 Hexagons,Kontur,False,0,,,,0.0
 4f92041e-2070-4c2e-8c9c-381c0faf31cc,Cameroon: WOF Administrative Subdivisions and Human Settlements,Who's On First,False,0,,,,0.0
-4f9a3d2a-c68c-40c6-9a3e-239e5b48817a,"Buildings Damage Assessment & Related Density North of  Sarpol-e-Zahab County, Iran",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+4f9a3d2a-c68c-40c6-9a3e-239e5b48817a,"Buildings Damage Assessment & Related Density North of  Sarpol-e-Zahab County, Iran",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 4f9af759-a5b3-4fda-bf24-0fc85d8e3c84,Australia: Copernicus Vegetation Index Anomaly (FAPAR Anomaly),Copernicus,False,0,,,,0.0
 4f9b3dbb-3645-483e-8c23-cf5c069a1af9,Albania - IFRC Appeals,International Federation of Red Cross and Red Crescent Societies (IFRC),False,0,,,,0.0
 4f9c14e2-1b52-44af-8039-f74f752f029e,Paraguay Airports (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
@@ -8392,7 +8392,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 5197ba78-ce8d-4843-b775-885fcf0a6f6e,Georgia - Subnational Administrative Boundaries,geoBoundaries,False,0,,,,0.0
 519c0042-182e-42f2-840d-a5cdef68df2d,Guyana - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,True,1,displacement,,population,0.6
 519fc698-50cf-4b41-b70c-487435f5f859,"Geodata of Doro Refugee Camp, Maban County, Upper Nile State, South Sudan",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
-51abb3d9-904d-44cc-adb3-615296e3148e,"Damage Assessment in Tani district, Khost province as of 23 June 2022",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+51abb3d9-904d-44cc-adb3-615296e3148e,"Damage Assessment in Tani district, Khost province as of 23 June 2022",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 51abf6bd-c20c-4da0-997f-1896ddfd7e52,GRID3 SEN - Settlement Extents v3.0,GRID3,False,0,,,,0.0
 51b0bff3-6626-4e95-881a-7eb7ea77b378,Cayman Islands - Health Indicators,World Health Organization,True,2,human_loss|affected_population,,buildings,0.6
 51b13633-51be-4366-9dfa-8472139a50a6,Lithuania - Age and gender structures,WorldPop,False,0,,,,0.0
@@ -8475,7 +8475,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 524f7311-532d-477f-8108-778cd162a582,Haiti - Trade,World Bank Group,False,0,,,,0.0
 52503c9f-f575-43c0-87d2-83b9d3197d0a,"Lebanon (LBN): Attacks on Aid Operations, Education, Food and Water Systems, Health Care and IDP/Refugee Camps and Explosive Weapons Incident Data",Insecurity Insight,True,2,human_loss|displacement,,infrastructure,0.6
 525370c1-4fd9-48c2-a60e-cb6baee0084b,HDX HAPI Data for United States Minor Outlying Islands,HDX Humanitarian API Data,False,0,,,,0.0
-52537a18-3816-42ef-918d-eea20cb083e5,"Damage Assessment in Tayum Town, Abra Province, Cordillera Administrative Region, Philippines",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+52537a18-3816-42ef-918d-eea20cb083e5,"Damage Assessment in Tayum Town, Abra Province, Cordillera Administrative Region, Philippines",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 525889f4-5fea-4962-87d7-03d72caca87b,Republic of North Macedonia - IFRC Appeals,International Federation of Red Cross and Red Crescent Societies (IFRC),False,0,,,,0.0
 5259cd76-1170-4c5b-a405-37255152cfdd,Kenya - Transport Network in Kibera,Map Kibera (inactive),False,0,,,,0.0
 525ac838-3cd4-4916-a4ee-dae4da02cffd,Uganda Medium Term Projection  FEWS NET Acute Food Insecurity Classifications Geographic Data for 2017,FEWS NET,False,0,,,,0.0
@@ -8599,7 +8599,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 53af2cb8-34d1-402b-bedb-1cf3c7f41c78,Slovak Republic - Public Sector,World Bank Group,True,1,displacement,,infrastructure,0.6
 53b3fbc2-0329-4ab0-81dd-778a81a747f7,HOTOSM Barbados Schools,OCHA Latin America and the Caribbean (ROLAC),False,0,,,,0.0
 53b4a1ad-344e-414c-b6b5-a581d361a2f1,Ukraine: IBTrACS Storm Tracks,HDX,False,0,,,,0.0
-53b686ce-c4fd-4ff9-87e2-79f181f722e5,"Damage Assessment in Mandalay & Sagaing Districts, Myanmar as of 03 April 2025",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+53b686ce-c4fd-4ff9-87e2-79f181f722e5,"Damage Assessment in Mandalay & Sagaing Districts, Myanmar as of 03 April 2025",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 53b82d5a-0753-4a92-8ffd-21f772358db9,Saint Vincent and the Grenadines - Pregnancies,WorldPop,False,0,,,,0.0
 53ba0894-f756-4e93-9acb-44b81a5857f5,Ecuador - VIEWS conflict forecasts,Violence & Impacts Early-Warning System,True,1,human_loss,,population,0.6
 53bc8ae3-f326-4a6f-b0a5-0bc5bf012046,Senegal - VIEWS conflict forecasts,Violence & Impacts Early-Warning System,True,1,human_loss,,population,0.6
@@ -9058,7 +9058,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 5813a591-0fdd-4d8d-8062-ff76701dcf92,Sri Lanka - Population Density,WorldPop,False,0,,,,0.0
 5814a6f2-fb53-4341-b42a-143a834c125c,New Caledonia - Requirements and Funding Data,OCHA Financial Tracking System (FTS),False,0,,,,0.0
 5822a731-3652-4a93-927c-917eb367478a,Solomon Islands Waterways (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
-582355af-dfaa-48e3-9cbd-15dc91924015,"Geodata of Damage Assessment of West Sundar Bazar Area, Western Region, Nepal",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+582355af-dfaa-48e3-9cbd-15dc91924015,"Geodata of Damage Assessment of West Sundar Bazar Area, Western Region, Nepal",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 582938a9-425d-4077-8774-93131fe1278c,Afghanistan: Humanitarian Situation Monitoring (HSM) Round 6 KII (Data) (March 2024),REACH Initiative,True,1,displacement,,infrastructure,0.6
 582d5289-5226-4599-bbca-34e3f6e70971,Morocco - Energy and Mining,World Bank Group,False,0,,,,0.0
 582d7020-3475-4f63-9837-e72b6e49fb48,Colombia: Reported COVID-19 Cases,Global.health,False,0,,,,0.0
@@ -9220,7 +9220,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 5997ff07-0f86-48b3-bc2b-c9f7319fd7cd,Burkina Faso Current Situation FEWS NET Acute Food Insecurity Classifications Data,FEWS NET,False,0,,,,0.0
 5999dfc8-7393-4f25-9b12-0ce9ce5a8255,"Estonia: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,0,,,,0.0
 599a6491-98aa-4eea-8eb1-ddd48002555e,Mexico - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),True,1,human_loss,,economic_indicator,0.6
-599a6729-5822-4349-afaa-cbb600042c6e,"M7.7 28 March 2025 Sagaing Earthquake, Satellite-Based Comprehensive Damage Assessment Report",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+599a6729-5822-4349-afaa-cbb600042c6e,"M7.7 28 March 2025 Sagaing Earthquake, Satellite-Based Comprehensive Damage Assessment Report",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 599e790b-1a0c-4228-bd58-579c97e5486f,China: IBTrACS Storm Tracks,HDX,False,0,,,,0.0
 59a58022-83e8-4df5-91d0-14eea3c12ee3,Guatemala - Social Development,World Bank Group,False,0,,,,0.0
 59ade68a-b807-4070-9634-e82676377e1b,Suriname - Internal Displacements Updates (IDU) (event data),Internal Displacement Monitoring Centre (IDMC),True,1,displacement,,population,0.6
@@ -9495,7 +9495,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 5c7eb20e-9cc0-4c0c-8fea-f9f82c79e520,Nigeria: Northeast Nigeria 3W,OCHA Nigeria,False,0,,,,0.0
 5c7fa7bf-771c-4ab3-bf08-c921435ea60f,Finland - Age and Gender Structures (2015-2030),WorldPop,False,0,,,,0.0
 5c7fd0f8-22c8-4bf2-885d-5b28cf959c93,Panama - High Frequency Survey - Q3 2021,UNHCR - The UN Refugee Agency,False,0,,,,0.0
-5c8013d2-aaae-4cc4-8e71-e7ca646f4753,"Geodata of Damage Assessment of Manbu Area, Western Region, Nepal",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+5c8013d2-aaae-4cc4-8e71-e7ca646f4753,"Geodata of Damage Assessment of Manbu Area, Western Region, Nepal",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 5c80edf4-97d0-4cff-891a-0d6339354671,Norway - Data on forcibly displaced populations and stateless persons,UNHCR - The UN Refugee Agency,True,1,displacement,,population,0.6
 5c82a3c8-d4a7-417c-a4a5-123f36f429df,Kenya - Proportion of Children (0 to 59 Months) who slept under Treated bed nets,Kenya Open Data Initiative (inactive),False,0,,,,0.0
 5c84f5c4-9cf0-46e3-ac5b-d0748c9e0527,Dominica - Trade,World Bank Group,False,0,,,,0.0
@@ -9647,7 +9647,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 5dedb2b8-b107-4273-8a1d-119301638443,Mauritania: Settlements,OCHA West and Central Africa (ROWCA),False,0,,,,0.0
 5def10a2-e0cc-4621-ae20-8a842009677b,Cabo Verde Buildings (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 5def1205-2b8c-450a-a5bd-e77e2c5b79db,Montserrat - Subnational Administrative Boundaries,OCHA Field Information Services Section (FISS),True,1,displacement,,population,0.6
-5df24c71-997e-461c-8f16-afd98f659d07,"Damage Assessment in A'zaz City, Aleppo Governorate, Syria as of 9 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+5df24c71-997e-461c-8f16-afd98f659d07,"Damage Assessment in A'zaz City, Aleppo Governorate, Syria as of 9 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 5df27abc-f3a7-468a-8f33-bfc91f31488d,Tonga Buildings (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 5df3e5d0-d57c-430d-a359-49ccc09e4185,Consolidated Stocktake of Cyclone Pam Aid Supplies,Vanuatu NDMO (Cyclone Pam) (inactive),False,0,,,,0.0
 5df77ea0-54bf-4358-b677-9c4d1c643766,Stillbirth rate,UNICEF Data and Analytics (HQ),True,1,human_loss,,population,0.6
@@ -9857,7 +9857,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 6019c24b-0c48-4589-854e-34c06e4a3be7,"Flooding in the Philippines on July 17, 2023",The Philippine Space Agency,True,1,structural_damage,flood,infrastructure,0.8
 601b17f0-6598-4052-ace4-c9de2edef979,"Ukraine: repaid electronic recipes under the reimbursement program ""Available medicines""",Health Cluster,False,0,,,,0.0
 601e07ce-b405-4f10-94b4-d31a351c4a8f,Martinique - Pregnancies,WorldPop,False,0,,,,0.0
-601f9ddd-68f5-43dc-a185-9b6005f0e8ef,"Damage Assessment in Cianjur district, Jawa Barat Province, Indonesia  as of 29 November 2022",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+601f9ddd-68f5-43dc-a185-9b6005f0e8ef,"Damage Assessment in Cianjur district, Jawa Barat Province, Indonesia  as of 29 November 2022",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 60221145-5fa5-402b-ae80-ffda5ca3faac,GAR15 Global Exposure Dataset for Congo,United Nations Office for Disaster Risk Reduction (UNDRR),False,0,,,,0.0
 6023040b-8764-420b-90bb-e1bef0078821,"Cuba - Population Exposure Wind Speed from Hurricane Matthew (UNOSAT, 2016-10-06.)",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
 6024fcb5-cd1b-4f27-b7ef-14e82bc5c3b5,Guatemala: Copernicus Vegetation Index Anomaly (FAPAR Anomaly),Copernicus,False,0,,,,0.0
@@ -10228,7 +10228,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 63aff6de-231c-42d1-9c1e-404c443de0ae,"Satellite detected water extents in Ambohimahasoa, Lalangina, and Vohibato Districts, Madagascar as of 24 February 2022",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
 63b37dce-bcec-480e-9185-a28537adea2c,Cayman Islands - Climate Change,World Bank Group,False,0,,,,0.0
 63b47398-b037-46f3-8565-20583865473e,"Geodata of Overview of Flood Waters Near City of Moro in Sindh Province, Pakistan",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
-63b9ac79-29e6-4d84-88aa-efdac74edda8,Somalia Regions hit by 2020 Tropical Cyclone Gati,IGAD Climate Prediction and Applications Center (ICPAC),True,3,human_loss|displacement|affected_population,flood,infrastructure,0.8000000000000002
+63b9ac79-29e6-4d84-88aa-efdac74edda8,Somalia Regions hit by 2020 Tropical Cyclone Gati,IGAD Climate Prediction and Applications Center (ICPAC),True,3,human_loss|displacement|affected_population,convective_storm,infrastructure,0.8000000000000002
 63bafd6b-b73d-483d-b725-06d759071ff9,Serbia Sea Ports (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 63c1f821-9dfc-402c-9c8a-77af81025fe8,Monaco Financial Services (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 63c1f99c-42cb-486d-a229-60bff759eafa,"Satellite detected waters extents, as of 28 August 2019 over  Khartoum State, Sudan",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
@@ -10282,7 +10282,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 6448bc51-46df-4f39-bd7f-793bbf81e156,Belgium: Administrative Division with Aggregated Population,Kontur,False,0,,,,0.0
 64498447-6b6a-43bc-b87a-baf942a97349,Tonga - Aid Effectiveness,World Bank Group,True,1,human_loss,,buildings,0.6
 644af567-6220-4207-bcd5-eb60af56dd09,Côte d'Ivoire - Population Counts,WorldPop,False,0,,,,0.0
-6453d349-32e3-4d32-871b-d4f83988011a,"Damage Assessment  in Jableh City, Jableh District, Latakia Province, Syria as of 9 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+6453d349-32e3-4d32-871b-d4f83988011a,"Damage Assessment  in Jableh City, Jableh District, Latakia Province, Syria as of 9 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 645411f5-1943-4dca-9db3-6cc8b6115a31,Denmark - Education,World Bank Group,False,0,,,,0.0
 6454c328-63c8-44db-98aa-ade0200110d0,Insecurite alimentaire Cadre harmonise/food insecurity harmonized framework,OCHA Mali,False,0,,,,0.0
 6455f361-95c5-471b-a03c-a4711dcb6ad8,Azerbaijan - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,0,,,,0.0
@@ -10651,7 +10651,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 67f89181-8160-4ac0-8c7b-bade68edcee5,Vanuatu - Infrastructure,World Bank Group,False,0,,,,0.0
 67f8f2e7-9a1a-41ab-a767-e99592a52b55,Puerto Rico - Public Sector,World Bank Group,True,1,displacement,,infrastructure,0.6
 67f8f8b6-852f-4e3a-88f7-98b87b7789a1,HDX HAPI Data for China,HDX Humanitarian API Data,True,1,affected_population,,population,0.6
-67fa8af0-f913-4bc3-b81c-7cf632db635a,"Damage Assessment in the town of Coatetelco, Municipality of Miacatlan, State of Morelos, Mexico",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+67fa8af0-f913-4bc3-b81c-7cf632db635a,"Damage Assessment in the town of Coatetelco, Municipality of Miacatlan, State of Morelos, Mexico",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 67fc5e79-7274-4bb0-8d0f-83148d1b8ede,Guinea - Infrastructure,World Bank Group,False,0,,,,0.0
 67fcc43a-f6f6-4f8c-84b5-13b276ac0c79,Democratic Republic of the Congo - Internal Displacements Updates (IDU) (event data),Internal Displacement Monitoring Centre (IDMC),True,1,displacement,flood,population,0.8
 67fea423-990c-45c8-ad99-d4fbeaeddc91,French Guiana Education Facilities (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
@@ -10762,7 +10762,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 68d8a00f-6421-49e1-b8ab-22d9b30e352c,Kyrgyz Republic - External Debt,World Bank Group,False,0,,,,0.0
 68e27ca6-4b8e-49e3-afd8-4d190190b990,"Landslide and flash floods impact analysis West of Durban, eThekwini Metropolitan Municipality, KwaZulu-Natal Provincce,",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
 68e6b0d6-1377-4f35-98c1-bed1b1e13ebf,Malawi - Dzaleka refugee camp - Post Distribution Monitoring for Cash-Based Intervention - 2020,UNHCR - The UN Refugee Agency,False,0,,,,0.0
-68e776ce-966e-4368-a530-9caa98fabcba,"Geodata of Damage Assessment of Muisne, Esmeraldas Province, Ecuador",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+68e776ce-966e-4368-a530-9caa98fabcba,"Geodata of Damage Assessment of Muisne, Esmeraldas Province, Ecuador",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 68e7e22f-daca-4dc4-8c2b-24e4871c9e09,Panama Populated Places (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 68efe198-21c0-45e6-ac16-f5a35751e3e2,Lao People's Democratic Republic: subnational poverty trends,Oxford Poverty & Human Development Initiative,True,1,human_loss,,infrastructure,0.6
 68f09d21-c443-42a8-acb1-284d505ad9d6,Somalia Near Term Projection  FEWS NET Acute Food Insecurity Classifications Geographic Data for 2022,FEWS NET,False,0,,,,0.0
@@ -10968,7 +10968,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 6af23552-38ee-4bd6-a4ac-e4ccf229bca5,Eastern and Southern Africa Humanitarian Situation and Response,UNICEF Eastern and Southern Africa Regional Office (ESARO) (inactive),True,1,displacement,,population,0.6
 6aff8b7d-61c5-48f3-b31f-7235d50c21fe,Cabo Verde - Trade,World Bank Group,False,0,,,,0.0
 6b015a0a-22e8-4a76-9122-1bc9b6a35f6a,United Republic of Tanzania Multidimensional Poverty Index,Oxford Poverty & Human Development Initiative,True,1,human_loss,,infrastructure,0.6
-6b025569-a91a-4378-b91a-16382235ccbc,2020 Tropical Cyclone Gati Path,IGAD Climate Prediction and Applications Center (ICPAC),True,3,human_loss|displacement|affected_population,flood,infrastructure,0.8000000000000002
+6b025569-a91a-4378-b91a-16382235ccbc,2020 Tropical Cyclone Gati Path,IGAD Climate Prediction and Applications Center (ICPAC),True,3,human_loss|displacement|affected_population,convective_storm,infrastructure,0.8000000000000002
 6b02de40-e37f-473f-b5e2-788a36b7c059,Egypt - Age and gender structures,WorldPop,False,0,,,,0.0
 6b0336f6-20d6-4f89-aad0-c583f66174dd,Ecuador: Copernicus Vegetation Index Anomaly (FAPAR Anomaly),Copernicus,False,0,,,,0.0
 6b034cfe-edec-4506-8f54-3c92817dc1eb,Yemen: Level 1 Exposure Data,Global Earthquake Model Foundation,False,0,,,,0.0
@@ -11630,7 +11630,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 7128e3e5-7f26-488b-8c96-c0d96b88d7bc,Central African Republic - Internal Displacements Updates (IDU) (event data),Internal Displacement Monitoring Centre (IDMC),True,1,displacement,flood,population,0.8
 712b151a-c3b9-4f1f-8a45-2a271eaa5c17,Percentage of surviving infants who received the third dose of hep B-containing vaccine,UNICEF Data and Analytics (HQ),False,0,,,,0.0
 712bb006-59bb-426c-b104-4d230730a05d,Burundi Railways (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
-712c7214-e041-4d7b-9105-aff519f52f22,"Building Damage Assessment in Koshkak village, Zindajan District, Hirat Province, Afghanistan as of 16 October 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+712c7214-e041-4d7b-9105-aff519f52f22,"Building Damage Assessment in Koshkak village, Zindajan District, Hirat Province, Afghanistan as of 16 October 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 71308e55-2ed6-4232-819a-6b0aa6c98d23,"Libya - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,0,,,,0.0
 71335f2a-239e-400d-890e-65ab83b7cb8b,Iraq - Trade,World Bank Group,False,0,,,,0.0
 71343f7d-057c-4434-a511-386666ae6e85,"Argentina - Livelihoods Programme Monitoring Beneficiary Survey, 2020",UNHCR - The UN Refugee Agency,False,0,,,,0.0
@@ -11753,7 +11753,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 72718559-b86d-4525-9823-f7228cc22993,"Cameroon - Livelihoods Programme Monitoring Beneficiary Survey, 2019",UNHCR - The UN Refugee Agency,False,0,,,,0.0
 72726357-5090-4af3-b878-b8e1c0d4f713,Mexican populated places,OCHA Latin America and the Caribbean (ROLAC),False,0,,,,0.0
 7272ce75-d832-42a5-9291-67a3f76db18d,Sierra Leone - IFRC Appeals,International Federation of Red Cross and Red Crescent Societies (IFRC),False,0,,,,0.0
-727364b2-73f7-49ff-b791-639f1cbe4bd4,Damage assessment of Taipa area in  Central Sulawesi,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+727364b2-73f7-49ff-b791-639f1cbe4bd4,Damage assessment of Taipa area in  Central Sulawesi,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 7278a268-7f21-466b-917a-27b43d03990b,Rwanda - GCF Funded Activities,Green Climate Fund,False,0,,,,0.0
 7279d683-515b-4ca1-a0c5-d4fc741feae5,Copernicus Global Human Settlement Layer (GHSL),Copernicus,False,0,,,,0.0
 727ab70b-d940-4c5f-ab89-86f5f5631141,Myanmar - Trade,World Bank Group,False,0,,,,0.0
@@ -11956,7 +11956,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 74569091-7cce-4f18-8ae7-f187945fef24,Sudan: 2023 HNO Baseline Data,OCHA Sudan,True,2,displacement|affected_population,,population,0.6
 7457fdfd-5baf-4824-a565-7bad3b007d96,Belize - Age and gender structures,WorldPop,False,0,,,,0.0
 745b3b1b-62ad-4680-8d6f-ee0c9ec0c559,Cayman Islands: IBTrACS Storm Tracks,HDX,False,0,,,,0.0
-74636ea9-a61a-4b03-a862-b9c39121d871,Tropical Cyclone Lola over Vanuatu and Solomon- UNOSAT Live-Web Map,United Nations Satellite Centre (UNOSAT),True,1,affected_population,flood,population,0.8
+74636ea9-a61a-4b03-a862-b9c39121d871,Tropical Cyclone Lola over Vanuatu and Solomon- UNOSAT Live-Web Map,United Nations Satellite Centre (UNOSAT),True,1,affected_population,convective_storm,population,0.8
 74658c28-6ee5-4095-8646-97f2e3bb6ca1,Japan Education Facilities (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 746744c9-2e2c-45fa-b0c5-59d7c7d594a7,"EM-DAT - Country Profiles, Japan",Centre for Research on the Epidemiology of Disasters,True,2,human_loss|affected_population,,population,0.6
 746772f7-649b-4e15-b084-f83fcadf3077,India Sea Ports (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
@@ -11967,7 +11967,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 746e6615-9cf9-4ffa-8407-6077d70150f5,Greece: Population Density for 400m H3 Hexagons,Kontur,False,0,,,,0.0
 7472c066-a4b5-4306-9d8b-b9121e0cd152,Malawi - Trade,World Bank Group,False,0,,,,0.0
 7472f7e0-3deb-44d9-bd36-38237c666a2e,Cambodia - Subnational Administrative Boundaries,OCHA Field Information Services Section (FISS),False,0,,,,0.0
-747793ef-fb88-41ed-88d7-ead968045ba5,"Damage Assessment in Les Anglais commune, South department as of 23 August 2021",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,infrastructure,0.8
+747793ef-fb88-41ed-88d7-ead968045ba5,"Damage Assessment in Les Anglais commune, South department as of 23 August 2021",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,infrastructure,0.8
 747d982c-e5ed-47b0-96c7-34325d54cc08,Cook Islands Financial Services (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 747eb6e9-4c8d-49a1-8f98-37fac475f4b4,"UNOSAT  Live web map -Floods in Gaborone, Botswana, February 2025",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
 747fd67e-02ef-4f53-9f55-499eecd76c16,Puerto Rico - Health,World Bank Group,True,1,human_loss,,infrastructure,0.6
@@ -12361,7 +12361,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 78353cdb-466d-4ed1-af1f-bd192eb5a220,Russian Federation - Health Indicators,World Health Organization,True,2,human_loss|affected_population,,buildings,0.6
 783a9ae2-1304-42cd-9fd6-682ec57c6e89,"Geodata of Snow cover extent over West Bank, Israel, Jordan, Lebanon and Syria",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
 783b174f-6f31-49ef-8712-fba5b04f8973,Marshall Islands - Population Density,WorldPop,False,0,,,,0.0
-78402eb8-3132-4b39-8eec-38ba896b8179,"Damage Assessment in Salqin, (Idlib) as of 9 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+78402eb8-3132-4b39-8eec-38ba896b8179,"Damage Assessment in Salqin, (Idlib) as of 9 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 78412d51-8e87-4ce5-a5dc-5d22c142bbb4,Myanmar - Poverty,World Bank Group,False,0,,,,0.0
 78418bcc-f614-4110-9931-74386eb58182,Eritrea: Major rivers,OCHA Eritrea,False,0,,,,0.0
 784349bc-f28e-4c24-8939-4ef4a1287728,Benin: Copernicus Vegetation Index Anomaly (FAPAR Anomaly),Copernicus,False,0,,,,0.0
@@ -12551,7 +12551,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 7a001a16-c5e7-40dc-8478-041b7d9c8689,"Hong Kong SAR, China - Science and Technology",World Bank Group,False,0,,,,0.0
 7a07e09a-9c27-4374-afaa-2987a70658f3,New Caledonia - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),True,1,human_loss,,economic_indicator,0.6
 7a0ba837-2798-4bae-a0cf-525a297c0033,Injury and death during the ISIS occupation of Mosul and its liberation,Johns Hopkins School of Public Health,True,1,human_loss,,population,0.6
-7a13accb-eb5c-4d12-bae3-b756dcc3ecef,"Damage Assessment in Jalalabad City, Nangarhar Province as of 2 September 2025",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+7a13accb-eb5c-4d12-bae3-b756dcc3ecef,"Damage Assessment in Jalalabad City, Nangarhar Province as of 2 September 2025",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 7a1614e0-5850-4b9f-aace-55c6e2f151a6,Ecuador Health Facilities (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 7a164898-4baf-486d-ae01-a5c456358dcc,"Evolution satellite detected water extent over Sanamxay District, Attapeu Province, Lao People Democratic Republic",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
 7a166292-1d68-4db7-8224-0299211c7a30,Democratic Republic of the Congo: Level 1 Exposure Data,Global Earthquake Model Foundation,False,0,,,,0.0
@@ -12599,7 +12599,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 7a7add04-39e5-4800-84a1-62ab590d9a7e,Cuba - Poverty,World Bank Group,False,0,,,,0.0
 7a7b3b3a-1920-4677-a72a-dbd1ec93b4e0,Grenada - IFRC Appeals,International Federation of Red Cross and Red Crescent Societies (IFRC),False,0,,,,0.0
 7a7e7428-b8d7-4d2e-91d3-19100500e016,Global: Acute Food Insecurity Country Data,Integrated Food Security Phase Classification (IPC),False,0,,,,0.0
-7a7f64d1-3454-4fdd-9c70-3e4270962af6,"Maria Tropical Cyclone. Damage Assessment in Roseau South, Saint Georges Parish, Dominica",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+7a7f64d1-3454-4fdd-9c70-3e4270962af6,"Maria Tropical Cyclone. Damage Assessment in Roseau South, Saint Georges Parish, Dominica",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,convective_storm,buildings,0.8
 7a81c559-2cff-432e-9c11-8da27c64c6c0,Zimbabwe - Science and Technology,World Bank Group,False,0,,,,0.0
 7a82edf4-a7e2-4492-9801-5622767a2949,Colombia: Hechos Victimizantes,OCHA Colombia,True,1,displacement,,population,0.6
 7a863929-1d49-45e2-be24-c2f76717143a,Gambia Health Facilities (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
@@ -12659,7 +12659,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 7aec62d7-ee6a-4133-a8fa-bb7cffdc0100,Sweden - Energy and Mining,World Bank Group,False,0,,,,0.0
 7aedde87-d20b-4391-bf7d-cff82669bd27,Solomon Islands Buildings (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 7aee706e-3a62-41c0-adf1-225a56d86e55,Dominican Republic Education Facilities (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
-7af476b4-9eaa-424d-bf55-06a5f634a30a,"Geodata of Damage Assessment of Kalam Area, Khyber Pakhtunkhwa Province, Pakistan",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+7af476b4-9eaa-424d-bf55-06a5f634a30a,"Geodata of Damage Assessment of Kalam Area, Khyber Pakhtunkhwa Province, Pakistan",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 7af4dad0-a134-4476-a7f3-3d144f284702,Tajikistan - Population Density,WorldPop,False,0,,,,0.0
 7afbea31-6d25-4328-815e-6328b40a67d4,Angola - Social Protection and Labor,World Bank Group,False,0,,,,0.0
 7afd9fda-40d0-4bfe-b3c1-33b691087d2b,"Angola: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,0,,,,0.0
@@ -12741,7 +12741,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 7bd61b49-3465-4270-a841-bc1b731d3982,Kenya Most Likely FEWS NET Acutely Food Insecure Population Estimates Data,FEWS NET,False,0,,,,0.0
 7bd8185f-ef74-475a-acf4-af704518163f,"Myanmar - Demographic, Health, Education and Transport indicators","United Nations Human Settlements Programmes, Data and Analytics Section",False,0,,,,0.0
 7bd8b8fd-ad6a-4c78-8c25-6e9224f81934,Guyana - VIEWS conflict forecasts,Violence & Impacts Early-Warning System,True,1,human_loss,,population,0.6
-7bd936fa-75c9-4c4c-bb0f-8f52c41ae159,"Damage Assessment in Port-A-Piment and Coteaux communes, South department as of 23 August 2021",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,infrastructure,0.8
+7bd936fa-75c9-4c4c-bb0f-8f52c41ae159,"Damage Assessment in Port-A-Piment and Coteaux communes, South department as of 23 August 2021",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,infrastructure,0.8
 7bda2f17-b63f-4ffc-9619-d5286d65b38c,Colombia - Infrastructure,World Bank Group,False,0,,,,0.0
 7bdaed17-e45e-4ffb-a36e-e5a2ddd23f5e,Nicaragua - Health,World Bank Group,True,1,human_loss,,infrastructure,0.6
 7bdb1096-0055-4cb1-b8fd-62e0af8ed75b,"Peace and Security Pillar: Human Rights Situation in Somalia, Data From Secretary General Reports",United Nations Peace and Security Data Hub,True,1,human_loss,,population,0.6
@@ -13095,7 +13095,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 7f57d36f-9a50-4154-829f-d0d4fb2e9f3e,Sudan - Millenium development goals,World Bank Group,False,0,,,,0.0
 7f5e4ec1-e45c-49a3-901b-3183f5153625,Reunion - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),True,1,human_loss,,economic_indicator,0.6
 7f5f9394-2c8d-4a55-a005-3f62bb47d77e,"China, Macao Special Administrative Region Buildings (OpenStreetMap Export)",Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
-7f5ffab5-2251-45f8-9016-50f7a6e6839f,"Geodata of Damage Assessment of Crucita Area, Manabi Province, Ecuador",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+7f5ffab5-2251-45f8-9016-50f7a6e6839f,"Geodata of Damage Assessment of Crucita Area, Manabi Province, Ecuador",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 7f6227b0-6ca8-4a1b-874d-2f63b8e4bf38,Syrian Arab Republic - Spatial growth of cities and urban areas,"United Nations Human Settlements Programmes, Data and Analytics Section",False,0,,,,0.0
 7f63d262-1881-4ccb-8341-ad56e31aa166,Mauritius Walking Travel Time to nearest Level IV health centre,Data for Children Collaborative,False,0,,,,0.0
 7f64d31f-365d-460d-bb0c-04a19929bbff,Airports in Germany,OurAirports,False,0,,,,0.0
@@ -13195,7 +13195,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 8054fc83-c48d-4088-831c-611158ecf8c3,Saint Barthélemy: Administrative Division with Aggregated Population,Kontur,False,0,,,,0.0
 80562540-b9dc-41e0-97c0-e16ff847b204,Afghanistan - Community Based Protection Monitoring 2024 January-June,UNHCR - The UN Refugee Agency,True,1,displacement,,buildings,0.6
 80565925-4c8b-404d-90aa-141a07467720,Turkmenistan - Age and Gender Structures (2015-2030),WorldPop,False,0,,,,0.0
-805b77e1-5484-46ae-9a8e-2edba414d3cb,"Damage Assessment in Zayzafun Village, A'zaz District, Aleppo Governorate, Syria as of 7 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+805b77e1-5484-46ae-9a8e-2edba414d3cb,"Damage Assessment in Zayzafun Village, A'zaz District, Aleppo Governorate, Syria as of 7 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 805be43a-f456-4d0c-a245-cc7f44f3f732,El Salvador - Requirements and Funding Data,OCHA Financial Tracking System (FTS),False,0,,,,0.0
 805c0b61-7d12-427a-85a4-1ad6f60d5039,Airports in United Arab Emirates,OurAirports,False,0,,,,0.0
 805c952e-a28d-43b0-b441-09d650a3c5ab,West and Central Africa - Burnt Area since 2018,Action Against Hunger ACF - Regional Office for West and Central Africa ROWCA,False,0,,,,0.0
@@ -13324,7 +13324,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 8155bcb7-a818-49de-ac36-3b9fee2a2e5a,Qatar Healthsites,Global Healthsites Mapping Project,False,0,,,,0.0
 8156460c-b59c-4f5b-a20f-7410c0c8e964,Italy: Daily Port Activity Data and Shipment Estimates,PortWatch,False,0,,,,0.0
 8158e5a1-065b-47b7-b5ad-aff3a7157535,Kenya - Admin Level 1 Boundaries,OCHA Regional Office for Southern and Eastern Africa (ROSEA),False,0,,,,0.0
-8158e65b-8ef2-407a-af36-0190b4372cd5,"Damage Assessment in Malorua District, Shefa Province, Vanuatu as of 20 December 2024",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+8158e65b-8ef2-407a-af36-0190b4372cd5,"Damage Assessment in Malorua District, Shefa Province, Vanuatu as of 20 December 2024",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 8163542a-3aad-4bbd-b5dc-07201ecfe1dc,Bhutan - Poverty,World Bank Group,False,0,,,,0.0
 8174325d-72d4-44c1-839a-c42b19068a23,Timor-Leste - Climate Change,World Bank Group,True,1,human_loss,,infrastructure,0.6
 817517ee-d1e8-46c3-8b8f-e18944f849dd,Kyrgyzstan Buildings (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
@@ -13516,7 +13516,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 832355a4-de53-4b9d-9ef9-b1d5cf7026c7,Peru - Internal Displacements Updates (IDU) (event data),Internal Displacement Monitoring Centre (IDMC),True,1,displacement,flood,population,0.8
 83241c53-9470-4883-8fcf-d3b6eb307a9b,United Kingdom of Great Britain and Northern Ireland - Historical Health Indicators,World Health Organization,False,0,,,,0.0
 8326ed53-8f3a-47f9-a2aa-83ab4ecee476,"Global Humanitarian Programme Cycle, Humanitarian Needs",OCHA Humanitarian Programme Cycle Tools (HPC Tools),True,1,affected_population,,population,0.6
-8329c75f-5822-418f-9e3a-2a653b05d908,"Geodata of Damage Assessment of Sankhu, Kathmandu Valley, Nepal",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+8329c75f-5822-418f-9e3a-2a653b05d908,"Geodata of Damage Assessment of Sankhu, Kathmandu Valley, Nepal",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 832bd889-ddc1-4be0-9135-14879a2092a1,El Salvador - Science and Technology,World Bank Group,False,0,,,,0.0
 832bf772-c4df-4632-8160-cc7fd307c29c,Nepal Digital Model Elevation (DEM),HDX,False,0,,,,0.0
 8333bf2b-2fea-4858-bbb4-6dc9a6d3b3c9,Saint Kitts and Nevis Waterways (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
@@ -14013,7 +14013,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 881a2053-2d37-4178-b8f5-1bd23f22d2f0,Central African Republic - Refugees Transfer Intention - 2022,UNHCR - The UN Refugee Agency,True,1,displacement,,population,0.6
 881bdaa3-6d4c-408b-88dc-aed0ecc0d119,"Democratic Republic of the Congo Subnational Population and Housing Data Tables with Administrative Boundaries, Based on Surveys",U.S. Census Bureau,True,2,displacement|affected_population,,buildings,0.6
 881e2ffd-1440-49f2-99f5-7c76ed0baa55,Kenya Current Situation FEWS NET Acute Food Insecurity Classifications Geographic Data for 2016,FEWS NET,False,0,,,,0.0
-8822b2a7-1da6-4da0-a509-12d438013244,"Damage Assessment in Mahaaungmyay, Chanmyathazi and Chanayethazan Townships, Mandalay District, Mandalay Region, Myanmar as of 30 March 2025",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+8822b2a7-1da6-4da0-a509-12d438013244,"Damage Assessment in Mahaaungmyay, Chanmyathazi and Chanayethazan Townships, Mandalay District, Mandalay Region, Myanmar as of 30 March 2025",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 8824e9d0-9687-422d-8c49-71bdad3c0c86,Syrian Arab Republic - Open spaces and green areas,"United Nations Human Settlements Programmes, Data and Analytics Section",False,0,,,,0.0
 8826f000-21f4-413e-b18e-c9c3b7f1abfb,United Kingdom - Trade,World Bank Group,False,0,,,,0.0
 8829829a-85fa-412f-a8ef-03a2a28478dd,"Flood mapping by drones in Merced, California (January 2023)",Globhe Drones,True,1,human_loss,flood,buildings,0.8
@@ -14284,7 +14284,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 8ab25605-51e7-4565-91d8-47773bbedea0,Wallis and Futuna Islands Buildings (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 8ab33bb4-bd51-4b33-b82c-5a01b7baf0ab,Viet Nam - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,0,,,,0.0
 8ab62650-3bea-45b0-b05d-80f1d4bfb3e2,Belgium - Population Counts,WorldPop,False,0,,,,0.0
-8ab89dee-d3f1-4953-bb8b-9bc4c4b24653,Tropical Cyclone Maria. Damage Assessment in Southern Dominica,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+8ab89dee-d3f1-4953-bb8b-9bc4c4b24653,Tropical Cyclone Maria. Damage Assessment in Southern Dominica,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,convective_storm,buildings,0.8
 8ab93e42-63ec-4d7a-a823-8a59beeaf879,Morocco Airports (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 8abc32d2-6ed8-4b70-9d40-de466d43093e,Colombia - People in Need (PiN) for the Protection Cluster and Child Protection Areas of Responsibility,Protection Cluster Colombia,True,1,affected_population,,population,0.6
 8abf1f15-4433-477b-9070-09b5e484e283,"Haiti - Satellite Detected Water Extent in Cavaillon Commune, Sud Department",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
@@ -14685,7 +14685,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 8e67f808-1474-4a17-8cb9-e43643c17c11,Philippines Railways (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 8e71305a-0793-4d86-b2e0-dac350459ffa,Bhutan - Gender,World Bank Group,True,1,human_loss,,infrastructure,0.6
 8e75100a-372e-440e-a418-ae61fa0e44bd,Sahel - Administrative boundaries and settlements,OCHA West and Central Africa (ROWCA),False,0,,,,0.0
-8e78815a-2dc1-4c9a-84cb-3d80566e4a53,"Damage Assessment in Mexico City, Mexico",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+8e78815a-2dc1-4c9a-84cb-3d80566e4a53,"Damage Assessment in Mexico City, Mexico",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 8e7adc45-d7fb-4c4d-8880-d0a108caf785,Georgia - Urban Development,World Bank Group,True,1,human_loss,,infrastructure,0.6
 8e7c66a1-bbd2-403c-b668-02ddb1f6232e,"Bangladesh - Joint Multi Sector Needs Assessment: Cox’s Bazar, Rohingya Refugee Response – August 2020, Refugees",UNHCR - The UN Refugee Agency,False,0,,,,0.0
 8e7f9b77-4a62-46f2-9065-09cbf1dbbb5b,Chile - Education,World Bank Group,False,0,,,,0.0
@@ -15377,7 +15377,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 95821659-a17e-4792-834c-6c8d2bde65cc,Uzbekistan - Food Prices,Food and Agriculture Organization (FAO) of the United Nations,False,0,,,,0.0
 9584ee5f-9448-4a6f-bcef-43cc76d86e07,"Korea, Dem. People's Rep. - Social Development",World Bank Group,False,0,,,,0.0
 9587420a-3c2e-4fc3-a346-f63ce0b52e73,Rwanda Near Term Projection  FEWS NET Acute Food Insecurity Classifications Geographic Data for 2012,FEWS NET,False,0,,,,0.0
-95889a36-1039-4133-8e7b-e2b100eae6b2,"Damage Assessment in Tlaquiltenango Town, Municipality of Tlaquiltenango, State of Morelos, Mexico",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+95889a36-1039-4133-8e7b-e2b100eae6b2,"Damage Assessment in Tlaquiltenango Town, Municipality of Tlaquiltenango, State of Morelos, Mexico",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 958aa344-4fcb-429d-bc19-13d9d7a56008,Costa Rica Health Facilities (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 958b6855-3cd4-48c5-8ef9-31784d804fba,Mozambique Current Situation FEWS NET Acute Food Insecurity Classifications Geographic Data for 2015,FEWS NET,False,0,,,,0.0
 958bdab9-1b93-4812-b873-c3008b6c4b2f,Bosnia and Herzegovina - Private Sector,World Bank Group,False,0,,,,0.0
@@ -16206,7 +16206,7 @@ id,title,organization,has_loss,loss_count,loss_signal_types,hazard_types,asset_c
 9d48b019-3dd3-4284-ac11-200a70370447,Pakistan - Subnational Population Statistics,OCHA Field Information Services Section (FISS),False,0,,,,0.0
 9d495b18-8b40-4ed0-95ab-36969360f065,Congo Health Facilities (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 9d4ce780-0aa6-4cc4-983f-3aef58c93e78,Lao People's Democratic Republic: Rainfall Indicators at Subnational Level,WFP - World Food Programme,False,0,,,,0.0
-9d4e7888-5ee9-498b-821f-1d8c05365000,"Geodata of Damage Assessment of Daraudi Valley, Western Region, Nepal",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+9d4e7888-5ee9-498b-821f-1d8c05365000,"Geodata of Damage Assessment of Daraudi Valley, Western Region, Nepal",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 9d507a21-d5b1-4e35-a2f0-641bb4b99d8c,Mauritania - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,0,,,,0.0
 9d50ec7a-368e-4647-bd6a-4f97c4ec1d98,Botswana - Agriculture and Rural Development,World Bank Group,False,0,,,,0.0
 9d52fb12-bdc5-4386-b6c5-e2db76ab529d,Gabon - Private Sector,World Bank Group,False,0,,,,0.0
@@ -16519,7 +16519,7 @@ a07ecc4d-e0dd-4603-a858-9de8b5e72f5b,Daily Summaries of Precipitation Indicators
 a083b90c-f65d-4974-8363-8c3fbbd2338e,Iceland - Age and Gender Structures (2015-2030),WorldPop,False,0,,,,0.0
 a08409fd-a06e-4a98-92da-f595923ad9fb,Mexico Financial Services (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 a0867ea5-80fc-40eb-a8f7-3af5cd79173e,North Macedonia - Environment,World Bank Group,True,1,human_loss,,infrastructure,0.6
-a087be19-c858-40ca-8005-eb5088945c09,"16th of December 2021 Tropical Cyclone RAI-21, Philippines. Preliminary Satellite-Based Comprehensive Damage Assessment",United Nations Satellite Centre (UNOSAT),True,3,human_loss|displacement|structural_damage,flood,buildings,0.8000000000000002
+a087be19-c858-40ca-8005-eb5088945c09,"16th of December 2021 Tropical Cyclone RAI-21, Philippines. Preliminary Satellite-Based Comprehensive Damage Assessment",United Nations Satellite Centre (UNOSAT),True,3,human_loss|displacement|structural_damage,convective_storm,buildings,0.8000000000000002
 a08caeab-6562-40e2-b11c-83c46da966aa,Guyana - Aid Effectiveness,World Bank Group,True,1,human_loss,,buildings,0.6
 a08e5424-8654-4989-8487-3442a1933d31,Bahrain: Daily Port Activity Data and Shipment Estimates,PortWatch,False,0,,,,0.0
 a08f4746-8cc3-4503-9175-c6e9af78a485,Belize - Energy and Mining,World Bank Group,False,0,,,,0.0
@@ -16639,7 +16639,7 @@ a1a72dd4-0fad-418c-b998-b21d417a962b,Panama - Health Indicators,World Health Org
 a1a9067a-81be-4468-8818-a97b99534da5,Eritrea: Administrative Division with Aggregated Population,Kontur,False,0,,,,0.0
 a1aa5405-2834-46df-a5f1-4ea8d86ce7ba,"Korea, Dem. People's Rep. - Aid Effectiveness",World Bank Group,True,1,human_loss,,buildings,0.6
 a1ab1070-fbfc-40b1-9753-af060586cf50,Zambia - Aid Effectiveness,World Bank Group,True,1,human_loss,,buildings,0.6
-a1ab537d-41a7-49ea-a9fd-507acafaa90a,"Damage Assessment in Bangued Town, Abra Province, Cordillera Administrative Region, Philippines",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+a1ab537d-41a7-49ea-a9fd-507acafaa90a,"Damage Assessment in Bangued Town, Abra Province, Cordillera Administrative Region, Philippines",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 a1ac5248-5ce6-4b45-9486-77b1f0275574,Grenada - Trade,World Bank Group,False,0,,,,0.0
 a1c166f4-803e-4578-a6c5-3f3efb8e2444,Nepal Health Facilities (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 a1cc2c29-526b-40a7-9cfd-87cf31ba5da7,Monaco - Social Development,World Bank Group,False,0,,,,0.0
@@ -17036,7 +17036,7 @@ a55970ca-b4bc-4beb-8280-8cddc933f8a9,"GHANA - Population and migration indicator
 a560be75-78df-4302-8df0-b87e73c3f117,USAR sites visited as of 28 April 2015,MapAction,False,0,,,,0.0
 a5679ca9-cce2-4eef-a7ca-67623190fbe6,Czechia: Copernicus Global Human Settlement Layer (GHSL),Copernicus,False,0,,,,0.0
 a5688f6b-cf89-47d3-b506-26272a249045,Colombia: Copernicus Vegetation Index Anomaly (FAPAR Anomaly),Copernicus,False,0,,,,0.0
-a56a0aa7-963f-45bd-926d-6ec098b33626,"Damage Assessment in Cianjur district, Jawa Barat Province, Indonesia  as of 23 November 2022",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+a56a0aa7-963f-45bd-926d-6ec098b33626,"Damage Assessment in Cianjur district, Jawa Barat Province, Indonesia  as of 23 November 2022",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 a5701845-2864-4e16-9a0b-c6316d8c1509,Cuba - Age and gender structures,WorldPop,False,0,,,,0.0
 a57625d9-53a2-4a01-a2a0-b398d3aaadea,Cayman Islands - Historical Health Indicators,World Health Organization,False,0,,,,0.0
 a5764e98-86dd-4faa-84cd-7581e35fe30f,Sri Lanka - Social Development,World Bank Group,False,0,,,,0.0
@@ -17395,7 +17395,7 @@ a91d31f3-bc2b-4fc2-a92a-4466edb58d27,"Aruba - Demographic, Health, Education and
 a91ee16d-cd9b-4f56-be7b-05dbfcb5c2e3,Afghanistan: Projected COVID-19 Sub-national Cases,Johns Hopkins Applied Physics Lab,False,0,,,,0.0
 a92150e4-f135-49ae-8610-9fd4b2c1748f,Djibouti Near Term Projection  FEWS NET Acute Food Insecurity Classifications Geographic Data for 2015,FEWS NET,False,0,,,,0.0
 a92398f0-0868-469a-986b-ba1147a7c0d7,"Flooding in the Philippines on October 19, 2022",The Philippine Space Agency,True,1,structural_damage,flood,infrastructure,0.8
-a92705e2-9f28-4090-862c-372ec7ce1e6e,"Geodata of Damage Assessment of Bahia de Caraquez, Manabi Province, Ecuador",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+a92705e2-9f28-4090-862c-372ec7ce1e6e,"Geodata of Damage Assessment of Bahia de Caraquez, Manabi Province, Ecuador",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 a9279eee-2747-4b6f-a3c6-a62b2ae4001c,Kenya - Water service providers performance,Majidata (inactive),False,0,,,,0.0
 a92c2069-e79f-4094-9045-df862c7e9c67,China - Age and gender structures,WorldPop,False,0,,,,0.0
 a92ca34c-2a28-4986-8213-95e6477e5dd6,Mali - Surveillance Agricole à Tombouctou et Youwarou,Action Against Hunger ACF - Regional Office for West and Central Africa ROWCA,False,0,,,,0.0
@@ -17476,7 +17476,7 @@ a9e6c3d8-e23f-4474-bfd4-8a5bb3cde3e3,Proportion of births attended by skilled he
 a9e87c15-c4b3-429f-ba13-ffdcda610b99,Turks and Caicos Islands Airports (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 a9ea8c6f-6ae3-47d0-8205-dd91f842171b,Isle of Man - Age and gender structures,WorldPop,False,0,,,,0.0
 a9eee028-0fbd-47dc-9a36-90b16d386f0f,Democratic Republic of the Congo: Languages,CLEAR Global (previously Translators without Borders),False,0,,,,0.0
-a9f115f7-b44b-45d6-a5de-21af071cd426,"Damage Assessment in the Historical Center of Puebla, State of Puebla",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+a9f115f7-b44b-45d6-a5de-21af071cd426,"Damage Assessment in the Historical Center of Puebla, State of Puebla",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 a9f8123b-c88e-46c7-ba75-63ffc45dcc5a,Malaysia - Private Sector,World Bank Group,False,0,,,,0.0
 aa054d3b-0a58-4c81-9734-ded695c8cc43,Inforgrafía 2014 OCHA/PNUD,OCHA Colombia,True,1,displacement,,population,0.6
 aa08926b-3090-4c59-a819-4ae671d418ee,Azerbaijan - Poverty,World Bank Group,False,0,,,,0.0
@@ -17607,7 +17607,7 @@ ab3dcad3-80db-487f-bcd9-e3773ba5fa01,Burundi - Ruyigi Province: Operational Pres
 ab3e63af-a00b-4f10-8c1a-80a87b01d807,Curaçao: WOF Administrative Subdivisions and Human Settlements,Who's On First,False,0,,,,0.0
 ab47552d-3a6c-4d13-952e-0d787df28b14,IRC Ethiopia ECHO Funded Emergency Responses 31 October 2018 Update,International Rescue Committee Ethiopia,False,0,,,,0.0
 ab48cf72-e257-4a01-b8b6-f3ea32fb759d,Jamaica - Health Indicators,World Health Organization,True,2,human_loss|affected_population,,buildings,0.6
-ab4b5bbc-6fe5-4382-9e39-11bff8ee8cef,"Damage Assessment in Sagaing Township, Sagaing District, Sagaing Region, Myanmar as of 30 March 2025",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+ab4b5bbc-6fe5-4382-9e39-11bff8ee8cef,"Damage Assessment in Sagaing Township, Sagaing District, Sagaing Region, Myanmar as of 30 March 2025",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 ab4d18ac-9af3-4f6b-839d-a985e6439004,Denmark - Private Sector,World Bank Group,False,0,,,,0.0
 ab4fbe60-b859-40d2-bceb-51ec0f5d04b3,Paraguay - Education,World Bank Group,False,0,,,,0.0
 ab513c8c-097a-4e68-bc28-e94dd005d130,Bosnia and Herzegovina - Energy and Mining,World Bank Group,False,0,,,,0.0
@@ -18074,7 +18074,7 @@ aff85e42-4e16-4e4d-8f6c-146a52101cd0,Hungary: Road Surface Data,HeiGIT (Heidelbe
 aff89ad8-3375-49ce-a564-a9a3a4d8c1fa,"Democratic People's Republic of Korea: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,0,,,,0.0
 aff8fe3a-ec68-4844-b906-d54e95417a30,Ukraine - Food Security and Nutrition Indicators,Food and Agriculture Organization (FAO) of the United Nations,False,0,,,,0.0
 affb6a6d-b2f1-4762-bf8a-b91021cfed1f,Sierra Leone - Public Sector,World Bank Group,True,1,displacement,,buildings,0.6
-affb8c91-028b-4fc2-8174-d6f94f10fce5,"Damage assessment of Waai area, Eastern part of Salahutu District, Maluku Tengah Regency, Maluku Province",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+affb8c91-028b-4fc2-8174-d6f94f10fce5,"Damage assessment of Waai area, Eastern part of Salahutu District, Maluku Tengah Regency, Maluku Province",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 afffa8ca-efc0-4877-98a2-567abd157776,Aruba Roads (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 b0022e98-cf5e-4f20-ac41-ca03e8f0588f,Bangladesh Railways (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 b003e811-fc37-4e70-9991-15205ec9aa4a,Malawi - GCF Funded Activities,Green Climate Fund,False,0,,,,0.0
@@ -18167,7 +18167,7 @@ b0f6cd4c-cc17-4814-a854-ca650882ad92,Czechia: High Resolution Population Density
 b0f87964-31f3-4f1d-96eb-1692fbb03bd8,Papua New Guinea - Social Development,World Bank Group,False,0,,,,0.0
 b0fcc6ba-03cf-415f-a254-531c47c864f0,HDX HAPI Data for Guinea,HDX Humanitarian API Data,True,1,affected_population,,infrastructure,0.6
 b0fe7cd2-a3a2-4407-917a-fb9029e7b4b9,Sudan: UNHAS Air fields,OCHA Sudan,False,0,,,,0.0
-b1026e90-3c3f-4735-82cd-e0a47c25c4dc,"Geodata of Damage Assessment of Chone area, Manabi Province, Ecuador",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+b1026e90-3c3f-4735-82cd-e0a47c25c4dc,"Geodata of Damage Assessment of Chone area, Manabi Province, Ecuador",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 b102ee53-8536-4871-b4d5-96e381b31353,"China, Hong Kong Special Administrative Region Populated Places (OpenStreetMap Export)",Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 b1068a22-ec52-459d-9541-0fb63906bb39,Asia Pacific: Storm tracks 1956 to 2018,OCHA Regional Office for Asia and the Pacific (ROAP),False,0,,,,0.0
 b107ccda-5896-4013-a704-25d1800ad9fb,Eritrea: Rainfall Indicators at Subnational Level,WFP - World Food Programme,False,0,,,,0.0
@@ -18251,7 +18251,7 @@ b1e5ff08-44d8-4244-be25-36d29d72aab6,Hungary Roads (OpenStreetMap Export),Humani
 b1e73833-e9f6-4ff2-9179-c8c263219ecb,Andorra: WOF Administrative Subdivisions and Human Settlements,Who's On First,False,0,,,,0.0
 b1e96808-5e1c-4d26-a3e9-86176b3b7884,Guinea - Data on Conflict Events,HDX,False,0,,,,0.0
 b1f02680-ad00-47e1-abb2-45c9fe7ec1d9,Afghanistan Voluntary Repatriation 2019,UNHCR Afghanistan,False,0,,,,0.0
-b1f09d7f-0301-4d43-8b4d-ea56be361743,"Damage Assessment in Chichaoua, Marrakech-Safi Region, Morocco as of 10 September 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+b1f09d7f-0301-4d43-8b4d-ea56be361743,"Damage Assessment in Chichaoua, Marrakech-Safi Region, Morocco as of 10 September 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 b1f1daef-0c1b-4024-a7d0-3afa8294fba8,Uruguay - Social Development,World Bank Group,False,0,,,,0.0
 b1f3e59c-0e12-4a2a-bcff-fbe9914933ee,Tuvalu - Population Counts,WorldPop,False,0,,,,0.0
 b1f518a0-b472-4307-bc2e-daea9e9e5967,"Slovenia: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,0,,,,0.0
@@ -18542,7 +18542,7 @@ b4c78219-b993-4d9a-b18c-ebd84a105d79,Central African Republic - Urban Developmen
 b4c7d3a9-76e6-452e-aee5-c61c43c37940,Bouvet Island Populated Places (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 b4d1f02e-878f-460c-9c57-fee4aa333c26,Malawi - Population Counts,WorldPop,False,0,,,,0.0
 b4d32f30-7f6f-4235-a13f-d01d9a20614f,Côte d’Ivoire - Food Security Indicators,Food and Agriculture Organization (FAO) of the United Nations,False,0,,,,0.0
-b4d70e88-9c72-4b59-93e8-0f767b51c977,"Damage Assessment in Nippes department, Haiti as of 16 August 2021",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+b4d70e88-9c72-4b59-93e8-0f767b51c977,"Damage Assessment in Nippes department, Haiti as of 16 August 2021",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 b4d94fe2-996d-4c51-a814-82b13f0ce2ce,Afghanistan - Subnational Administrative Boundaries,geoBoundaries,False,0,,,,0.0
 b4da767f-b3ac-4513-9e97-644299727b92,Brazil - Health,World Bank Group,True,1,human_loss,,infrastructure,0.6
 b4dc90bb-50f9-4495-8921-fa09c64da551,Kenya Current Situation FEWS NET Acute Food Insecurity Classifications Geographic Data for 2011,FEWS NET,False,0,,,,0.0
@@ -18654,7 +18654,7 @@ b5e88a4d-9da2-4484-8281-3eda69efef75,Ireland - Energy and Mining,World Bank Grou
 b5ec64aa-8d7e-4c3b-8f14-0034bb73e865,Finland - Economy and Growth,World Bank Group,False,0,,,,0.0
 b5ee5023-6bf0-475b-9836-8dd2d8b89c94,Republic of North Macedonia - Population Counts,WorldPop,False,0,,,,0.0
 b5ef8831-b68c-4826-863b-da83245d770c,Italy - Work of InterAction Members,InterAction (inactive),False,0,,,,0.0
-b5efece4-69c5-415d-ac35-153225a92292,"Geodata of Damage Assessment of Fayzabad Area, Badakhshan Province, Afghanistan",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+b5efece4-69c5-415d-ac35-153225a92292,"Geodata of Damage Assessment of Fayzabad Area, Badakhshan Province, Afghanistan",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 b5f5af8b-226c-4c54-a1c8-f53d2fda2046,Guyana - Science and Technology,World Bank Group,False,0,,,,0.0
 b5f879c2-c2a7-4d21-86aa-306bd9d61255,Damage Assessment & Related Density in the Northeastern Part of Dominica,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
 b5f9cd03-e4dd-4854-9884-8610442d795b,"Damage Assessment in Maewo Island, Penama Province, Vanuatu",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
@@ -18768,7 +18768,7 @@ b6e5ba91-4481-4ff4-9994-1edca46593ea,Armenia - Data on Conflict Events,HDX,False
 b6e89acc-0988-4f1c-b394-a2e3dac94ec6,Azerbaijan - Private Sector,World Bank Group,False,0,,,,0.0
 b6ebbfb5-3768-44e3-a11c-6a3e9d423c16,Thailand - Environment,World Bank Group,True,1,human_loss,,infrastructure,0.6
 b6ebf0c0-b43d-408a-a537-6ac58adb5d92,"Tracking Water Pollution, Sweden",Globhe Drones,False,0,,,,0.0
-b6edb11e-d810-4d06-b92b-8359352f403f,"Damage Assessment in Xochimilco and Tlahuac Municipalities, Federal State, Mexico",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+b6edb11e-d810-4d06-b92b-8359352f403f,"Damage Assessment in Xochimilco and Tlahuac Municipalities, Federal State, Mexico",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 b6f30678-0116-4f62-995d-c0d5c16f4b24,Aruba - Poverty,World Bank Group,False,0,,,,0.0
 b6f48a74-b490-4d35-b23c-5a4cdbaeb7f3,Ukraine Buildings (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 b6f5140f-bebc-4e2a-b244-9f2e0d491add,Brazil - Pregnancies,WorldPop,False,0,,,,0.0
@@ -18875,7 +18875,7 @@ b7eeeb63-b4fc-4248-af55-a588e6489d72,Honduras Porcentaje de Población Urbana en
 b7ef303a-4e1f-4e59-80f2-0d4ced75f861,New Caledonia - Historical Health Indicators,World Health Organization,False,0,,,,0.0
 b7f0966d-87f5-4485-8b44-437dbca971c0,Virgin Islands (U.S.) - Climate Change,World Bank Group,False,0,,,,0.0
 b7f5256a-13ff-4467-a829-9f0eeaaad0ef,"India - Demographic, Health, Education and Transport indicators","United Nations Human Settlements Programmes, Data and Analytics Section",False,0,,,,0.0
-b7f63b8a-4e12-41f3-b899-9021eb12324a,Damage assessment of Pantoloan area in Central Sulawesi,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+b7f63b8a-4e12-41f3-b899-9021eb12324a,Damage assessment of Pantoloan area in Central Sulawesi,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 b7f7ce42-d91a-4daf-b0ef-61cf91fad2cd,Cuba: Administrative Division with Aggregated Population,Kontur,False,0,,,,0.0
 b7fcf639-0a6c-495f-a9a2-2f07a4680176,Malta - Population Counts,WorldPop,False,0,,,,0.0
 b7fd72d7-787e-4a31-911c-a342fa392f00,Estonia - Internally displaced persons - IDPs,Internal Displacement Monitoring Centre (IDMC),True,1,displacement,,population,0.6
@@ -18966,7 +18966,7 @@ b8e1ab27-864b-450d-bf51-8cd0e46cbd23,Nigeria - Cash-Based Interventions Post-Dis
 b8e28bd0-8bcb-47a5-bc90-775562d944a4,Yearly compilation of arrivals to Europe in Mediterranean/Western Balkans migration routes,International Organization for Migration (IOM),False,0,,,,0.0
 b8e88655-f5f7-4387-8087-df5da1326283,San Marino: High Resolution Population Density Maps + Demographic Estimates,AI and Data for Good at Meta,False,0,,,,0.0
 b8e983ff-f7f4-43dd-8bf3-d705794f054d,Wallis and Futuna Islands - Age and Gender Structures (2015-2030),WorldPop,False,0,,,,0.0
-b8eae9f3-b0bf-42ae-9e6c-0dd8fe3275d2,"Damage Assessment in the south west of Cuauhtemoc Municipality, Federal District, Mexico",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+b8eae9f3-b0bf-42ae-9e6c-0dd8fe3275d2,"Damage Assessment in the south west of Cuauhtemoc Municipality, Federal District, Mexico",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 b8ebbc20-e0ec-4e14-ba3d-e1cd97dec315,Vietnam - Health,World Bank Group,True,1,human_loss,,infrastructure,0.6
 b8edc72b-3309-4eba-8418-55e7adaf4167,"Qatar - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,0,,,,0.0
 b8eee2ff-215e-4664-a454-72e2d7ab56df,Paraguay - Age and Gender Structures (2015-2030),WorldPop,False,0,,,,0.0
@@ -19431,7 +19431,7 @@ bd9bc484-155d-41a3-87cf-064310a94492,Senegal - Subnational Administrative Bounda
 bda4a360-07eb-40c2-83a8-1f52bb073fb9,Indonesia - Births,WorldPop,False,0,,,,0.0
 bda6e4e7-c1a6-42a1-a1dd-553c49c17a5f,Estonia - Social Protection and Labor,World Bank Group,False,0,,,,0.0
 bda709b2-1884-45a3-bbfa-f00fa120c46e,Djibouti - Towns,OCHA Regional Office for Southern and Eastern Africa (ROSEA),False,0,,,,0.0
-bda936dc-08b5-429e-a667-ca3631dcdb9c,"Damage Assessment in Tlayacapan town, Municipality of Tlayacapan, State of Morelos, Mexico",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+bda936dc-08b5-429e-a667-ca3631dcdb9c,"Damage Assessment in Tlayacapan town, Municipality of Tlayacapan, State of Morelos, Mexico",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 bdabc64f-d2d7-401c-a59a-858158617ca8,"Costa Rica - Livelihoods Programme Monitoring Beneficiary Survey, 2023",UNHCR - The UN Refugee Agency,False,0,,,,0.0
 bdae3097-ca18-47e1-8ad7-654dd3b73a52,Chad - Roads,OCHA Chad,False,0,,,,0.0
 bdae6061-c9c3-486f-bf69-15869e51f1a7,Falkland Islands (Malvinas) - Age and Gender Structures (2015-2030),WorldPop,False,0,,,,0.0
@@ -19953,7 +19953,7 @@ c2840912-2adb-494b-8dc7-983166802b98,Philippines - Poverty,World Bank Group,Fals
 c286b70e-90c5-450d-9c82-62f8c53eed5d,Whole of Afghanistan Assesment (dataset) 2025,REACH Initiative,True,1,displacement,drought,infrastructure,0.8
 c287963c-0bdd-4777-b773-aeed23b553a8,Sint Maarten (Dutch part): Copernicus Global Human Settlement Layer (GHSL),Copernicus,False,0,,,,0.0
 c287ee2b-6350-481d-82cc-507473813c57,Food Consumption Score (FCS) and Coping Strategy Index (CSI),Code for Venezuela,False,0,,,,0.0
-c288583c-692a-4344-bf8b-761724ac7535,"Geodata of Damage Assessment of Chitral Area, Khyber Pakhtunkhwa Province, Pakistan",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+c288583c-692a-4344-bf8b-761724ac7535,"Geodata of Damage Assessment of Chitral Area, Khyber Pakhtunkhwa Province, Pakistan",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 c2948eba-95af-41b7-b8ba-9e2600bf1342,Zimbabwe Multidimensional Poverty Index,Oxford Poverty & Human Development Initiative,True,1,human_loss,,infrastructure,0.6
 c29ba936-a532-4074-b21c-97e8082e1e01,Turks And Caicos Islands: Administrative Division with Aggregated Population,Kontur,False,0,,,,0.0
 c2a28bac-42fa-4f05-9c77-cd447b89c7b7,Côte d'Ivoire Multidimensional Poverty Index,Oxford Poverty & Human Development Initiative,True,1,human_loss,,infrastructure,0.6
@@ -20063,7 +20063,7 @@ c3adf63d-3f96-4834-9ac8-1dfb99632389,Haiti Sea Ports (OpenStreetMap Export),Huma
 c3b0ec01-273a-4bba-a935-96b11b0b6016,Turkmenistan - GCF Funded Activities,Green Climate Fund,False,0,,,,0.0
 c3b2a0f6-4182-4f07-bb39-e5efca7ce4f7,Chad: Administrative Division with Aggregated Population,Kontur,False,0,,,,0.0
 c3b70d24-a455-47d4-99e1-4207100007fc,Sint Maarten (Dutch part) - Education,World Bank Group,False,0,,,,0.0
-c3b8a946-ee57-4be3-bc7f-5b626338617b,"Damage Assessment in Sagaing and Mandalay, Myanmar as of 30 March 2025",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+c3b8a946-ee57-4be3-bc7f-5b626338617b,"Damage Assessment in Sagaing and Mandalay, Myanmar as of 30 March 2025",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 c3bb00ab-65bc-413d-9bee-1181d0a01cf5,"Cambodia: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,0,,,,0.0
 c3bdf7ee-5406-47b1-a6dc-500973cfc49c,Curaçao Airports (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 c3bed5f8-e21c-450c-bd2b-092803b5f91f,Greece - Financial Sector,World Bank Group,False,0,,,,0.0
@@ -20220,7 +20220,7 @@ c56d68d7-4245-4fa8-8418-dddbef7429b1,Libya - External Debt,World Bank Group,Fals
 c5727902-7eab-410d-9974-27742146c4e5,"Kiribati: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,0,,,,0.0
 c574f9a7-64a8-4420-ba4e-225576e13791,Haiti - Rumors and Feedback on Hurricane Matthew - 2016/2017,Internews (inactive),False,0,,,,0.0
 c5768978-0d5d-4d28-ac00-9216116e4da0,"South Sudan 2019 gridded population estimates from census projections adjusted for displacement, version 1.0",GRID3,True,1,displacement,,infrastructure,0.6
-c576e70d-0f82-45de-8338-0c26e080507b,Somalia Districts hit by 2010 Tropical Cyclone Bandu,IGAD Climate Prediction and Applications Center (ICPAC),True,1,displacement,flood,population,0.8
+c576e70d-0f82-45de-8338-0c26e080507b,Somalia Districts hit by 2010 Tropical Cyclone Bandu,IGAD Climate Prediction and Applications Center (ICPAC),True,1,displacement,convective_storm,population,0.8
 c5791b35-c767-4641-b781-04215a241525,Seychelles: NDVI at Subnational Level,WFP - World Food Programme,False,0,,,,0.0
 c5792fd0-616f-41ef-994e-5399d20f2164,Bosnia and Herzegovina - Aid Effectiveness,World Bank Group,True,1,human_loss,,buildings,0.6
 c57a863e-02c6-458a-b1e5-8ec0e12e071a,Guadeloupe - Population Counts,WorldPop,False,0,,,,0.0
@@ -20780,7 +20780,7 @@ cace264f-a1fb-42a8-bfef-2c2d88ad8d52,Mortality rate age 5-24,UNICEF Data and Ana
 cacf12d4-22b1-438f-bcb4-78aa9078ab94,Libya Migration Data - [Migrants] - Baseline Assessment [IOM DTM],International Organization for Migration (IOM),True,1,displacement,,buildings,0.6
 cad07e7a-9df6-46c7-a3fb-58c17dfc64dd,Dominica - Human Development Indicators,UNDP Human Development Reports Office (HDRO),False,0,,,,0.0
 cad348c1-9cec-448a-8a45-ddd33fee3647,Sudan: Sennar State Feeding Centers,OCHA Sudan,False,0,,,,0.0
-cad537ad-2a57-4d4e-a50f-01865fef9089,"Damage Assessment in Douar Tagadirte (Igermane), Chichaoua Province, Marrakech-Safi Region, Morocco as of 10 September 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+cad537ad-2a57-4d4e-a50f-01865fef9089,"Damage Assessment in Douar Tagadirte (Igermane), Chichaoua Province, Marrakech-Safi Region, Morocco as of 10 September 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 cad5e418-5f07-47b6-beee-aabc7e64d990,Djibouti - Education Indicators,UNESCO,True,1,human_loss,,infrastructure,0.6
 cad68d58-2ee0-4b2f-9b47-b0ce689a65c7,"EM-DAT - Country Profiles, Lebanon",Centre for Research on the Epidemiology of Disasters,True,2,human_loss|affected_population,,population,0.6
 cadb6bd7-d0bd-45e5-9e01-6067e837fbe4,Formal Sector School Location Lower Myanmar,Myanmar Information Management Unit (MIMU),False,0,,,,0.0
@@ -20834,7 +20834,7 @@ cb3c3eb3-72e1-4a0a-a826-b4a6b2f0c003,Lebanon - Requirements and Funding Data,OCH
 cb3f3bd2-2bf9-4292-92e6-1dba468f6bc1,Peru - Pregnancies,WorldPop,False,0,,,,0.0
 cb42596c-78c6-4694-8d7e-fb2fc25163c0,Tonga - Private Sector,World Bank Group,False,0,,,,0.0
 cb425a4c-8f28-45ae-aa54-a6c830b68c64,"Geodata of Batil Refugee Camp, Maban County, Upper Nile State, South Sudan",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
-cb43927e-8cba-4bcd-82f4-274ea59d0573,Damage assessment of Tawaeli area in Central Sulawesi,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+cb43927e-8cba-4bcd-82f4-274ea59d0573,Damage assessment of Tawaeli area in Central Sulawesi,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 cb45234d-5b55-4252-833d-90629dde0f94,Greece - Livelihoods Programme Monitoring Beneficiary Survey - 2023,UNHCR - The UN Refugee Agency,False,0,,,,0.0
 cb45cca5-4257-4099-a9d8-b995e095c942,Christmas Island: Copernicus Vegetation Index Anomaly (FAPAR Anomaly),Copernicus,False,0,,,,0.0
 cb49a4ca-994d-468a-8f93-cbe4256bc91f,Uzbekistan Railways (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
@@ -21298,7 +21298,7 @@ cfdac839-1b52-44d6-84e2-3a4ea5f71c49,Cuba - Agriculture and Rural Development,Wo
 cfdd0cc4-9c68-4490-8031-d1a7ac560a9d,Lao People’s Democratic Republic: Level 1 Exposure Data,Global Earthquake Model Foundation,False,0,,,,0.0
 cfdee068-5057-4d05-b4dc-4eb8d1cf1024,Afghanistan: Humanitarian Situation Monitoring (HSM) Round 11 KII (Analysis),REACH Initiative,True,1,displacement,,infrastructure,0.6
 cfdf9007-ff4c-4f76-85e3-03196cca5b3a,Kyrgyz Republic - Trade,World Bank Group,False,0,,,,0.0
-cfe2df05-2406-4569-81a7-ac76a7b3e15a,"Damage Assessment in southern Spera district, Khost province as of 24 June 2022",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+cfe2df05-2406-4569-81a7-ac76a7b3e15a,"Damage Assessment in southern Spera district, Khost province as of 24 June 2022",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 cfed1b32-b79e-4b89-880a-24924b208006,Nepal - Gross Value Added by Industrial Division at current prices,OpenNepal (inactive),False,0,,,,0.0
 cfed1b7c-e775-4e89-9018-4b07bb4841cd,Svalbard and Jan Mayen Islands - Spatial Distribution of Population (2015-2030),WorldPop,False,0,,,,0.0
 cff13277-eac9-49b0-8436-e80f42eb4684,Bhutan - Subnational Administrative Boundaries,OCHA Field Information Services Section (FISS),False,0,,,,0.0
@@ -21427,7 +21427,7 @@ d0f79f0e-d9c9-449e-ae57-06d281a42f8f,New Caledonia - Internal Displacements (New
 d0f8719a-427a-4027-abfb-7a99b48eaaf2,Evaluaciones de edificaciones y viviendas_MIDUVI 20160831,Redhum (inactive),False,0,,,,0.0
 d0f8fb74-001c-45d1-b1ac-16a022e09c6f,Colombia - PiN Clúster Seguridad Alimentaria y Nutrición,3iS,True,1,affected_population,,population,0.6
 d0fa6fcf-ca60-4da4-b364-026ef2ee35a5,Bermuda Populated Places (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
-d0fdd90b-2656-405b-8112-d61fe47af990,"Damage Assessment in Jindires, Afrin District, Aleppo Governorate, Syria as of 11 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+d0fdd90b-2656-405b-8112-d61fe47af990,"Damage Assessment in Jindires, Afrin District, Aleppo Governorate, Syria as of 11 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 d1045c60-25d4-4afd-8b3b-4a34162e94e0,Satellite detected water extents between 26 and 30 July 2023 over Pakistan,United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
 d1063d88-1624-44ea-9456-61ad05928f67,"Satellite detected water extents in Thoulakhom District, Vientiane Province and Xaythany District, Vientiane Capital, Lao PDR as of 23 July 2025",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
 d106dd45-0777-4434-95ba-d194e6aef563,Belgium - Requirements and Funding Data,OCHA Financial Tracking System (FTS),False,0,,,,0.0
@@ -21446,7 +21446,7 @@ d12cba0a-6065-4621-9066-cce1588520d6,Liberia Healthsites,Global Healthsites Mapp
 d12ea487-9751-494a-85ab-76f7b7641d20,Global obstacles (WFP SDI-T - Logistics Database),WFP - World Food Programme,False,0,,,,0.0
 d12f44f8-553a-439f-9278-36c58726a954,Mozambique: Copernicus Global Human Settlement Layer (GHSL),Copernicus,False,0,,,,0.0
 d131e4e2-bc59-4922-ad8f-117965b993ee,"Cameroon - Socio-economic assessement of Central African refugees in Cameroon's Adamanou, Eastern and Northern regions 2016",UNHCR - The UN Refugee Agency,True,1,displacement,,population,0.6
-d13573a8-eb03-45ff-8f6e-9add10e4609a,"Damage Assessment in Gyan district, Pakteka province as of 24 June 2022",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+d13573a8-eb03-45ff-8f6e-9add10e4609a,"Damage Assessment in Gyan district, Pakteka province as of 24 June 2022",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 d1384368-6095-4c7d-bf88-cee1a2ddd55b,"Comoros - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,0,,,,0.0
 d1386055-db70-425d-8e1e-b2b745bc8223,Afghanistan Railways (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 d13979c0-1d78-45fb-a6bb-504a6b1b5e0a,Aruba: IBTrACS Storm Tracks,HDX,False,0,,,,0.0
@@ -21585,7 +21585,7 @@ d297d5e2-efb3-4200-98fc-f10a320128f3,Guinea-Bissau: Road Surface Data,HeiGIT (He
 d29e18fa-d4e7-47f8-af99-d74929de1ddf,Democratic Republic of the Congo - Historical Health Indicators,World Health Organization,False,0,,,,0.0
 d29eb1f6-8603-46c4-a787-019d24f6e09c,Bulgaria - Trade,World Bank Group,False,0,,,,0.0
 d2a217e9-1a40-45ad-b6ac-e9784d24397c,"Bangladesh - Demographic, Health, Education and Transport indicators","United Nations Human Settlements Programmes, Data and Analytics Section",False,0,,,,0.0
-d2a44525-be83-4980-8492-d7d2d0cf7753,UNOSAT - Tropical Cyclone YAGI Population Exposure Analysis in Viet Nam - 07 September 2024,United Nations Satellite Centre (UNOSAT),True,1,human_loss,flood,infrastructure,0.8
+d2a44525-be83-4980-8492-d7d2d0cf7753,UNOSAT - Tropical Cyclone YAGI Population Exposure Analysis in Viet Nam - 07 September 2024,United Nations Satellite Centre (UNOSAT),True,1,human_loss,convective_storm,infrastructure,0.8
 d2a4c7c7-162a-4aae-819d-f22ee3bcb8d4,SADC RVAA Stunting Rates,Regional Vulnerability Assessment & Analysis Programme (inactive),False,0,,,,0.0
 d2a4dbde-5e74-4e80-a216-37439e8843a0,"Geodata of Gawilan IDP Settlement, Al - Hamdaniya, Ninawa Province, Iraq",United Nations Satellite Centre (UNOSAT),True,1,displacement,flood,buildings,0.8
 d2a6308e-ddc8-4d20-9619-ad90fbaedc0f,Tajikistan - Social Development,World Bank Group,False,0,,,,0.0
@@ -22271,7 +22271,7 @@ d948d30d-f486-4b45-8f01-6d69341abd3b,"Nepal - International Trade ,2060/61 - 206
 d949f0ee-9aa7-46f4-b98e-65026efeeb6b,Satellite detected water extents between 9 and 13 October 2021 over South Sudan,United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
 d94b7874-8dd0-416f-ad78-476ac36ceb64,United Republic of Tanzania: Cyclone - Tropical storm - May 2024,WFP Advanced Disaster Analysis & Mapping,True,1,affected_population,convective_storm,population,0.8
 d94f114a-7f9c-4283-8723-fc23639aa10a,Cambodia - Population Counts,WorldPop,False,0,,,,0.0
-d9544ec1-94db-4443-8c22-7ba4455a8533,"Geodata of Damage Assessment of Kunduz Area, Kunduz Province, Afghanistan",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+d9544ec1-94db-4443-8c22-7ba4455a8533,"Geodata of Damage Assessment of Kunduz Area, Kunduz Province, Afghanistan",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 d955080a-1be1-4386-bae3-b7eabe022949,South Sudan - Work of InterAction Members,InterAction (inactive),False,0,,,,0.0
 d9565f2d-3c2c-4b17-8ef7-8fa55e4c6408,Honduras - Social Development,World Bank Group,False,0,,,,0.0
 d958b140-4938-4324-8c36-baab7486b04f,"Satellite  detected water extent over Guli District, White Nile State of Sudan as of 4 September 2021",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
@@ -22543,7 +22543,7 @@ dc174ca8-357c-4e03-838b-71618199e504,Bulgaria Railways (OpenStreetMap Export),Hu
 dc17a472-92bb-4553-b090-6bb3bd4a351d,Iraq - Duhok Urban Profiling Exercise,Joint IDP Profiling Service (JIPS) (inactive),True,1,displacement,,population,0.6
 dc1ce562-b442-4fcf-9e60-8d249b5b35e5,"Satellite-detected waters extents over Konarak, Sistan and Baluchestan Province, I. R. of Iran",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
 dc1d87e9-a8b3-4e1c-ab4d-18c5d9212fc6,Central America SAN profiles by ACH-GIS4Tech,Acción contra el hambre - GIS4tech,False,0,,,,0.0
-dc1e9c51-924c-40d8-bd0e-490b078940de,"Tropical Cyclone Maria. Damage Assessment in Marigot, Saint Andrew Parish, Dominica",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+dc1e9c51-924c-40d8-bd0e-490b078940de,"Tropical Cyclone Maria. Damage Assessment in Marigot, Saint Andrew Parish, Dominica",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,convective_storm,buildings,0.8
 dc1eb6e9-0741-4fb2-98ec-b42da84a409a,Afghanistan IOM Displacement Tracking Matrix (DTM) from API,International Organization for Migration (IOM),True,1,displacement,,population,0.6
 dc20d482-a1ec-4792-a8c5-b267a9311781,Uzbekistan - VIEWS conflict forecasts,Violence & Impacts Early-Warning System,True,1,human_loss,,population,0.6
 dc29e362-55fc-458f-af09-477d3f0e2bcb,Disaster Loss Data for Senegal,United Nations Office for Disaster Risk Reduction (UNDRR),True,4,human_loss|displacement|affected_population|general_loss,,population,0.6
@@ -22629,7 +22629,7 @@ dce84c14-3066-4121-80f1-77d119d6d225,"Iraq - Multi-Sector Needs Assessment, 2021
 dceecd28-91f7-4446-94fe-40877a68a68e,Timor-Leste Education Facilities (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 dcfacb1b-c11a-47f2-8f2a-c447faba38b6,Czechia - Current IATI Aid Activities,International Aid Transparency Initiative,False,0,,,,0.0
 dcfb7a2c-759c-49b3-9361-05432b71cbda,Sierra Leone Health Facilities (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
-dcfe97f7-46d8-4475-a300-eb5673a1bd7e,"Damage Assessment in San Andrés Cholula and San Pedro Cholula, State of Puebla, Mexico",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+dcfe97f7-46d8-4475-a300-eb5673a1bd7e,"Damage Assessment in San Andrés Cholula and San Pedro Cholula, State of Puebla, Mexico",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 dcfea0b9-3f1d-47d8-b118-5207bc6149b5,UNODC Global Homicide Statistics,United Nations Office on Drugs and Crime (inactive),False,0,,,,0.0
 dd000cd0-5757-484f-9df8-4aee6c7362c5,Future Displacement Forecasts,Danish Refugee Council,True,1,displacement,,population,0.6
 dd01d954-f134-40e3-9baa-33b74a6f2f10,Libya - Age and Gender Structures (2015-2030),WorldPop,False,0,,,,0.0
@@ -23214,7 +23214,7 @@ e280093c-cabb-41ec-8f25-4fb3be5a5d0c,Burundi - Gitega Province: Operational Pres
 e2825fc5-b993-4b49-af5a-6c2c262e42aa,Ghana - Age and Gender Structures (2015-2030),WorldPop,False,0,,,,0.0
 e28513a2-f9fd-4fa0-a288-f116d67b51a1,Marshall Islands Populated Places (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 e285bcc3-cb90-4146-a75a-9239f8b67163,Tajikistan Airports (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
-e28bc327-7eb7-4d21-9a02-fb85351e5fe2,"Damage assessment in the Southeastern part of New Mirpur, Azad Jammu and Kashmir, Pakistan, as of 02 October 2019",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+e28bc327-7eb7-4d21-9a02-fb85351e5fe2,"Damage assessment in the Southeastern part of New Mirpur, Azad Jammu and Kashmir, Pakistan, as of 02 October 2019",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 e29046b1-515b-4c3b-9c5e-8ec78ec49804,Iceland - Population Counts,WorldPop,False,0,,,,0.0
 e2970257-3d85-4d91-a52d-05de26b602a4,Mauritius - Education Indicators,UNESCO,True,1,human_loss,,infrastructure,0.6
 e29a8f6f-94b5-4182-a028-f5b09c21668f,DRC Displacement  - Countrywide Monitoring - Baseline Assessment [IOM DTM],International Organization for Migration (IOM),True,1,displacement,,population,0.6
@@ -23241,7 +23241,7 @@ e2c95511-9fb2-480e-bb30-566506513b60,HDX HAPI - Affected People: Returnees,HDX H
 e2cf72af-4e1e-49f8-821d-c53544365a75,Kiribati Roads (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 e2d04da3-0c06-48cc-8a0b-686a003641fa,Zimbabwe - Internal Displacements Updates (IDU) (event data),Internal Displacement Monitoring Centre (IDMC),True,1,displacement,flood,population,0.8
 e2d05fb5-0a54-4822-860b-17cd6a21d13c,Equatorial Guinea - Subnational Edge-matched Administrative Boundaries,OCHA Field Information Services Section (FISS),False,0,,,,0.0
-e2d935de-e7cb-41ab-827f-95495fadde0a,Somalia Regions hit by 2012 Tropical Cyclone Murjan,IGAD Climate Prediction and Applications Center (ICPAC),True,1,human_loss,flood,agriculture,0.8
+e2d935de-e7cb-41ab-827f-95495fadde0a,Somalia Regions hit by 2012 Tropical Cyclone Murjan,IGAD Climate Prediction and Applications Center (ICPAC),True,1,human_loss,convective_storm,agriculture,0.8
 e2d9c1da-0ad4-44b4-ae03-4ce5c1116ed2,American Samoa - Environment,World Bank Group,False,0,,,,0.0
 e2daf671-ea73-4f72-9d0c-08d31cb0b68a,3W matrix for Somalia NGO Consortium,Somalia NGO Consortium (inactive),False,0,,,,0.0
 e2db5e10-d73f-413a-ac96-408f428dcecd,Population in severe poverty (headcount),UNDP Human Development Reports Office (HDRO),False,0,,,,0.0
@@ -23514,7 +23514,7 @@ e54bd412-4de8-4336-a9c4-735572a481bb,Isle of Man - Social Protection and Labor,W
 e54e1308-552d-4663-92a8-5c019c42145c,Daily Summaries of Precipitation Indicators for Cote d'Ivoire,HDX,False,0,,,,0.0
 e54e782d-c911-41e8-a4d1-9a3477ce8ff6,Tokelau - Prices,Food and Agriculture Organization (FAO) of the United Nations,False,0,,,,0.0
 e5529bb5-309d-4b18-bac3-bf0704480fc8,Türkiye: Road Surface Data,HeiGIT (Heidelberg Institute for Geoinformation Technology),False,0,,,,0.0
-e55575f6-0a98-498e-ad9d-56eb1bb3145b,"Geodata of Damage and Displaced Persons Visible in Satellite Imagery. Kathmandu, Nepal - 27 April 2015",United Nations Satellite Centre (UNOSAT),True,1,displacement,flood,population,0.8
+e55575f6-0a98-498e-ad9d-56eb1bb3145b,"Geodata of Damage and Displaced Persons Visible in Satellite Imagery. Kathmandu, Nepal - 27 April 2015",United Nations Satellite Centre (UNOSAT),True,1,displacement,earthquake,population,0.8
 e556ce49-d5ae-476d-8d8d-00635ec5c797,Antigua and Barbuda - External Debt,World Bank Group,False,0,,,,0.0
 e55d36ea-e5ff-4d77-9942-c8b29f943bf1,Slovenia - Infrastructure,World Bank Group,False,0,,,,0.0
 e55fd4b2-193c-4a7e-af35-981ced60a068,Norway Education Facilities (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
@@ -24141,7 +24141,7 @@ eb72a83a-0dc4-4b95-bcb6-ec5efa849878,Kazakhstan: Copernicus Vegetation Index Ano
 eb75979e-0e96-49cc-92d3-a27741f0c23e,Percentage of surviving infants who received yellow fever- containing vaccine (for countries at risk and where the vaccine is in the national schedule),UNICEF Data and Analytics (HQ),False,0,,,,0.0
 eb78c733-25fc-4195-b39c-5b33365cc924,Haiti - Displacement - [IDPs] - Baseline Assessment [IOM DTM],International Organization for Migration (IOM),True,2,human_loss|displacement,earthquake,infrastructure,0.8
 eb7d08b9-f2ec-439a-9e33-87dce123e9ab,GAR15 Global Exposure Dataset for Antigua and Barbuda,United Nations Office for Disaster Risk Reduction (UNDRR),False,0,,,,0.0
-eb7e48bb-e1e5-43cc-a2c0-729a8d31cfda,"Damage Assessment in Killi (Idlib District), Syria as of 16 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+eb7e48bb-e1e5-43cc-a2c0-729a8d31cfda,"Damage Assessment in Killi (Idlib District), Syria as of 16 February 2023",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 eb80ac4c-732f-4d02-aa22-42c3a7c060f5,Mauritania Current Situation FEWS NET Acute Food Insecurity Classifications Geographic Data for 2022,FEWS NET,False,0,,,,0.0
 eb80bf57-6ff1-47a6-96bd-42c1a91df003,Unemployment Rate in Colombia General and Venezuelan Population 2014- Feb. 2020,iMMAP Inc.,False,0,,,,0.0
 eb811a62-d703-4daf-9d48-f20c0ef8cacf,Colombia: WOF Administrative Subdivisions and Human Settlements,Who's On First,False,0,,,,0.0
@@ -24220,7 +24220,7 @@ ec58e1bf-a2f7-4b79-8394-0724df4d2909,Liberia: Copernicus Global Human Settlement
 ec5b262e-3d0b-48f6-9125-28fd8bab4062,Jamaica - Data on Conflict Events,HDX,False,0,,,,0.0
 ec608cef-8db4-49e0-912d-4a74c7353ffa,"Egypt - Administrative Boundaries, Populated Places",OCHA Middle East and North Africa (ROMENA),False,0,,,,0.0
 ec638164-052a-4e1e-a821-4a73c640b4da,Central African Republic - Spatial Distribution of Population (2015-2030),WorldPop,False,0,,,,0.0
-ec654729-2e18-432c-add5-926a517383d5,"Geodata of Damage Assessment of Bhaktapur, Kathmandu Valley, Nepal",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+ec654729-2e18-432c-add5-926a517383d5,"Geodata of Damage Assessment of Bhaktapur, Kathmandu Valley, Nepal",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 ec6827e1-e83b-4854-852e-a7c710f1685f,Ebola UNICEF EOC - Psychosocial - Juin 2019 Dataset,UNICEF West and Central Africa (WCARO) (inactive),False,0,,,,0.0
 ec6a9bb4-c7dd-452c-a4ee-0025824b423a,Latvia - Health Indicators,World Health Organization,True,2,human_loss|affected_population,,buildings,0.6
 ec6c2f85-226b-42ce-82c9-714eb769fe15,Nepal - Road Traffic Accident Records (2013),OpenNepal (inactive),True,1,human_loss,,infrastructure,0.6
@@ -24286,7 +24286,7 @@ ed0f2e22-633b-45f4-a656-bd581d8f902f,Malawi - Real Time Prices,World Bank Group,
 ed13d55a-0b9a-4a9a-b1bb-9bc76475cc59,Madagascar Displacement Data - Baseline Assessment [IOM DTM],International Organization for Migration (IOM),True,1,displacement,drought,population,0.8
 ed16353b-4016-422c-ad80-73ea8365bd0d,Ethiopia: Roads,Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 ed1931f5-f3bc-42b8-91dc-fc98cde656ca,"Croatia: Planet Road Surface, Width, and Passability Data",HeiGIT (Heidelberg Institute for Geoinformation Technology),False,0,,,,0.0
-ed19dc97-6338-4169-a26e-0e498a125088,"Geodata of Damage Assessment of Muchok Area, Western Region, Nepal",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+ed19dc97-6338-4169-a26e-0e498a125088,"Geodata of Damage Assessment of Muchok Area, Western Region, Nepal",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 ed1a5dd6-e46b-423c-ae68-c9343a34fa51,Guatemala Health Facilities (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 ed1b4de8-7f94-47b1-8e2c-c234ca145976,Turkey - Subnational Demographic and Health Data,The DHS Program,True,1,human_loss,,population,0.6
 ed1cb6f6-b4bf-4334-82ac-cd7cdc8b42dc,Satellite detected water extents between 01 and 05 March 2025 over South Sudan,United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
@@ -24444,7 +24444,7 @@ ee8842dd-1d7a-462f-8bb4-b5ea215df0f0,Libya - 250m Hexagonal Grid,MapAction,False
 ee89c911-33e4-42e9-b3e2-f538cd3e21d5,"Nigeria (NGA): Attacks on Aid Operations, Education, Health Care and IDP/Refugee Camps, and Conflict-Related Sexual Violence and Explosive Weapons Incident Data",Insecurity Insight,True,2,human_loss|displacement,,infrastructure,0.6
 ee8c00b8-7860-4cc7-af80-3a8c776e190e,American Samoa - Conflict Events,Armed Conflict Location & Event Data Project (ACLED),True,1,human_loss,,economic_indicator,0.6
 ee8c1cab-d22d-471d-9bd3-d6b49ae1ad3e,Tajikistan - Food Security and Nutrition Indicators,Food and Agriculture Organization (FAO) of the United Nations,False,0,,,,0.0
-ee8dcb23-b058-4342-b1bf-e42a1a5f319b,"Hurricane Matthew Preliminary Satellite Based Damage Assessment Report: Guantanamo Province, Cuba",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+ee8dcb23-b058-4342-b1bf-e42a1a5f319b,"Hurricane Matthew Preliminary Satellite Based Damage Assessment Report: Guantanamo Province, Cuba",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,convective_storm,buildings,0.8
 ee8f4b48-cef5-4e71-a398-b9d525d7bf00,Dominican Republic: Acute Food Insecurity Country Data,Integrated Food Security Phase Classification (IPC),False,0,,,,0.0
 ee8f5ccf-0218-4aef-9896-e6eef5407ad4,Portugal - Gender,World Bank Group,True,1,human_loss,,infrastructure,0.6
 ee8fa3db-4b1c-4915-89b1-d859633a844d,Uganda: Languages,CLEAR Global (previously Translators without Borders),False,0,,,,0.0
@@ -24708,8 +24708,8 @@ f10db463-110f-4772-8fd8-105bf095ed8b,Dominica - Subnational Population Statistic
 f10e0216-58b4-4183-a079-aacced9ae34f,Mauritius - VIEWS conflict forecasts,Violence & Impacts Early-Warning System,True,1,human_loss,,population,0.6
 f10fca79-1512-4fd0-9598-f629bb20a387,Malawi - Food Security Indicators,WFP - World Food Programme,False,0,,,,0.0
 f1128065-2a36-40df-8313-1f11b2834d43,Malawi Flood Response Round 1 - Site assessment,International Organization for Migration (IOM),True,1,displacement,flood,population,0.8
-f11670f1-bc88-4735-a934-4dcd9711d08d,"Preliminary satellite-derived damage assessment - 6.3M earthquake of 15 October 2023 03:36 UTC - Zindajan & Hinjil Districts, Hirat Province, Afghanistan",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
-f11915ee-58dc-4a64-970b-1a60ae593da9,"Geodata of Damage Assessment of Aliabad Area, Hunza Nagar District, Pakistan",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+f11670f1-bc88-4735-a934-4dcd9711d08d,"Preliminary satellite-derived damage assessment - 6.3M earthquake of 15 October 2023 03:36 UTC - Zindajan & Hinjil Districts, Hirat Province, Afghanistan",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
+f11915ee-58dc-4a64-970b-1a60ae593da9,"Geodata of Damage Assessment of Aliabad Area, Hunza Nagar District, Pakistan",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 f1195ba1-ada6-4008-bc9a-aafecbf30503,Cholera Outbreaks in Central and West Africa : 2015 Regional Update,Regional Cholera Platform in West and Central Africa (inactive),False,0,,,,0.0
 f122f94e-1628-4a99-be6d-8aa6b7cdf9e1,Hurricane Matthew Haiti estimated population movement as of 8 November 2016,Flowminder (inactive),False,0,,,,0.0
 f123204a-76e1-4a94-ae1c-46268c85db6e,Lesotho - Aid Effectiveness,World Bank Group,True,1,human_loss,,buildings,0.6
@@ -24866,7 +24866,7 @@ f2ac7046-b117-4347-8508-6f5dcdec211f,Bhutan - Subnational Administrative Boundar
 f2acc945-3338-4f18-ad89-c9d72dc4528f,Chad - Financial Sector,World Bank Group,False,0,,,,0.0
 f2b1246b-2f88-4109-990d-46a3faf77e5f,Luxemburg: High Resolution Population Density Maps + Demographic Estimates,AI and Data for Good at Meta,False,0,,,,0.0
 f2b91ef3-de2e-4859-8637-92697cafe865,Japan: High Resolution Population Density Maps + Demographic Estimates,AI and Data for Good at Meta,False,0,,,,0.0
-f2baa1a1-26a5-451c-9e55-52fa0498691b,"Damage assessment of Tulehu area, Eastern part of Salahutu District, Maluku Tengah Regency, Maluku Province",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+f2baa1a1-26a5-451c-9e55-52fa0498691b,"Damage assessment of Tulehu area, Eastern part of Salahutu District, Maluku Tengah Regency, Maluku Province",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 f2bb1be0-2c91-40e2-8e78-26c610b1f9fd,Samoa: Copernicus Vegetation Index Anomaly (FAPAR Anomaly),Copernicus,False,0,,,,0.0
 f2bcbff6-7c3a-44ba-9696-f79bdd268bd2,Togo - Science and Technology,World Bank Group,False,0,,,,0.0
 f2bf5bf2-4120-44aa-a8b4-4cb540e0b578,Trinidad and Tobago - Energy and Mining,World Bank Group,False,0,,,,0.0
@@ -25030,7 +25030,7 @@ f405b3f9-64fa-4f68-b69e-9630f01f3e0c,Latvia - Spatial Distribution of Population
 f40759b4-b853-489e-99a2-24cf147a22c3,"EM-DAT - Country Profiles, Viet Nam",Centre for Research on the Epidemiology of Disasters,True,2,human_loss|affected_population,,population,0.6
 f408c932-9c27-429a-be14-cba1529771e5,Eswatini - Health Indicators,World Health Organization,True,2,human_loss|affected_population,,buildings,0.6
 f4092930-f954-4403-b245-b833e2019c7a,Saint Barthélemy: WOF Administrative Subdivisions and Human Settlements,Who's On First,False,0,,,,0.0
-f40c6491-187c-4016-9f1a-719ef37cd416,2018 Tropical Cyclone Sagar Path,IGAD Climate Prediction and Applications Center (ICPAC),True,1,human_loss,flood,infrastructure,0.8
+f40c6491-187c-4016-9f1a-719ef37cd416,2018 Tropical Cyclone Sagar Path,IGAD Climate Prediction and Applications Center (ICPAC),True,1,human_loss,convective_storm,infrastructure,0.8
 f40d2877-d042-4828-a284-72438e417704,Latvia - Financial Sector,World Bank Group,False,0,,,,0.0
 f40d8747-d942-498b-b33e-d90a9a8e2242,Congo Airports (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 f40ec40a-02d5-415b-9f8b-32d4cb54ca65,United Kingdom - Agriculture and Rural Development,World Bank Group,False,0,,,,0.0
@@ -25124,7 +25124,7 @@ f4f3e883-49b2-4a54-b964-dd3389670177,Switzerland - Internal Displacements (New D
 f4fbfbc2-71bd-4db1-86ef-8c9c414234ee,Mozambique: Survey for Inclusive Rapid Assessment (SIRA),Light for the World,True,2,displacement|affected_population,,population,0.6
 f500f8a0-a8e8-42e9-b6bc-2a23eddb99a8,Ecuador Earthquake 5W - Round 13,Redhum (inactive),False,0,,,,0.0
 f5012cf4-a84e-4504-98fb-93216923fcb6,"Geodata of Inundaciones en Trinidad, Departamento de Beni, Bolivia",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
-f505b758-1c04-41d1-8c5f-bd74b2f14491,"Geodata of Damage Assessment of Banepa, Kathmandu Valley, Nepal",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+f505b758-1c04-41d1-8c5f-bd74b2f14491,"Geodata of Damage Assessment of Banepa, Kathmandu Valley, Nepal",United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 f50bc211-d42f-4fcd-8291-3e4a57a0dfcf,Afghanistan - Who does What Where (January to March 2023),OCHA Afghanistan,False,0,,,,0.0
 f50d56c6-2ecc-42a6-9bf1-9bfb290847c8,United Republic of Tanzania - GCF Funded Activities,Green Climate Fund,False,0,,,,0.0
 f50d79be-d4c4-479a-a352-e0f053713750,Argentina - Private Sector,World Bank Group,False,0,,,,0.0
@@ -26030,7 +26030,7 @@ fdb7e38b-4aa1-4878-853f-4aa180cb2bd8,Chad Medium Term Projection  FEWS NET Acute
 fdb9e3e5-bcc9-4499-966f-bbc30c05c7bd,South Sudan - Energy and Mining,World Bank Group,False,0,,,,0.0
 fdc24301-6f57-4da5-8d44-d7f634efcaeb,Senegal - Public Sector,World Bank Group,True,1,displacement,,buildings,0.6
 fdc63102-2cc0-43d3-9207-697bd7c84bd7,"Faroe Islands - Economic, Social, Environmental, Health, Education, Development and Energy",World Bank Group,False,0,,,,0.0
-fdc81126-975e-46a1-a7c3-38d38e6242fa,Damage Assessment Istamo (Latakia) as of 9 February 2023,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+fdc81126-975e-46a1-a7c3-38d38e6242fa,Damage Assessment Istamo (Latakia) as of 9 February 2023,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,earthquake,buildings,0.8
 fdcba362-601d-4e9b-9d23-69b4e44f8818,Micronesia Health Facilities (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 fdcc753e-d3e7-46de-bd73-923853e4e9e8,"Satellite detected water extents in Punjab Province, Pakistan as of 27 & 28 August 2025",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
 fdcff55a-fcf1-446e-b124-337e0223cef0,Chile Airports (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
@@ -26125,7 +26125,7 @@ fea7b27d-a5f0-4b3e-9706-be8e6a0f26e2,Mobility patterns and population densities 
 feb6e15a-b1f2-4a00-bea0-fdfdc5ba4f5b,"Preliminary Satellite Derived Flood Evolution Assessment, Islamic Republic of Pakistan-11 October 2022",United Nations Satellite Centre (UNOSAT),False,0,,,,0.0
 febb3598-c688-4d56-bc98-01a2af964355,Mayotte Airports (OpenStreetMap Export),Humanitarian OpenStreetMap Team (HOT),False,0,,,,0.0
 febcce24-b0ed-41f8-bbbb-8a0629c862aa,Niger : Aéroports,OCHA Niger,False,0,,,,0.0
-febf11c0-4b85-4248-954b-2d04876174c7,Tropical Cyclone Maria. Damage Assessment in the Southern Part of Dominica,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,flood,buildings,0.8
+febf11c0-4b85-4248-954b-2d04876174c7,Tropical Cyclone Maria. Damage Assessment in the Southern Part of Dominica,United Nations Satellite Centre (UNOSAT),True,1,structural_damage,convective_storm,buildings,0.8
 febfb0dc-fad6-4320-ac57-142b97053ef4,Global Humanitarian Response Plan COVID-19 Administrative Boundaries and Population Statistics,OCHA Field Information Services Section (FISS),False,0,,,,0.0
 fec0cd2e-e682-4110-82c3-6eac733b3746,Tonga: Daily Port Activity Data and Shipment Estimates,PortWatch,False,0,,,,0.0
 fec67673-c1bc-4a63-bac9-ff8252701610,"Kenya - Socio-economic impact of COVID-19 on refugees - Round 2, 2020",UNHCR - The UN Refugee Agency,False,0,,,,0.0

@@ -1,40 +1,40 @@
 # RDLS Validation and QA Report
 
-**Generated**: 2026-02-11T18:51:48.687435
+**Generated**: 2026-02-14T23:21:46.694231
 **Source**: HDX Dataset Metadata (Humanitarian Data Exchange)
 
 ## Summary
 
 | Metric | Value |
 |--------|-------|
-| Total Records | 12,577 |
-| Schema Valid | 9,797 (77.9%) |
-| Schema Invalid | 2,780 (22.1%) |
+| Total Records | 12,594 |
+| Schema Valid | 9,811 (77.9%) |
+| Schema Invalid | 2,783 (22.1%) |
 
 ## Confidence Tiers (two-dimensional: confidence x schema validity)
 
 | Tier | Valid | Invalid | Total | Description |
 |------|-------|---------|-------|-------------|
-| **high/** | 9,797 | 2,780 | 12,577 | Score >= 0.8 |
+| **high/** | 9,811 | 2,783 | 12,594 | Score >= 0.8 |
 | **medium/** | 0 | 0 | 0 | 0.5 <= score < 0.8 |
 | **low/** | 0 | 0 | 0 | Score < 0.5 |
-| **Total** | 9,797 | 2,780 | 12,577 | |
+| **Total** | 9,811 | 2,783 | 12,594 | |
 
 ## HEVL Block Coverage
 
 | Component | Records with Block | Percentage |
 |-----------|-------------------|------------|
-| Hazard | 2,788 | 22.2% |
-| Exposure | 11,517 | 91.6% |
-| Vulnerability | 3,429 | 27.3% |
-| Loss | 703 | 5.6% |
+| Hazard | 2,791 | 22.2% |
+| Exposure | 11,522 | 91.5% |
+| Vulnerability | 3,442 | 27.3% |
+| Loss | 705 | 5.6% |
 
 ## Composite Score Components (Averages)
 
 | Component | Weight | Avg Score |
 |-----------|--------|-----------|
 | HEVL Coverage | 40% | 1.000 |
-| Block Richness | 25% | 0.946 |
+| Block Richness | 25% | 0.945 |
 | Schema Validity | 20% | 0.933 |
 | Metadata Completeness | 15% | 0.997 |
 
@@ -42,7 +42,7 @@
 
 ```
 dist/
-  high/              9,797 records (schema-valid, production-ready)
+  high/              9,811 records (schema-valid, production-ready)
     manifest.csv
     rdls_*.json
   medium/            0 records (schema-valid, needs review)
@@ -52,7 +52,7 @@ dist/
     manifest.csv
     rdls_*.json
   invalid/           ALL schema-invalid records
-    high/            2,780 records (high confidence, schema invalid)
+    high/            2,783 records (high confidence, schema invalid)
       manifest.csv
       rdls_*.json
     medium/          0 records (medium confidence, schema invalid)

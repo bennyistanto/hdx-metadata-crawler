@@ -18,7 +18,7 @@ This document describes the mapping used to translate HDX dataset metadata into 
 ## OSM Policy
 
 OSM-derived datasets are excluded using the exclusion list in:
-`/mnt/c/Users/benny/OneDrive/Documents/Github/hdx-metadata-crawler/hdx_dataset_metadata_dump/policy/osm_excluded_dataset_ids.txt`
+`C:/Users/benny/OneDrive/Documents/Github/hdx-metadata-crawler/hdx_dataset_metadata_dump/policy/osm_excluded_dataset_ids.txt`
 
 ## Configuration Files
 
