@@ -1,6 +1,7 @@
 # 13 - Validation & QA
 
 **Notebook:** `notebook/13_rdls_validation_qa.ipynb`
+**Notebook version:** 2026.2
 
 ---
 
@@ -17,7 +18,7 @@ Validates all integrated RDLS records against the RDLS v0.3 JSON Schema, scores 
 
 | Input | Path | Description |
 |-------|------|-------------|
-| Integrated records | `rdls/integrated/*.json` | ~12,500 records from Step 12 |
+| Integrated records | `rdls/integrated/*.json` | 12,577 records from Step 12 |
 | RDLS Schema | `rdls/schema/rdls_schema_v0.3.json` | JSON Schema for validation |
 
 ---
@@ -76,12 +77,12 @@ Each record's validation result includes a `validation_error_summary` column —
 
 Each record receives a composite quality score (0.0–1.0) based on four weighted dimensions:
 
-| Dimension | Weight | What It Measures |
-|-----------|--------|-----------------|
-| **HEVL coverage** | 40% | Fraction of declared components that have actual blocks |
-| **Block richness** | 25% | Depth and detail of HEVL content (fields populated) |
-| **Schema validity** | 20% | Binary: passes schema validation or not |
-| **Metadata completeness** | 15% | Description, spatial, attributions, resources present |
+| Dimension | Weight | What It Measures | Achieved Score |
+|-----------|--------|-----------------|----------------|
+| **HEVL coverage** | 40% | Fraction of declared components that have actual blocks | 0.909 |
+| **Block richness** | 25% | Depth and detail of HEVL content (fields populated) | 0.930 |
+| **Schema validity** | 20% | Binary: passes schema validation or not | 0.933 |
+| **Metadata completeness** | 15% | Description, spatial, attributions, resources present | 0.997 |
 
 ### Quality Tiers
 

@@ -1,6 +1,7 @@
-# 08 - HEVL Signal Analysis
+# 08 - HDX Metadata Signal Analysis for HEVL Inference
 
 **Notebook:** `notebook/08_rdls_hdx_signal_analysis.ipynb`
+**Notebook version:** 2026.1
 
 ---
 
@@ -29,6 +30,7 @@ Analyses HDX metadata to identify Hazard, Exposure, Vulnerability, and Loss (HEV
 | Signal dictionary | `config/signal_dictionary.yaml` | HEVL signal patterns and codelist mappings |
 | Analysis report | `rdls/extracted/hevl_signal_analysis.csv` | Signal frequency data |
 | Coverage stats | `rdls/extracted/hevl_coverage_summary.json` | Statistics |
+| Duplication pattern report | `rdls/extracted/hevl_duplication_patterns.csv` | Duplication pattern report |
 
 ---
 

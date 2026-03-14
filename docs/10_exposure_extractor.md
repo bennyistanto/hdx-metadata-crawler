@@ -1,6 +1,7 @@
 # 10 - Exposure Block Extractor
 
 **Notebook:** `notebook/10_rdls_exposure_block_extractor.ipynb`
+**Notebook version:** 2026.2
 
 ---
 
@@ -30,7 +31,7 @@ Extracts detailed exposure information from HDX datasets using a **3-tier extrac
 |--------|------|-------------|
 | Extraction CSV | `rdls/extracted/exposure_extraction_results.csv` | All 26,246 records with exposure flags |
 | High-confidence CSV | `rdls/extracted/exposure_extraction_high_confidence.csv` | Records with confidence ≥ 0.8 |
-| Exposure JSON blocks | `rdls/extracted/rdls_exp-hdx_*.json` | ~20,500 individual RDLS records with exposure blocks |
+| Exposure JSON blocks | `rdls/extracted/rdls_exp-hdx_*.json` | 21,717 individual RDLS records with exposure blocks (82.8%) |
 
 ---
 

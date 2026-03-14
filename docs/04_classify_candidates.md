@@ -6,10 +6,10 @@
 
 ## Summary
 
-Applies the mapping rules from Step 03 to classify all HDX datasets into RDLS risk components with confidence scores.
+Applies the mapping rules from Step 03 to classify all HDX datasets into RDLS risk components using integer-based scoring with confidence tiers. Enriches classification signals with a signal dictionary containing additional hazard and exposure patterns, and applies exclusion patterns to reduce false positives.
 
 **For Decision Makers:**
-> This notebook is the "sorting hat" - it analyzes every HDX dataset and decides which RDLS category (or categories) it belongs to. The output is a classification table that drives all downstream processing.
+> This notebook is the "sorting hat" - it analyzes every HDX dataset and decides which RDLS category (or categories) it belongs to. The output is a classification table with categorical confidence levels (high/medium/low) that drives all downstream processing.
 
 ---
 
@@ -21,6 +21,7 @@ Applies the mapping rules from Step 03 to classify all HDX datasets into RDLS ri
 | Tag mapping | `config/tag_to_rdls_component.yaml` | From Step 03 |
 | Keyword mapping | `config/keyword_to_rdls_component.yaml` | From Step 03 |
 | Org hints | `config/org_hints.yaml` | From Step 03 |
+| Signal dictionary | `config/signal_dictionary.yaml` | 89 additional hazard/exposure patterns |
 | OSM exclusions | `policy/osm_excluded_dataset_ids.txt` | From Step 02 |
 
 ---
@@ -29,7 +30,7 @@ Applies the mapping rules from Step 03 to classify all HDX datasets into RDLS ri
 
 | Output | Path | Description |
 |--------|------|-------------|
-| Classification | `derived/classification_raw.csv` | All datasets with scores |
+| Classification | `derived/classification.csv` | All datasets with scores and confidence |
 | Summary | `derived/classification_summary.json` | Aggregate statistics |
 | Included IDs | `derived/rdls_included_dataset_ids.txt` | Datasets passing threshold |
 
@@ -38,12 +39,10 @@ Applies the mapping rules from Step 03 to classify all HDX datasets into RDLS ri
 ## Key Configuration
 
 ```python
-@dataclass
-class ClassificationConfig:
-    min_confidence: float = 0.3        # Minimum score to include
-    multi_component: bool = True       # Allow multiple components per dataset
-    apply_osm_exclusion: bool = True   # Use OSM exclusion list
-    normalize_scores: bool = True      # Normalize to 0-1 range
+CANDIDATE_MIN_SCORE = 5       # Minimum total score to qualify as RDLS candidate
+CONF_HIGH = 7                 # Score threshold for high confidence
+CONF_MED = 4                  # Score threshold for medium confidence
+KEYWORD_HIT_WEIGHT = 2        # Points awarded per keyword match
 ```
 
 ---
@@ -55,41 +54,13 @@ class ClassificationConfig:
 | `dataset_id` | str | HDX dataset UUID |
 | `title` | str | Dataset title |
 | `organization` | str | Publisher organization |
-| `hazard_score` | float | Hazard component score |
-| `exposure_score` | float | Exposure component score |
-| `vulnerability_score` | float | Vulnerability score |
-| `loss_score` | float | Loss component score |
+| `hazard_score` | int | Hazard component score |
+| `exposure_score` | int | Exposure component score |
+| `vulnerability_score` | int | Vulnerability proxy score |
+| `loss_score` | int | Loss/impact component score |
 | `rdls_components` | str | Assigned components (semicolon-separated) |
-| `confidence` | float | Overall confidence (0-1) |
+| `confidence` | str | Confidence tier: high, medium, or low |
 | `included` | bool | Passes threshold for RDLS |
-
----
-
-## Key Functions
-
-### `RDLSClassifier`
-Main classification engine.
-
-```python
-classifier = RDLSClassifier(tag_config, keyword_config, org_hints)
-result = classifier.classify(dataset_json)
-# result.scores: Dict[str, float]
-# result.components: List[str]
-# result.confidence: float
-```
-
-### `score_dataset()`
-Computes component scores for a single dataset.
-
-```python
-scores = score_dataset(
-    tags=["flood", "population"],
-    title="Kenya Flood Exposure",
-    notes="Population at risk from flooding",
-    organization="OCHA"
-)
-# Returns: {"hazard": 0.85, "exposure": 0.92, ...}
-```
 
 ---
 
@@ -98,14 +69,27 @@ scores = score_dataset(
 ```
 For each dataset:
 1. Extract tags, title, description, organization
-2. Apply tag mapping → component scores
-3. Apply keyword matching → add to scores
-4. Apply org hints → adjust scores
-5. Normalize scores to 0-1 range
-6. Assign components where score > threshold
-7. Compute overall confidence
-8. Mark as included/excluded
+2. Apply tag mapping -> component scores (integer points)
+3. Load signal dictionary (89 additional hazard/exposure patterns)
+4. Apply keyword matching -> add KEYWORD_HIT_WEIGHT per match
+5. Apply exclusion patterns -> subtract penalty (e.g., -3 for exclusion matches)
+6. Apply org hints -> adjust scores
+7. Sum integer scores per component
+8. Assign components where score >= CANDIDATE_MIN_SCORE
+9. Assign confidence tier:
+   - high:   total score >= CONF_HIGH (7)
+   - medium: total score >= CONF_MED (4)
+   - low:    total score >= CANDIDATE_MIN_SCORE (5) but < CONF_HIGH
+10. Mark as included/excluded
 ```
+
+### Signal Dictionary Enrichment
+
+The signal dictionary (`config/signal_dictionary.yaml`) provides 89 additional hazard and exposure patterns beyond the base keyword mappings. These patterns capture domain-specific terminology that improves recall for risk-related datasets.
+
+### Exclusion Patterns
+
+Exclusion patterns reduce false positives by applying a negative score penalty (e.g., -3 points) when a dataset matches known non-risk patterns. This prevents datasets with incidental risk-related keywords from being classified as RDLS candidates.
 
 ---
 
@@ -113,21 +97,21 @@ For each dataset:
 
 | Scenario | Assignment |
 |----------|------------|
-| Single high score | Assign that component |
-| Multiple high scores | Assign all (multi-component) |
-| All scores below threshold | Mark as excluded |
+| Single component above threshold | Assign that component |
+| Multiple components above threshold | Assign all (multi-component) |
+| All scores below CANDIDATE_MIN_SCORE | Mark as excluded |
 | OSM-excluded dataset | Mark as excluded |
 
 **Example:**
 ```
-hazard_score: 0.85
-exposure_score: 0.72
-vulnerability_score: 0.15
-loss_score: 0.08
+hazard_score: 8
+exposure_score: 6
+vulnerability_score: 2
+loss_score: 1
 
-→ rdls_components: "hazard;exposure"
-→ confidence: 0.78
-→ included: True
+-> rdls_components: "hazard;exposure"
+-> confidence: high
+-> included: True
 ```
 
 ---
@@ -136,11 +120,25 @@ loss_score: 0.08
 
 | Metric | Value |
 |--------|-------|
-| Total datasets | 26,246 |
-| After OSM exclusion | ~11,000 |
-| Classified as RDLS | ~10,759 |
-| Hazard signals | ~13.8% |
-| Exposure signals | ~75.2% |
+| Total non-OSM datasets | 22,597 |
+| RDLS candidates | 13,053 (49.7%) |
+
+### Confidence Distribution
+
+| Confidence | Count |
+|------------|-------|
+| High | 12,306 |
+| Medium | 7,762 |
+| Low | 6,178 |
+
+### Component Coverage
+
+| Component | Datasets |
+|-----------|----------|
+| Hazard | 4,109 |
+| Exposure | 19,858 |
+| Vulnerability proxy | 12,952 |
+| Loss/impact | 2,745 |
 
 ---
 
@@ -148,8 +146,8 @@ loss_score: 0.08
 
 ### Review top classifications
 ```python
-# High-confidence hazard datasets
-df[df['hazard_score'] > 0.8].head(20)
+# High-confidence datasets
+df[df['confidence'] == 'high'].head(20)
 
 # Multi-component datasets
 df[df['rdls_components'].str.contains(';')].sample(10)
@@ -157,11 +155,11 @@ df[df['rdls_components'].str.contains(';')].sample(10)
 
 ### Check for misclassification
 ```python
-# Low confidence inclusions (may need review)
-df[(df['included']) & (df['confidence'] < 0.4)]
+# Low-confidence inclusions (may need review)
+df[(df['included']) & (df['confidence'] == 'low')]
 
-# High confidence exclusions (may be missing good data)
-df[(~df['included']) & (df['confidence'] > 0.6)]
+# Borderline exclusions (score just below threshold)
+df[(~df['included']) & (df['hazard_score'] + df['exposure_score'] >= 3)]
 ```
 
 ---
@@ -169,30 +167,33 @@ df[(~df['included']) & (df['confidence'] > 0.6)]
 ## Troubleshooting
 
 ### Too many inclusions
-- Increase `min_confidence` threshold
+- Increase `CANDIDATE_MIN_SCORE` threshold
+- Add more exclusion patterns to reduce false positives
 - Review and tighten mapping weights
 
 ### Too few inclusions
-- Decrease `min_confidence` threshold
+- Decrease `CANDIDATE_MIN_SCORE` threshold
+- Add more patterns to signal dictionary
 - Add more tag/keyword mappings
 - Review OSM exclusion for false positives
 
 ### Wrong component assignments
-- Review specific datasets in the classification CSV
+- Review specific datasets in `derived/classification.csv`
 - Adjust tag weights in Step 03
-- Add keyword patterns for edge cases
+- Add keyword patterns or exclusion patterns for edge cases
+- Check signal dictionary for missing domain terms
 
 ---
 
 ## Example Output
 
 ```csv
-dataset_id,title,organization,hazard_score,exposure_score,...,rdls_components,confidence,included
-abc123,Kenya Flood Map,OCHA,0.92,0.15,...,hazard,0.88,True
-def456,Population Census,WorldPop,0.05,0.95,...,exposure,0.91,True
-ghi789,Poverty Index,WFP,0.10,0.45,...,exposure;vulnerability,0.62,True
+dataset_id,title,organization,hazard_score,exposure_score,vulnerability_score,loss_score,rdls_components,confidence,included
+abc123,Kenya Flood Map,OCHA,8,2,0,0,hazard,high,True
+def456,Population Census,WorldPop,0,9,3,0,exposure;vulnerability_proxy,high,True
+ghi789,Poverty Index,WFP,1,6,5,0,exposure;vulnerability_proxy,medium,True
 ```
 
 ---
 
-[← Previous: Define Mapping](03_define_mapping.md) | [Back to README](../README.md) | [Next: Review & Overrides →](05_review_overrides.md)
+[<- Previous: Define Mapping](03_define_mapping.md) | [Back to README](../README.md) | [Next: Review & Overrides ->](05_review_overrides.md)

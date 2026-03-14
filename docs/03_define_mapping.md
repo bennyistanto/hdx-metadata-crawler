@@ -6,10 +6,10 @@
 
 ## Summary
 
-Defines the rules that map HDX metadata signals (tags, keywords, organizations) to RDLS risk components (Hazard, Exposure, Vulnerability, Loss).
+Defines the rules that map HDX metadata signals (tags, keywords, organizations) to RDLS risk components (Hazard, Exposure, Vulnerability Proxy, Loss/Impact). Also scans the non-OSM corpus to collect tag, organization, and format statistics for calibration.
 
 **For Decision Makers:**
-> This notebook creates the "translation dictionary" that determines how HDX datasets are classified into RDLS categories. It's the core business logic that decides what counts as hazard data vs. exposure data.
+> This notebook creates the "translation dictionary" that determines how HDX datasets are classified into RDLS categories. It's the core business logic that decides what counts as hazard data vs. exposure data. It also produces a review sample CSV for human calibration.
 
 ---
 
@@ -17,8 +17,8 @@ Defines the rules that map HDX metadata signals (tags, keywords, organizations) 
 
 | Input | Path | Description |
 |-------|------|-------------|
-| Sample datasets | `dataset_metadata/*.json` | Optional corpus for calibration |
-| Existing configs | `config/*.yaml` | Previous mapping rules (if any) |
+| Dataset JSONs | `dataset_metadata/*.json` | HDX metadata from Step 01 |
+| OSM Exclusion List | `policy/osm_excluded_dataset_ids.txt` | IDs to exclude (from Step 02) |
 
 ---
 
@@ -26,55 +26,85 @@ Defines the rules that map HDX metadata signals (tags, keywords, organizations) 
 
 | Output | Path | Description |
 |--------|------|-------------|
-| Tag mapping | `config/tag_to_rdls_component.yaml` | Tag → component weights |
-| Keyword mapping | `config/keyword_to_rdls_component.yaml` | Regex patterns |
-| Org hints | `config/org_hints.yaml` | Organization biases |
-| Reference | `reference/mapping_rules.md` | Human-readable rules |
+| Tag mapping | `config/tag_to_rdls_component.yaml` | Tag to component integer scores |
+| Keyword mapping | `config/keyword_to_rdls_component.yaml` | Regex patterns per component |
+| Org hints | `config/org_hints.yaml` | Organization component biases |
+| Mapping rules doc | `reference/mapping_rules.md` | Human-readable rules reference |
+| Review sample | `reference/samples_for_mapping.csv` | Random sample for calibration |
 
 ---
 
 ## Mapping Types
 
 ### 1. Tag Mapping
-Direct mapping from HDX tags to RDLS components with weights.
+Direct mapping from HDX tags to RDLS components with integer point scores (2-5, where 5 is strongest signal). Tags are grouped by target component.
 
 ```yaml
 # config/tag_to_rdls_component.yaml
-flood:
-  hazard: 0.9
-  exposure: 0.1
-population:
-  exposure: 0.95
-earthquake:
-  hazard: 0.95
+hazard:
+  flooding: 5
+  drought: 5
+  cyclones-hurricanes-typhoons: 5
+  earthquake-tsunami: 5
+  natural disasters: 3
+  forecasting: 2
+  topography: 2
+exposure:
+  facilities-infrastructure: 5
+  populated places-settlements: 4
+  population: 4
+  health facilities: 4
+  geodata: 2
+vulnerability_proxy:
+  demographics: 4
+  poverty: 4
+  socioeconomics: 4
+  food security: 3
+  health: 2
+loss_impact:
+  damage assessment: 5
+  casualties: 5
+  fatalities: 5
+  affected population: 4
 ```
 
 ### 2. Keyword Mapping
-Regex patterns applied to title and description.
+Regex patterns applied to title and description, grouped by component.
 
 ```yaml
 # config/keyword_to_rdls_component.yaml
-patterns:
-  - regex: "flood|inundation|river overflow"
-    component: hazard
-    weight: 0.8
-  - regex: "population|census|demographic"
-    component: exposure
-    weight: 0.85
+hazard:
+  - \bflood(s|ing)?\b
+  - \bdrought\b
+  - \bcyclone(s)?\b
+  - \bhazard\b
+exposure:
+  - \broad(s)?\b
+  - \bhospital(s)?\b
+  - \binfrastructure\b
+vulnerability_proxy:
+  - \bpoverty\b
+  - \bfood security\b
+  - \bvulnerability\b
+loss_impact:
+  - \bdamage\b
+  - \bloss(es)?\b
+  - \bcasualt(y|ies)\b
 ```
 
 ### 3. Organization Hints
-Biases for known risk data publishers.
+Integer biases for known data publishers, keyed by component.
 
 ```yaml
 # config/org_hints.yaml
-organizations:
-  "World Food Programme":
-    exposure: 0.1
-    vulnerability: 0.1
-  "UNDRR":
-    hazard: 0.15
-    loss: 0.1
+World Bank Group:
+  vulnerability_proxy: 2
+The DHS Program:
+  vulnerability_proxy: 4
+Food and Agriculture Organization:
+  vulnerability_proxy: 3
+UNICEF:
+  vulnerability_proxy: 3
 ```
 
 ---
@@ -83,79 +113,69 @@ organizations:
 
 | Component | What it represents | Example datasets |
 |-----------|-------------------|------------------|
-| **Hazard** | Natural/man-made threats | Flood maps, earthquake zones |
-| **Exposure** | Assets at risk | Population, buildings, infrastructure |
-| **Vulnerability** | Susceptibility factors | Poverty indices, building quality |
-| **Loss** | Historical impacts | Damage reports, casualty data |
-
----
-
-## Key Functions
-
-### `TagMappingConfig`
-Dataclass holding tag-to-component mappings.
-
-```python
-@dataclass
-class TagMappingConfig:
-    mappings: Dict[str, Dict[str, float]]
-
-config.get_weights("flood")
-# Returns: {"hazard": 0.9, "exposure": 0.1}
-```
-
-### `KeywordMatcher`
-Applies regex patterns to text content.
-
-```python
-matcher = KeywordMatcher(patterns)
-matches = matcher.match("Flood risk assessment for Kenya")
-# Returns: [("hazard", 0.8, "flood")]
-```
+| **Hazard** | Natural/man-made threats | Flood maps, earthquake zones, cyclone tracks |
+| **Exposure** | Assets at risk | Population, buildings, infrastructure, health facilities |
+| **Vulnerability Proxy** | Susceptibility indicators | Poverty indices, demographics, food security |
+| **Loss/Impact** | Historical impacts | Damage reports, casualty data, affected populations |
 
 ---
 
 ## How Scoring Works
 
+Scores are simple integer sums. Each matching tag contributes its point value (2-5) to the corresponding component. Keyword matches and org hints add additional points.
+
 ```
-Final Score = Tag Score + Keyword Score + Org Hint
+Component Score = sum(matching tag scores) + keyword matches + org hint
 
 Where:
-- Tag Score = sum of weights for matching tags
-- Keyword Score = sum of weights for matching patterns
-- Org Hint = bias for known organizations (small, 0.1-0.2)
+- Tag scores: 2-5 points per matching tag
+- Keyword matches: each regex hit contributes to its component
+- Org hints: 0-4 points for known organizations
 ```
 
 **Example:**
 ```
-Dataset: "Kenya Flood Risk Map" by UNDRR
-Tags: ["flood", "risk", "kenya"]
+Dataset: "Kenya Flood Risk Map"
+Tags: ["flooding", "hazards and risk"]
+Organization: unknown
 
-Tag Score:     flood → hazard: 0.9
-Keyword Score: "flood" → hazard: 0.8
-Org Hint:      UNDRR → hazard: 0.15
+Tag scores:  flooding → hazard: 5
+             hazards and risk → hazard: 3
+Keyword:     "flood" → hazard (regex match)
 
-Final:         hazard: 1.85 (normalized to confidence)
+Result:      hazard: 8+ points (strong hazard signal)
 ```
+
+---
+
+## Corpus Statistics (Actual Run)
+
+| Metric | Value |
+|--------|-------|
+| Non-OSM datasets | 22,597 |
+| Unique tags | 142 |
+| Unique organizations | 357 |
+| Unique resource formats | 47 |
+| Review sample rows | 440 |
 
 ---
 
 ## Configuration Best Practices
 
-### Tag Weights
-- **0.9-1.0:** Strong signal (flood, earthquake, population)
-- **0.5-0.8:** Moderate signal (risk, assessment)
-- **0.1-0.4:** Weak signal (data, map)
+### Tag Scores
+- **5:** Strong, unambiguous signal (flooding, earthquake-tsunami, damage assessment)
+- **3-4:** Moderate signal (natural disasters, demographics, affected population)
+- **2:** Weak/contextual signal (topography, geodata, forecasting)
 
 ### Org Hints
-- Keep weights **low** (0.1-0.2) to avoid over-biasing
-- Only add orgs with consistent, high-quality data
+- Keep scores **modest** (2-4) to avoid over-biasing classification
+- Only add orgs with consistent, well-known data themes
 - Review classification results before adding new orgs
 
 ### Keyword Patterns
 - Use word boundaries: `\bflood\b` not `flood`
-- Combine related terms: `flood|inundation|overflow`
-- Test patterns against sample datasets
+- Combine related terms in separate patterns per component
+- Test patterns against the review sample CSV
 
 ---
 
@@ -171,27 +191,36 @@ Final:         hazard: 1.85 (normalized to confidence)
 ## Example Configuration
 
 ```yaml
-# Tag mapping excerpt
-flood:
-  hazard: 0.9
-  exposure: 0.1
-population:
-  exposure: 0.95
-buildings:
-  exposure: 0.9
-poverty:
-  vulnerability: 0.85
-damage:
-  loss: 0.9
+# Tag mapping excerpt (integer scores)
+hazard:
+  flooding: 5
+  drought: 5
+  earthquake-tsunami: 5
+  climate hazards: 4
+  hydrology: 3
+exposure:
+  facilities-infrastructure: 5
+  population: 4
+  health facilities: 4
+  roads: 4
+vulnerability_proxy:
+  poverty: 4
+  socioeconomics: 4
+  food security: 3
+loss_impact:
+  damage assessment: 5
+  casualties: 5
+  affected population: 4
 
-# Keyword patterns excerpt
-patterns:
-  - regex: "earthquake|seismic|tremor"
-    component: hazard
-    weight: 0.85
-  - regex: "casualties|fatalities|deaths"
-    component: loss
-    weight: 0.9
+# Keyword patterns excerpt (regex, grouped by component)
+hazard:
+  - \bearthquake(s)?\b
+  - \btsunami\b
+  - \breturn period\b
+loss_impact:
+  - \bfatalit(y|ies)\b
+  - \bcasualt(y|ies)\b
+  - \baffected\b
 ```
 
 ---

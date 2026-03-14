@@ -1,6 +1,7 @@
 # 09 - Hazard Block Extractor
 
 **Notebook:** `notebook/09_rdls_hazard_block_extractor.ipynb`
+**Notebook version:** 2026.2
 
 ---
 
@@ -30,7 +31,7 @@ Extracts detailed hazard information from HDX datasets and produces schema-compl
 |--------|------|-------------|
 | Extraction CSV | `rdls/extracted/hazard_extraction_results.csv` | All 26,246 records with hazard flags |
 | High-confidence CSV | `rdls/extracted/hazard_extraction_high_confidence.csv` | Records with confidence ≥ 0.8 |
-| Hazard JSON blocks | `rdls/extracted/rdls_hzd-hdx_*.json` | ~3,200 individual RDLS records with hazard blocks |
+| Hazard JSON blocks | `rdls/extracted/rdls_hzd-hdx_*.json` | 3,212 individual RDLS records with hazard blocks (12.2%) |
 
 ---
 

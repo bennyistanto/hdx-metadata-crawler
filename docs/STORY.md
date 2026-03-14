@@ -901,4 +901,33 @@ HDX CKAN API (26,246 datasets)
 
 ---
 
+## What Comes Next: Content-Driven Review
+
+The 13-notebook pipeline documented above produces **12,539 distributed records** — a strong baseline, but one with a known architectural boundary: it classifies HEVL components from **metadata text only**, without access to actual data columns.
+
+As documented in [Known Limitations](known_limitations.md), this leads to **2,313 records with fabricated hazard blocks** (82% of all hazard-classified records) where the pipeline treats a hazard event mentioned in the title as hazard data, even when the dataset actually contains post-event loss/impact assessments.
+
+A downstream review pipeline in the [`to-rdls`](https://github.com/GFDRR/to-rdls) repository addresses this gap through:
+
+1. **Resource column caching** — crawling the HDX CKAN API for actual column headers across 88,327 resources
+2. **LLM-assisted classification** — using strict RDLS component definitions that distinguish "what the DATA contains" from "what TOPIC the dataset is about"
+3. **Schema-driven sanitization** — automated structural fixes for common validation blockers
+
+The full production run on all 12,594 regex-pipeline records (after minor filtering) yielded:
+
+| Stage | Count |
+| ----- | ----- |
+| Records reclassified by LLM | 3,443 (27.3%) |
+| Non-disaster datasets separated | 4,103 |
+| RDLS-relevant records remaining | 8,822 |
+| Schema-valid (post-sanitization) | 6,132 (69.4%) |
+| Blocked by occurrence schema gap | 2,690 |
+| Projected valid after schema fix | ~8,822 (99.8%) |
+
+The remaining 2,690 invalid records are blocked solely by the `occurrence: {}` + `minProperties: 1` schema constraint — a pending schema revision that would raise the valid count to approximately 99.8%.
+
+This content-driven review is documented separately in the `to-rdls` repository. The `hdx-metadata-crawler` pipeline remains the foundation — its regex-based extraction, constraint tables, and signal dictionary provide the baseline that the LLM review refines.
+
+---
+
 *Pipeline: 13 Jupyter notebooks | Schema: RDLS v0.3 | Source: HDX CKAN API | Updated: 2026-03-14*

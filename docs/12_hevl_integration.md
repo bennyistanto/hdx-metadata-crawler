@@ -1,6 +1,7 @@
 # 12 - HEVL Integration
 
 **Notebook:** `notebook/12_rdls_hevl_integration.ipynb`
+**Notebook version:** 2026.2
 
 ---
 
@@ -17,7 +18,7 @@ Integrates extracted HEVL (Hazard, Exposure, Vulnerability, Loss) blocks into un
 
 | Input | Path | Description |
 |-------|------|-------------|
-| NB 06 base records | `rdls/records/*.json` | ~13,000 general metadata records (authoritative) |
+| NB 06 base records | `rdls/records/*.json` | 13,053 general metadata records (authoritative) |
 | NB 06 index | `rdls/index/rdls_index.jsonl` | JSONL mapping dataset_id → filename |
 | Hazard CSV | `rdls/extracted/hazard_extraction_results.csv` | Boolean `has_hazard` flags |
 | Exposure CSV | `rdls/extracted/exposure_extraction_results.csv` | Boolean `has_exposure` flags |
@@ -31,7 +32,7 @@ Integrates extracted HEVL (Hazard, Exposure, Vulnerability, Loss) blocks into un
 
 | Output | Path | Description |
 |--------|------|-------------|
-| Integrated records | `rdls/integrated/rdls_*.json` | ~12,500 complete RDLS records |
+| Integrated records | `rdls/integrated/rdls_*.json` | 12,577 complete RDLS records (96.4% of 13,053 candidates) |
 | Integration index | `rdls/integrated/rdls_index.csv`, `rdls_index.jsonl` | Lookup table |
 | Skipped records | `rdls/integrated/integration_skipped.csv` | Records that could not be integrated |
 
