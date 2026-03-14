@@ -181,6 +181,8 @@ CLEANUP_MODE = True   # Remove stale outputs before processing
 ## Getting Help
 
 - [Architecture Guide](ARCHITECTURE.md) — Pipeline design and configuration reference
+- [Project Story](STORY.md) — Narrative walkthrough from problem to results
+- [Known Limitations](known_limitations.md) — Content-blind over-classification, occurrence schema gap
 - [Notebook Reference](../README.md#notebook-reference) — Detailed docs per notebook
 - [Troubleshooting](#common-issues) — Common issues and fixes
 

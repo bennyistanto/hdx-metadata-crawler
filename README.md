@@ -138,6 +138,8 @@ Each HEVL component uses constraint tables derived from the RDLS v0.3 schema to 
 
 - [Quick Start](docs/QUICKSTART.md) — Get running in 5 minutes
 - [Architecture](docs/ARCHITECTURE.md) — Pipeline design, data flow, and configuration reference
+- [Project Story](docs/STORY.md) — Narrative walkthrough from problem to results
+- [Known Limitations](docs/known_limitations.md) — Content-blind over-classification, occurrence schema gap
 
 ### Notebook Reference
 

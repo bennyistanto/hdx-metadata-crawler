@@ -390,6 +390,22 @@ Four constraint tables:
 
 ---
 
+## Known Limitations
+
+### Content-Blind Over-Classification
+
+The pipeline classifies HEVL components based on **metadata signals only** (titles, tags, keywords). It cannot distinguish between a dataset that **contains** hazard data (e.g., a ShakeMap) and one that merely **references** a hazard event (e.g., a post-earthquake damage assessment). This affects **2,313 records** (82% of all hazard-classified records) that have fabricated hazard blocks with template descriptions (`"<type> hazard data for <country>"`) and invented intensity measures (`PGA:g`, `SPI:-`, `wd:m`).
+
+See [Known Limitations](known_limitations.md) for case studies, root cause analysis, and scale of impact.
+
+### Occurrence Schema Gap
+
+The RDLS v0.3 schema requires `occurrence` objects to have at least one property. Records lacking event-specific temporal information produce empty `occurrence: {}` blocks, blocking **2,690 records** from validation. A schema revision is pending.
+
+See [Known Limitations](known_limitations.md#occurrence-schema-gap) for details.
+
+---
+
 ## Key Design Decisions
 
 ### 1. Schema-First Approach

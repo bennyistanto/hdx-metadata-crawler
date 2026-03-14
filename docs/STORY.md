@@ -855,6 +855,8 @@ hdx_dataset_metadata_dump/
 
 **Constraint tables eliminate invalid field combinations.** Without constraint validation, the pipeline would produce plausible-looking but schema-invalid output. The constraint tables — hazard→process mappings, VALID_TRIPLETS, FUNCTION_TYPE_CONSTRAINTS, LOSS_SIGNAL_DEFAULTS, IMPACT_METRIC_CONSTRAINTS — form a safety net that guarantees internal consistency across all fields.
 
+**Metadata signals cannot distinguish data content from data topic.** The most significant limitation we discovered: 82% of records classified with a hazard component (2,313 out of 2,813) have fabricated hazard blocks. These are datasets that *reference* a hazard event in their title (e.g., "Earthquake Health Facility Status") but actually *contain* entirely different data — typically post-event loss/impact assessments. The pipeline has no mechanism to make this distinction because it operates on metadata text alone, without access to actual data columns. See [Known Limitations](known_limitations.md) for case studies and detailed analysis. Work on a content-driven classification approach is tracked in the [`to-rdls`](https://github.com/GFDRR/to-rdls) pipeline repository.
+
 ---
 
 ## Pipeline Architecture
@@ -899,4 +901,4 @@ HDX CKAN API (26,246 datasets)
 
 ---
 
-*Pipeline: 13 Jupyter notebooks | Schema: RDLS v0.3 | Source: HDX CKAN API | Updated: 2026-02-12*
+*Pipeline: 13 Jupyter notebooks | Schema: RDLS v0.3 | Source: HDX CKAN API | Updated: 2026-03-14*
