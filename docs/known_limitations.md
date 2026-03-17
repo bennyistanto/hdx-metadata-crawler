@@ -121,7 +121,7 @@ In all four cases, the datasets are primarily **loss/impact data**. The pipeline
 
 This limitation is architectural — resolving it requires access to the actual data content (column headers, data types) and semantic classification that can distinguish "dataset ABOUT earthquakes" from "dataset CONTAINING earthquake measurements."
 
-Work on a content-driven classification approach is tracked separately in the [`to-rdls`](https://github.com/GFDRR/to-rdls) pipeline repository, which implements resource column caching and LLM-assisted review to address this gap.
+Work on a content-driven classification approach is tracked separately in the [`to-rdls`](https://github.com/bennyistanto/to-rdls) pipeline repository, which implements resource column caching and LLM-assisted review to address this gap.
 
 ---
 

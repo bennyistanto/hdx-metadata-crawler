@@ -855,7 +855,7 @@ hdx_dataset_metadata_dump/
 
 **Constraint tables eliminate invalid field combinations.** Without constraint validation, the pipeline would produce plausible-looking but schema-invalid output. The constraint tables — hazard→process mappings, VALID_TRIPLETS, FUNCTION_TYPE_CONSTRAINTS, LOSS_SIGNAL_DEFAULTS, IMPACT_METRIC_CONSTRAINTS — form a safety net that guarantees internal consistency across all fields.
 
-**Metadata signals cannot distinguish data content from data topic.** The most significant limitation we discovered: 82% of records classified with a hazard component (2,313 out of 2,813) have fabricated hazard blocks. These are datasets that *reference* a hazard event in their title (e.g., "Earthquake Health Facility Status") but actually *contain* entirely different data — typically post-event loss/impact assessments. The pipeline has no mechanism to make this distinction because it operates on metadata text alone, without access to actual data columns. See [Known Limitations](known_limitations.md) for case studies and detailed analysis. Work on a content-driven classification approach is tracked in the [`to-rdls`](https://github.com/GFDRR/to-rdls) pipeline repository.
+**Metadata signals cannot distinguish data content from data topic.** The most significant limitation we discovered: 82% of records classified with a hazard component (2,313 out of 2,813) have fabricated hazard blocks. These are datasets that *reference* a hazard event in their title (e.g., "Earthquake Health Facility Status") but actually *contain* entirely different data — typically post-event loss/impact assessments. The pipeline has no mechanism to make this distinction because it operates on metadata text alone, without access to actual data columns. See [Known Limitations](known_limitations.md) for case studies and detailed analysis. Work on a content-driven classification approach is tracked in the [`to-rdls`](https://github.com/bennyistanto/to-rdls) pipeline repository.
 
 ---
 
@@ -907,7 +907,7 @@ The 13-notebook pipeline documented above produces **12,539 distributed records*
 
 As documented in [Known Limitations](known_limitations.md), this leads to **2,313 records with fabricated hazard blocks** (82% of all hazard-classified records) where the pipeline treats a hazard event mentioned in the title as hazard data, even when the dataset actually contains post-event loss/impact assessments.
 
-A downstream review pipeline in the [`to-rdls`](https://github.com/GFDRR/to-rdls) repository addresses this gap through:
+A downstream review pipeline in the [`to-rdls`](https://github.com/bennyistanto/to-rdls) repository addresses this gap through:
 
 1. **Resource column caching** — crawling the HDX CKAN API for actual column headers across 88,327 resources
 2. **LLM-assisted classification** — using strict RDLS component definitions that distinguish "what the DATA contains" from "what TOPIC the dataset is about"
